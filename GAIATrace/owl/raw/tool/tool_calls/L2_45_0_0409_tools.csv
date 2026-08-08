@@ -1,0 +1,18 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""largest and smallest county seats by land area in Washington state""}",0.6769390106201172
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_counties_in_Washington"", ""query"": ""largest and smallest county seats by land area in Washington state""}",16.292850255966187
+4,search_google,"{""num_result_pages"": 3, ""query"": ""largest and smallest county seats by land area in Washington state""}",0.46159982681274414
+5,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_counties_in_Washington"", ""query"": ""largest and smallest county seats by land area in Washington state""}",5.916030406951904
+6,search_google,"{""num_result_pages"": 3, ""query"": ""largest and smallest county seats by land area in Washington state""}",0.437208890914917
+7,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_counties_in_Washington"", ""query"": ""largest and smallest county seats by land area in Washington state""}",8.267208337783813
+8,search_google,"{""num_result_pages"": 3, ""query"": ""largest and smallest county seats by land area in Washington state""}",0.7369489669799805
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_counties_in_Washington"", ""query"": ""largest and smallest county seats by land area in Washington state""}",8.336208820343018
+10,search_google,"{""num_result_pages"": 3, ""query"": ""largest and smallest county seats by land area in Washington state""}",0.4715893268585205
+11,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_counties_in_Washington"", ""query"": ""largest and smallest county seats by land area in Washington state""}",6.929904937744141
+15,search_google,"{""num_result_pages"": 1, ""query"": ""largest county seat by land area in Washington state""}",0.4638986587524414
+16,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Okanogan_County,_Washington"", ""query"": ""largest county seat by land area in Washington state""}",2.4881415367126465
+20,search_google,"{""num_result_pages"": 1, ""query"": ""smallest county seat by land area in Washington state""}",0.5273280143737793
+21,extract_document_content,"{""document_path"": ""https://www.sanjuancountywa.gov/668/About-San-Juan-County"", ""query"": ""smallest county seat by land area in Washington state""}",264.6466131210327
+22,search_google,"{""num_result_pages"": 1, ""query"": ""smallest county seat by land area Washington state""}",0.4913170337677002
+23,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_counties_in_Washington"", ""query"": ""smallest county seat by land area""}",15.048906564712524
+24,search_google,"{""num_result_pages"": 1, ""query"": ""smallest county seat by land area in Washington state""}",0.471890926361084

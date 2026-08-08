@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Nature journal Scientific Reports 2012 conference proceedings""}",0.5585157871246338
+21,extract_document_content,"{""document_path"": ""https://www.nature.com/articles/srep00914"", ""query"": ""nano-compound studied""}",47.866825580596924
+25,search_google,"{""num_result_pages"": 3, ""query"": ""Nature journal Scientific Reports conference proceedings 2012""}",0.48426103591918945
+44,extract_document_content,"{""document_path"": ""tmp/browser/srep00914.pdf"", ""query"": ""nano-compound studied""}",14.211170434951782

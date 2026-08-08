@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Finding Nemo""}",0.4106881618499756
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Finding Nemo main character fish species""}",0.395796537399292
+4,extract_document_content,"{""document_path"": ""https://www.scuba.com/blog/meet-real-cast-finding-nemo/"", ""query"": ""main character fish species""}",18.05379843711853
+8,search_google,"{""num_result_pages"": 3, ""query"": ""USGS nonnative species Clownfish before 2020""}",0.442857027053833
+9,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=3243"", ""query"": ""nonnative species locations before 2020""}",6.147171974182129
+17,search_google,"{""num_result_pages"": 1, ""query"": ""Fred Howard Park Pinellas County Florida zip code""}",0.33235859870910645
+18,extract_document_content,"{""document_path"": ""https://pinellas.gov/parks/fred-howard-park/"", ""query"": ""Fred Howard Park zip code""}",4.233464241027832

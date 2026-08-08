@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""2018 VSCode blog post site:replit.com""}",0.22974109649658203
+3,extract_document_content,"{""document_path"": ""https://blog.replit.com/intel"", ""query"": ""2018 VSCode blog post""}",8.907252550125122
+15,search_google,"{""num_result_pages"": 1, ""query"": ""2018 VSCode blog post site:replit.com""}",0.2464442253112793

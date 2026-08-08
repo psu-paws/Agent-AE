@@ -1,0 +1,13 @@
+request_idx,tool_name,args_json,observed_elapsed
+4,extract_document_content,"{""document_path"": ""https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496"", ""query"": ""abstract""}",59.98769164085388
+4,extract_document_content,"{""document_path"": ""https://scispace.com/pdf/can-hiccup-supply-enough-fish-to-maintain-a-dragon-s-diet-38gfo01u13.pdf"", ""query"": ""abstract""}",15.14385986328125
+8,extract_document_content,"{""document_path"": ""https://scispace.com/pdf/can-hiccup-supply-enough-fish-to-maintain-a-dragon-s-diet-38gfo01u13.pdf"", ""query"": ""volume of the fish bag""}",16.50076937675476
+15,extract_document_content,"{""document_path"": ""https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496"", ""query"": ""volume of fish bag""}",51.259154319763184
+15,extract_document_content,"{""document_path"": ""https://journals.le.ac.uk/index.php/jist/article/view/733/684"", ""query"": ""volume of fish bag""}",44.96885800361633
+30,extract_document_content,"{""document_path"": ""https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496"", ""query"": ""abstract""}",68.15154218673706
+30,extract_document_content,"{""document_path"": ""https://scispace.com/pdf/can-hiccup-supply-enough-fish-to-maintain-a-dragon-s-diet-38gfo01u13.pdf"", ""query"": ""abstract""}",29.444533586502075
+34,extract_document_content,"{""document_path"": ""https://scispace.com/pdf/can-hiccup-supply-enough-fish-to-maintain-a-dragon-s-diet-38gfo01u13.pdf"", ""query"": ""volume of the fish bag""}",15.930965662002563
+39,search_google,"{""num_result_pages"": 3, ""query"": ""University of Leicester paper Can Hiccup Supply Enough Fish to Maintain a Dragon\u2019s Diet volume of fish bag""}",0.4900834560394287
+40,extract_document_content,"{""document_path"": ""https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496"", ""query"": ""volume of fish bag""}",53.34035325050354
+40,extract_document_content,"{""document_path"": ""https://journals.le.ac.uk/index.php/jist/article/view/733/684"", ""query"": ""volume of fish bag""}",28.596548318862915
+41,extract_document_content,"{""document_path"": ""https://scispace.com/pdf/can-hiccup-supply-enough-fish-to-maintain-a-dragon-s-diet-38gfo01u13.pdf"", ""query"": ""volume of fish bag""}",14.053204536437988

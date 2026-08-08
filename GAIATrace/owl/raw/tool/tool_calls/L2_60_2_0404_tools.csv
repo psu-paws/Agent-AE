@@ -1,0 +1,17 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""distance from Los Angeles to Cincinnati via I-40""}",0.3998701572418213
+2,search_google,"{""num_result_pages"": 1, ""query"": ""distance from Cincinnati to Augusta via I-90""}",0.3420441150665283
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Los Angeles to Cincinnati distance via I-40""}",0.374741792678833
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati to Augusta distance via I-90""}",0.30174922943115234
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Los Angeles to Cincinnati distance""}",0.3311023712158203
+5,extract_document_content,"{""document_path"": ""https://www.distance.to/Cincinnati/Los-Angeles"", ""query"": ""Los Angeles to Cincinnati distance via I-40""}",7.495509147644043
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati to Augusta distance""}",0.33016324043273926
+7,extract_document_content,"{""document_path"": ""https://www.rome2rio.com/s/Cincinnati/Augusta-GA-USA"", ""query"": ""Cincinnati to Augusta distance via I-90""}",43.38893222808838
+11,execute_code,"{""code"": ""distance = 2679.34\\nrounded = round(distance/100)*100\\nbottles = (rounded/100)*5\\nrounded, bottles""}",0.0011878013610839844
+14,search_wiki,"{""entity"": ""Recycling in the United States""}",0.720628023147583
+15,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""recycling rate for 12-ounce water bottles""}",16.36141562461853
+18,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""deposit value per bottle""}",4.892629623413086
+19,execute_code,"{""code"": ""bottles=135\\ndeposit=0.05\\nrate=0.06\\nmoney=bottles*deposit*rate\\nmoney""}",0.0009121894836425781
+23,search_wiki,"{""entity"": ""Container deposit legislation in the United States""}",0.7063987255096436
+24,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Container_deposit_legislation_in_the_United_States"", ""query"": ""recycling rate for beverage containers in states with deposit laws""}",7.97461462020874
+27,execute_code,"{""code"": ""bottles=135\\ndeposit=0.05\\nrate=0.70\\nmoney=bottles*deposit*rate\\nmoney""}",0.0010104179382324219

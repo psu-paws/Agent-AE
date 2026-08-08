@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,search_wiki,"{""entity"": ""Michaelis-Menten kinetics""}",0.1283729076385498
+4,search_google,"{""num_result_pages"": 3, ""query"": ""Michaelis-Menten 1913 paper final equation""}",0.46277809143066406
+5,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC3381512/"", ""query"": ""final equation""}",15.800811529159546
+19,search_google,"{""num_result_pages"": 3, ""query"": ""1913 Michaelis-Menten Paper final equation""}",0.3572251796722412
+20,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC3381512/"", ""query"": ""final equation from the original 1913 Michaelis-Menten Paper""}",12.50975251197815
+38,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/c526d8d6-5987-4da9-b24c-83466fa172f3.xlsx""}",0.11563682556152344
+41,execute_code,"{""code"": ""Vmax = 0.0429\\nS = 72.3\\nKm = 0.052\\nv = Vmax * S / (Km + S)\\nprint(v)\\n""}",0.0009531974792480469
+45,search_wiki,"{""entity"": ""Michaelis-Menten equation""}",0.1257014274597168
+45,search_google,"{""num_result_pages"": 1, ""query"": ""Michaelis-Menten equation velocity calculation""}",0.49257946014404297
+46,extract_document_content,"{""document_path"": ""https://www.pearson.com/channels/calculators/michaelis-menten-equation-calculator"", ""query"": ""Michaelis-Menten equation velocity calculation""}",17.79471182823181

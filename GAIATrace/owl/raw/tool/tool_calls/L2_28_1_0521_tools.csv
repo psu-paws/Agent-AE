@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Valentina Re contribution World Building: Transmedia, Fans, Industries 2017 horror movie metalepsis""}",0.3461906909942627
+3,extract_document_content,"{""document_path"": ""https://library.oapen.org/bitstream/handle/20.500.12657/25975/1004106.pdf?sequence=1&isAllowed=y"", ""query"": ""Valentina Re horror movie metalepsis dream world reality""}",3.6861684322357178
+7,extract_document_content,"{""document_path"": ""https://example.com/World_Building_Transmedia_Fans_Industries.pdf"", ""query"": ""Valentina Re horror movie metalepsis dream world reality""}",38.287588357925415
+12,search_google,"{""num_result_pages"": 3, ""query"": ""Valentina Re contribution 2017 book World Building: Transmedia, Fans, Industries horror movie metalepsis""}",0.3259618282318115
+13,extract_document_content,"{""document_path"": ""https://library.oapen.org/bitstream/handle/20.500.12657/25975/1004106.pdf?sequence=1&isAllowed=y"", ""query"": ""Valentina Re horror movie metalepsis""}",2.9274330139160156
+13,extract_document_content,"{""document_path"": ""https://www.jstor.org/content/oa_chapter_edited/j.ctt1zkjz0m.21?seq=1"", ""query"": ""Valentina Re horror movie metalepsis""}",21.648826360702515
+17,search_google,"{""num_result_pages"": 3, ""query"": ""Valentina Re World Building Transmedia Fans Industries horror movie metalepsis""}",0.35837435722351074
+18,extract_document_content,"{""document_path"": ""https://library.oapen.org/bitstream/handle/20.500.12657/25975/1004106.pdf?sequence=1&isAllowed=y"", ""query"": ""Valentina Re horror movie metalepsis""}",2.9563474655151367

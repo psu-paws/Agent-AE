@@ -1,0 +1,14 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""High Energy Physics - Lattice articles January 2020 site:arxiv.org""}",0.31571006774902344
+3,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01"", ""query"": ""list of High Energy Physics - Lattice articles""}",11.972153425216675
+4,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01?skip=50&show=50"", ""query"": ""list of High Energy Physics - Lattice articles""}",13.512285709381104
+9,extract_document_content,"{""document_path"": ""https://arxiv.org/pdf/2001.00032"", ""query"": ""ps version availability""}",7.206008195877075
+9,extract_document_content,"{""document_path"": ""https://arxiv.org/pdf/2001.00172"", ""query"": ""ps version availability""}",15.003396987915039
+9,extract_document_content,"{""document_path"": ""https://arxiv.org/pdf/2001.00485"", ""query"": ""ps version availability""}",14.889040231704712
+9,extract_document_content,"{""document_path"": ""https://arxiv.org/pdf/2001.01076"", ""query"": ""ps version availability""}",15.052018165588379
+9,extract_document_content,"{""document_path"": ""https://arxiv.org/pdf/2001.01428"", ""query"": ""ps version availability""}",14.97411060333252
+14,search_google,"{""num_result_pages"": 1, ""query"": ""High Energy Physics - Lattice articles January 2020 site:arxiv.org""}",0.3149898052215576
+15,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01"", ""query"": ""list of articles""}",11.45733118057251
+16,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01?skip=50&show=50"", ""query"": ""list of articles""}",16.79689383506775
+22,execute_code,"{""code"": ""import requests, bs4, re\\nurl = 'https://arxiv.org/list/hep-lat/2020-01?show=200'\\nhtml = requests.get(url).text\\nsoup = bs4.BeautifulSoup(html, 'html.parser')\\nentries = []\\nfor dt in soup.find_all('dt'):\\n    a = dt.find('a', title='Abstract')\\n    if a and a['href'].startswith('/abs/'):\\n        entries.append('https://arxiv.org' + a['href'])\\nentries = list(dict.fromkeys(entries))\\nprint('found', len(entries))\\nprint(entries[:5])\\n""}",0.0009596347808837891
+23,execute_code,"{""code"": ""import requests, bs4\\nurl = 'https://arxiv.org/list/hep-lat/2020-01?show=1000'\\nhtml = requests.get(url).text\\nsoup = bs4.BeautifulSoup(html, 'html.parser')\\nentries = []\\nfor dt in soup.find_all('dt'):\\n    a = dt.find('a', title='Abstract')\\n    if a and a['href'].startswith('/abs/'):\\n        entries.append('https://arxiv.org' + a['href'])\\nentries = list(dict.fromkeys(entries))\\nprint('found', len(entries))\\nprint(entries[:10])\\n""}",0.001001119613647461

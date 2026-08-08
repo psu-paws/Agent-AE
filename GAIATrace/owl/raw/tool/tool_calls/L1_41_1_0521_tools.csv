@@ -1,0 +1,13 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Ali Khan TV show 2015 cost-conscious dining""}",0.1251382827758789
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Ali Khan TV show 2015 cost-conscious dining""}",0.5001175403594971
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Ali Khan TV show cost-conscious dining 2015""}",0.5801601409912109
+5,extract_document_content,"{""document_path"": ""https://tvseriesfinale.com/tv-show/cheap-eats-cooking-channel-previews-new-ali-khan-series/"", ""query"": ""Ali Khan TV show 2015 cost-conscious dining""}",15.868750095367432
+9,search_google,"{""num_result_pages"": 3, ""query"": ""Ali Khan Cheap Eats New Mexican staple""}",0.449690580368042
+10,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Cheap_Eats"", ""query"": ""New Mexican staple Ali Khan enjoyed""}",16.17072868347168
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Ali Khan Cheap Eats Albuquerque Carne Adovada restaurant""}",0.3710341453552246
+14,extract_document_content,"{""document_path"": ""https://www.nmgastronome.com/?p=4572"", ""query"": ""Ali Khan Cheap Eats Albuquerque Carne Adovada restaurant""}",7.71434473991394
+17,search_google,"{""num_result_pages"": 3, ""query"": ""James Beard Award winners recommend Papa Felipe's Mexican Restaurant""}",0.4416060447692871
+18,extract_document_content,"{""document_path"": ""https://www.nmgastronome.com/?p=4572"", ""query"": ""James Beard Award winners recommend Papa Felipe's Mexican Restaurant""}",9.49501371383667
+28,search_google,"{""num_result_pages"": 1, ""query"": ""Five Hundred Things to Eat Before It\u2019s Too Late book title""}",0.5967040061950684
+29,extract_document_content,"{""document_path"": ""https://www.amazon.com/500-Things-Eat-Before-Late/dp/0547059078"", ""query"": ""complete title of the book""}",17.507548570632935

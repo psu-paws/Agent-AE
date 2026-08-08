@@ -1,0 +1,26 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Embroidery from Uzbekistan 2008 painting fruits""}",0.39911484718322754
+3,extract_document_content,"{""document_path"": ""https://www.daytonartinstitute.org/exhibits/janet-fish/"", ""query"": ""fruits in Embroidery from Uzbekistan painting""}",4.886749982833862
+3,extract_document_content,"{""document_path"": ""https://www.daytonartinstitute.org/colorful-fruit-still-life/"", ""query"": ""fruits in Embroidery from Uzbekistan painting""}",15.054917097091675
+7,search_google,"{""num_result_pages"": 3, ""query"": ""ocean liner used in The Last Voyage October 1949 breakfast menu""}",0.4471900463104248
+8,extract_document_content,"{""document_path"": ""https://www.ggarchives.com/OceanTravel/VintageMenus/Breakfast/IleDeFrance-1949-10-BreakfastMenu.html"", ""query"": ""fruits served in October 1949 breakfast menu""}",25.938851594924927
+12,extract_document_content,"{""document_path"": ""https://www.google.com/search?q=Embroidery+from+Uzbekistan+Janet+Fish+fruits"", ""query"": ""fruits in the painting""}",19.861804008483887
+13,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Janet_Fish"", ""query"": ""Embroidery from Uzbekistan""}",25.94591212272644
+14,extract_document_content,"{""document_path"": ""https://www.google.com/search?q=%22Embroidery+from+Uzbekistan%22+Janet+Fish+fruit"", ""query"": ""fruit""}",21.385563611984253
+15,extract_document_content,"{""document_path"": ""https://duckduckgo.com/html/?q=%22Embroidery+from+Uzbekistan%22+Janet+Fish+fruit"", ""query"": ""fruit""}",16.42358422279358
+16,extract_document_content,"{""document_path"": ""https://www.google.com/search?tbm=isch&q=Embroidery+from+Uzbekistan+Janet+Fish"", ""query"": """"}",20.156435251235962
+17,extract_document_content,"{""document_path"": ""https://www.google.com/search?q=%22Embroidery+from+Uzbekistan%22+Janet+Fish+image"", ""query"": """"}",19.987587213516235
+18,extract_document_content,"{""document_path"": ""https://daytonartinstitute.org/art/embroidery-uzbekistan"", ""query"": """"}",18.77778959274292
+19,extract_document_content,"{""document_path"": ""https://commons.wikimedia.org/wiki/Category:Janet_Fish"", ""query"": ""Embroidery from Uzbekistan""}",18.781899213790894
+20,extract_document_content,"{""document_path"": ""https://www.google.com/search?q=Embroidery+from+Uzbekistan+Dayton+Art+Institute"", ""query"": """"}",18.20706558227539
+21,extract_document_content,"{""document_path"": ""https://r.jina.ai/http://www.daytonartinstitute.org/art/embroidery-uzbekistan"", ""query"": """"}",27.083749771118164
+22,extract_document_content,"{""document_path"": ""https://r.jina.ai/http://www.google.com/search?q=%22Embroidery+from+Uzbekistan%22+Janet+Fish"", ""query"": """"}",23.20192790031433
+23,extract_document_content,"{""document_path"": ""https://r.jina.ai/http://www.daytonartinstitute.org/art/search-the-collection?search=Embroidery%20from%20Uzbekistan"", ""query"": """"}",14.981672525405884
+24,extract_document_content,"{""document_path"": ""https://daytonart.emuseum.com/search/Embroidery%20from%20Uzbekistan"", ""query"": """"}",15.012007474899292
+25,extract_document_content,"{""document_path"": ""https://r.jina.ai/http://daytonart.emuseum.com/objects/22447/embroidery-from-uzbekistan"", ""query"": """"}",17.203991413116455
+30,search_google,"{""num_result_pages"": 3, ""query"": ""Embroidery from Uzbekistan painting by Janet Fish 2008""}",0.34339261054992676
+31,extract_document_content,"{""document_path"": ""https://www.daytonartinstitute.org/exhibits/janet-fish/"", ""query"": ""Embroidery from Uzbekistan painting by Janet Fish 2008 fruits description""}",11.307059526443481
+31,extract_document_content,"{""document_path"": ""https://janetfish.net/twothousands"", ""query"": ""Embroidery from Uzbekistan painting by Janet Fish 2008 fruits description""}",15.054503917694092
+31,extract_document_content,"{""document_path"": ""https://www.daytonartinstitute.org/wp-content/uploads/2021/07/ObjectOfMonth_JanetFish_EmbroideryUzbekistan_July2021_transcript_FINAL.pdf"", ""query"": ""Embroidery from Uzbekistan painting by Janet Fish 2008 fruits description""}",1.4030640125274658
+34,search_google,"{""num_result_pages"": 3, ""query"": ""SS Ile de France October 1949 breakfast menu fruits""}",0.39417338371276855
+35,extract_document_content,"{""document_path"": ""https://www.ggarchives.com/OceanTravel/VintageMenus/Breakfast/IleDeFrance-1949-10-BreakfastMenu.html"", ""query"": ""fruits served in October 1949 breakfast menu SS Ile de France""}",22.594465732574463

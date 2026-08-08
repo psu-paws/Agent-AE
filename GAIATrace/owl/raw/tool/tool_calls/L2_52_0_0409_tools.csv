@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""World Bank gross savings over 35% of GDP 2001-2010""}",0.38312530517578125
+3,extract_document_content,"{""document_path"": ""https://data.worldbank.org/indicator/NY.GNS.ICTR.ZS"", ""query"": ""countries with gross savings over 35% of GDP 2001-2010""}",22.037090301513672
+7,search_google,"{""num_result_pages"": 3, ""query"": ""World Bank gross savings over 35% of GDP 2001-2010""}",0.28000617027282715

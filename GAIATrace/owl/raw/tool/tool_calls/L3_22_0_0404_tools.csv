@@ -1,0 +1,6 @@
+request_idx,tool_name,args_json,observed_elapsed
+4,search_google,"{""num_result_pages"": 3, ""query"": ""World of Warcraft classes tank healer DPS holy spells ice fire metamorphosis""}",0.3595693111419678
+5,search_wiki,"{""entity"": ""World of Warcraft classes""}",0.6822977066040039
+6,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/World_of_Warcraft"", ""query"": ""World of Warcraft classes tank healer DPS holy spells ice fire metamorphosis""}",48.019758224487305
+13,search_google,"{""num_result_pages"": 3, ""query"": ""World of Warcraft class roles tank healer DPS holy spells ice fire metamorphosis""}",0.37676239013671875
+14,search_google,"{""num_result_pages"": 3, ""query"": ""World of Warcraft class roles holy spells ice fire metamorphosis""}",0.3550090789794922

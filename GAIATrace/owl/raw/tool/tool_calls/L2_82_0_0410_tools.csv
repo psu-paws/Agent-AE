@@ -1,0 +1,25 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger film ending scene James Bond Pussy Galore concealment color""}",0.3726205825805664
+3,extract_document_content,"{""document_path"": ""https://jamesbond.fandom.com/wiki/Goldfinger_(film)"", ""query"": ""ending scene concealment color""}",13.153899431228638
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger film ending parachute color""}",0.3046741485595703
+8,extract_document_content,"{""document_path"": ""https://www.reddit.com/r/JamesBond/comments/lgdam0/the_beauty_of_goldfinger/"", ""query"": ""Goldfinger film ending parachute color""}",0.2679436206817627
+9,search_wiki,"{""entity"": ""Goldfinger (film)""}",0.48600029945373535
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger film parachute scene""}",0.3022892475128174
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger film ending scene parachute color""}",0.33553028106689453
+12,search_google,"{""num_result_pages"": 1, ""query"": ""James Bond Goldfinger parachute color""}",0.3222312927246094
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger film parachute color ending scene""}",0.3204946517944336
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger parachute color""}",0.2885105609893799
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger film parachute color""}",0.3270263671875
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger parachute color ending""}",0.300095796585083
+17,extract_document_content,"{""document_path"": ""https://commons.wikimedia.org/wiki/File:Orange_and_White_Parachute_(Goldfinger)_National_Motor_Museum,_Beaulieu.jpg"", ""query"": ""Goldfinger parachute color""}",0.16943097114562988
+18,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger film parachute color ending scene""}",0.22811603546142578
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger parachute color ending scene""}",0.2973453998565674
+20,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger parachute color""}",0.23331952095031738
+21,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger parachute color""}",0.2683866024017334
+22,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger parachute color""}",0.22683024406433105
+25,search_google,"{""num_result_pages"": 1, ""query"": ""Goldfinger film ending scene James Bond Pussy Galore concealment color""}",0.29578709602355957
+26,extract_document_content,"{""document_path"": ""https://jamesbond.fandom.com/wiki/Goldfinger_(film)"", ""query"": ""ending scene James Bond Pussy Galore concealment color""}",8.8911874294281
+30,search_google,"{""num_result_pages"": 3, ""query"": ""Goldfinger film ending parachute color""}",0.3015012741088867
+31,extract_document_content,"{""document_path"": ""https://commons.wikimedia.org/wiki/File:Orange_and_White_Parachute_(Goldfinger)_National_Motor_Museum,_Beaulieu.jpg"", ""query"": ""parachute color in Goldfinger""}",0.09821939468383789
+36,search_google,"{""num_result_pages"": 3, ""query"": ""Goldfinger ending parachute color""}",0.34714198112487793
+37,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Goldfinger_(film)"", ""query"": ""parachute color in ending scene""}",4.699384450912476

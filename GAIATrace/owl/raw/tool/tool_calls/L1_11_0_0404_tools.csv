@@ -1,0 +1,33 @@
+request_idx,tool_name,args_json,observed_elapsed
+10,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.5007462501525879
+10,search_google,"{""num_result_pages"": 1, ""query"": ""weight of a bag of potatoes""}",0.4176368713378906
+11,search_wiki,"{""entity"": ""potato""}",0.6017398834228516
+12,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.27918076515197754
+13,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.2648749351501465
+14,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.26708197593688965
+15,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.2868630886077881
+16,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.2517695426940918
+17,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.25387072563171387
+18,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.2428293228149414
+19,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.4700946807861328
+20,extract_document_content,"{""document_path"": ""https://cooking.stackexchange.com/questions/10413/how-much-does-a-large-potato-weigh"", ""query"": ""average weight of a potato""}",10.39296841621399
+21,search_google,"{""num_result_pages"": 1, ""query"": ""weight of a bag of potatoes""}",0.28761720657348633
+22,search_google,"{""num_result_pages"": 1, ""query"": ""weight of a bag of potatoes""}",0.22614264488220215
+23,search_google,"{""num_result_pages"": 1, ""query"": ""weight of a bag of potatoes""}",0.37597084045410156
+24,search_google,"{""num_result_pages"": 1, ""query"": ""weight of a bag of potatoes""}",1.7001163959503174
+34,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.26394057273864746
+34,search_google,"{""num_result_pages"": 1, ""query"": ""weight of a bag of potatoes""}",0.2275245189666748
+35,search_wiki,"{""entity"": ""potato""}",0.32112932205200195
+35,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato in pounds""}",0.409686803817749
+35,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.3255603313446045
+36,search_google,"{""num_result_pages"": 1, ""query"": ""average weight of a potato""}",0.2440018653869629
+37,extract_document_content,"{""document_path"": ""https://cooking.stackexchange.com/questions/10413/how-much-does-a-large-potato-weigh"", ""query"": ""average weight of a potato""}",35.6489577293396
+38,search_google,"{""num_result_pages"": 1, ""query"": ""weight of a bag of potatoes""}",0.2697105407714844
+39,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.279857873916626
+40,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.29493236541748047
+41,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.36964845657348633
+42,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.24371671676635742
+43,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.24805212020874023
+44,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.247206449508667
+45,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.29824233055114746
+46,search_google,"{""num_result_pages"": 1, ""query"": ""standard weight of a bag of potatoes""}",0.2727174758911133

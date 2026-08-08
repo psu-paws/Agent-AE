@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Introductory Chemistry LibreTexts 1.E Exercises equine veterinarian""}",0.4139750003814697
+3,extract_document_content,"{""document_path"": ""https://chem.libretexts.org/Courses/Chabot_College/Introduction_to_General_Organic_and_Biochemistry/01%3A_Chemistry_in_our_Lives/1.E%3A_Exercises"", ""query"": ""equine veterinarian""}",21.83153009414673
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Louvrier equine veterinarian LibreTexts chemistry""}",0.32318758964538574
+14,extract_document_content,"{""document_path"": ""https://chem.libretexts.org/Courses/Chabot_College/Introduction_to_General_Organic_and_Biochemistry/01%3A_Chemistry_in_our_Lives/1.E%3A_Exercises"", ""query"": ""Louvrier equine veterinarian""}",6.3340067863464355

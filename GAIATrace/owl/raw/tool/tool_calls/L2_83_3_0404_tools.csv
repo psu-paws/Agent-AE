@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 2, ""query"": ""MBTA Franklin-Foxboro line stops May 2023""}",0.42949581146240234
+3,extract_document_content,"{""document_path"": ""https://www.mbta.com/schedules/CR-Franklin/line"", ""query"": ""list of stops""}",70.25339984893799
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Franklin/Foxboro_Line"", ""query"": ""list of stops""}",15.319462776184082
+13,search_google,"{""num_result_pages"": 1, ""query"": ""MBTA Franklin-Foxboro line stops May 2023""}",0.5665063858032227
+13,search_wiki,"{""entity"": ""Franklin/Foxboro Line""}",0.7017269134521484
+14,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Franklin/Foxboro_Line"", ""query"": ""station listing""}",3.615070104598999

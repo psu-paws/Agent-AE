@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Merriam-Webster Word of the Day June 27, 2022""}",0.5036046504974365
+3,extract_document_content,"{""document_path"": ""https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"", ""query"": ""quotes or references""}",13.82417345046997
+9,search_google,"{""num_result_pages"": 3, ""query"": ""Annie Levin jingoism quote New York Observer March 7, 2022""}",0.3974900245666504
+10,extract_document_content,"{""document_path"": ""https://www.facebook.com/groups/16608240743/posts/10162618304505744/"", ""query"": ""Annie Levin jingoism quote New York Observer March 7, 2022""}",0.12720203399658203
+11,search_google,"{""num_result_pages"": 3, ""query"": ""Annie Levin jingoism quote New York Observer""}",0.3615548610687256
+12,search_google,"{""num_result_pages"": 3, ""query"": ""Annie Levin New York Observer March 7, 2022""}",0.40825939178466797
+13,extract_document_content,"{""document_path"": ""https://observer.com/2022/03/soprano-anna-netrebko-ousted-from-the-met-opera-for-putin-support/"", ""query"": ""Annie Levin jingoism quote""}",7.638242721557617

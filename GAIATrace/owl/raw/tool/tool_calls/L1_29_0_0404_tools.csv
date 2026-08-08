@@ -1,0 +1,33 @@
+request_idx,tool_name,args_json,observed_elapsed
+7,search_wiki,"{""entity"": ""broccoli""}",0.6783027648925781
+7,search_wiki,"{""entity"": ""celery""}",1.1917378902435303
+7,search_wiki,"{""entity"": ""corn""}",1.275435447692871
+7,search_wiki,"{""entity"": ""fresh basil""}",0.6458745002746582
+7,search_wiki,"{""entity"": ""green beans""}",0.4433279037475586
+7,search_wiki,"{""entity"": ""lettuce""}",1.1095106601715088
+7,search_wiki,"{""entity"": ""sweet potatoes""}",0.599693775177002
+7,search_wiki,"{""entity"": ""zucchini""}",0.5352249145507812
+8,search_wiki,"{""entity"": ""basil""}",1.367563009262085
+8,search_wiki,"{""entity"": ""green bean""}",0.5545761585235596
+9,search_google,"{""num_result_pages"": 1, ""query"": ""celery vegetable or fruit""}",0.39092016220092773
+9,search_google,"{""num_result_pages"": 1, ""query"": ""corn vegetable or fruit""}",0.487196683883667
+9,search_google,"{""num_result_pages"": 1, ""query"": ""fresh basil vegetable or fruit""}",0.41838932037353516
+9,search_google,"{""num_result_pages"": 1, ""query"": ""green beans vegetable or fruit""}",0.41383790969848633
+9,search_google,"{""num_result_pages"": 1, ""query"": ""lettuce vegetable or fruit""}",0.42130112648010254
+9,search_google,"{""num_result_pages"": 1, ""query"": ""zucchini vegetable or fruit""}",0.3607029914855957
+12,search_wiki,"{""entity"": ""sweet potatoes""}",0.3250875473022461
+12,search_wiki,"{""entity"": ""fresh basil""}",0.3115561008453369
+12,search_wiki,"{""entity"": ""green beans""}",0.15291357040405273
+12,search_wiki,"{""entity"": ""corn""}",0.6014115810394287
+12,search_wiki,"{""entity"": ""bell pepper""}",0.5038712024688721
+12,search_wiki,"{""entity"": ""broccoli""}",0.30536627769470215
+12,search_wiki,"{""entity"": ""celery""}",0.4921875
+12,search_wiki,"{""entity"": ""zucchini""}",0.3366992473602295
+12,search_wiki,"{""entity"": ""lettuce""}",0.493833065032959
+13,search_wiki,"{""entity"": ""peanuts""}",0.550811767578125
+14,search_wiki,"{""entity"": ""green beans""}",0.1342024803161621
+14,search_wiki,"{""entity"": ""bell pepper""}",0.16478729248046875
+14,search_wiki,"{""entity"": ""celery""}",0.47695088386535645
+14,search_wiki,"{""entity"": ""zucchini""}",0.28951334953308105
+14,search_wiki,"{""entity"": ""lettuce""}",0.546166181564331
+15,search_wiki,"{""entity"": ""green beans""}",0.15406298637390137

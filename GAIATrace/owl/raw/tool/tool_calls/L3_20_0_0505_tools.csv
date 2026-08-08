@@ -1,0 +1,3 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Eva Draconis YouTube page""}",0.3135833740234375
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Eva Draconis YouTube page""}",0.24976706504821777

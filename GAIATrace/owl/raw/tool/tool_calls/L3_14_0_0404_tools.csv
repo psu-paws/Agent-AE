@@ -1,0 +1,12 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""List of current monarchies""}",0.8951880931854248
+3,search_wiki,"{""entity"": ""List of current monarchies""}",0.4525730609893799
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Asian countries with monarchy 2021 site:wikipedia.org""}",0.4359862804412842
+5,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Monarchies_in_Asia"", ""query"": ""list of Asian countries with monarchy as of 2021""}",11.913620471954346
+9,search_wiki,"{""entity"": ""List of Asian monarchies""}",0.5863380432128906
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Asian monarchies with access to the sea""}",0.4044530391693115
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Asian countries with monarchy and access to the sea""}",0.36546778678894043
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Asian monarchies list""}",0.39145493507385254
+13,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Monarchies_in_Asia"", ""query"": ""Asian monarchies with access to the sea""}",5.624530553817749
+16,search_google,"{""num_result_pages"": 3, ""query"": ""Asian countries with monarchy and access to the sea 2021""}",0.6068112850189209
+17,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Monarchies_in_Asia"", ""query"": ""Asian countries with monarchy and access to the sea 2021""}",6.368367671966553

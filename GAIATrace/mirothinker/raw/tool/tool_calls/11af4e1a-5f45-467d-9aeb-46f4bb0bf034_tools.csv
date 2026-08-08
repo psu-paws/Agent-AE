@@ -1,0 +1,4 @@
+turn,tool_name,args_json
+0,google_search,"{""num"": 10, ""q"": ""BERT base number of transformer layers""}"
+1,google_search,"{""num"": 10, ""q"": ""Attention is All You Need encoder layers""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""What is the number of encoder layers in the Transformer architecture described in the Attention Is All You Need paper?"", ""url"": ""https://en.wikipedia.org/wiki/Attention_Is_All_You_Need""}"

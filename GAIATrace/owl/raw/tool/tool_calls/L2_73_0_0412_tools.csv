@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""2019 British Academy Games Awards winner""}",0.3758087158203125
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/15th_British_Academy_Games_Awards"", ""query"": ""2019 British Academy Games Awards winner""}",7.926418304443359
+4,search_wiki,"{""entity"": ""God of War (2018 video game)""}",0.6136438846588135
+5,search_google,"{""num_result_pages"": 1, ""query"": ""God of War (2018 video game) Wikipedia""}",0.3815031051635742
+6,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"", ""query"": ""release date""}",34.093947410583496
+18,search_wiki,"{""entity"": ""God of War (2018 video game)""}",0.15233492851257324
+19,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"", ""query"": ""release date""}",31.642113208770752
+31,search_wiki_revisions,"{""entity"": ""God of War (2018 video game)"", ""month"": 4, ""year"": 2018}",0.23848652839660645
+35,search_wiki_revisions,"{""entity"": ""God of War (2018 video game)"", ""month"": 4, ""year"": 2018}",0.21940302848815918
+39,search_wiki_revisions,"{""entity"": ""God of War (2018 video game)"", ""month"": 4, ""year"": 2018}",0.1867067813873291

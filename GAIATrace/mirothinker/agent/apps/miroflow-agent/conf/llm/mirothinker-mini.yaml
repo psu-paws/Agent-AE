@@ -1,0 +1,19 @@
+# conf/llm/mirothinker-mini.yaml
+# OpenAI-compatible local server (vLLM, etc.); model_name must match --served-model-name.
+#
+# Must match vLLM --max-model-len (see scripts/vllm_mirothinker_1.7_mini_server.sh).
+# API rule: prompt_tokens + max_completion_tokens <= max_model_len.
+# Override from .env: LLM_MAX_CONTEXT_LENGTH, LLM_MAX_TOKENS (applied in env_cfg_bridge).
+defaults:
+  - default
+  - _self_
+
+provider: "qwen"
+model_name: "mirothinker-mini"
+base_url: "https://your-api.com/v1"
+# Align with vLLM --max-model-len (32k fits GAIA multi-turn; 8k is too small and causes 400s)
+max_context_length: 32768
+# Completion budget; prompt + max_tokens must stay under max_context_length
+max_tokens: 8192
+top_p: 0.95
+temperature: 1.0

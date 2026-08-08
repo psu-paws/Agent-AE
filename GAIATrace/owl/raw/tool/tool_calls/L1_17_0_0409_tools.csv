@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Legume""}",0.5778107643127441
+6,search_wiki,"{""entity"": ""Wikipedia:Core content policies""}",0.8280208110809326
+10,search_wiki,"{""entity"": ""Wikipedia:Core content policies""}",0.296220064163208
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Wikipedia core content policies R""}",0.39765071868896484
+17,search_wiki,"{""entity"": ""Wikipedia:Core content policies""}",0.29537200927734375
+17,search_google,"{""num_result_pages"": 1, ""query"": ""Wikipedia core content policies R stands for""}",0.42972493171691895
+18,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Wikipedia:Core_content_policies"", ""query"": ""three core policies R stands for""}",11.750492095947266

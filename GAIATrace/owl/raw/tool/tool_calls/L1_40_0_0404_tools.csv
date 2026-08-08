@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 2, ""query"": ""Girls Who Code starting percentage of computer scientists that were women 37%""}",0.4602670669555664
+2,search_wiki,"{""entity"": ""Girls Who Code""}",0.7544171810150146
+3,extract_document_content,"{""document_path"": ""https://girlswhocode.com/about-us"", ""query"": ""starting percentage of computer scientists that were women 37%""}",10.613811492919922
+14,search_google,"{""num_result_pages"": 3, ""query"": ""percentage of women in computer science 1995 to 2023""}",0.4982171058654785
+14,search_wiki,"{""entity"": ""Women in computer science""}",0.8297631740570068
+15,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Women_in_computing"", ""query"": ""percentage of women in computer science 1995 to 2023""}",55.95063281059265
+22,extract_document_content,"{""document_path"": ""https://girlswhocode.com/about-us"", ""query"": ""percentage of women in computer science 1995 to 2023""}",3.544110059738159

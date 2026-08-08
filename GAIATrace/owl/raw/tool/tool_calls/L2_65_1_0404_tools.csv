@@ -1,0 +1,39 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""longest-lived vertebrate""}",0.634188175201416
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_longest-living_organisms"", ""query"": ""longest-lived vertebrate and the island it is named after""}",4.333887338638306
+7,search_wiki_revisions,"{""entity"": ""Greenland"", ""month"": 1, ""year"": 2021}",0.08460354804992676
+7,search_wiki,"{""entity"": ""Greenland""}",0.7367920875549316
+8,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Greenland"", ""query"": ""2020 estimated population""}",72.46005749702454
+19,search_archived_webpage,"{""date"": ""20210101"", ""url"": ""https://en.wikipedia.org/wiki/Greenland""}",2.8091466426849365
+20,extract_document_content,"{""document_path"": ""http://web.archive.org/web/20210105055241/https://en.wikipedia.org/wiki/Greenland"", ""query"": ""2020 estimated population""}",92.81393337249756
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland 2020 estimated population""}",0.40476441383361816
+37,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate""}",0.4766218662261963
+38,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020""}",0.3144645690917969
+39,search_google,"{""num_result_pages"": 2, ""query"": ""Greenland population 2020 estimate""}",0.26260852813720703
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate reliable source""}",0.6016888618469238
+41,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate statistics""}",0.5033872127532959
+42,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official statistics""}",0.4182090759277344
+43,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official data""}",0.4973626136779785
+44,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official source""}",0.4479033946990967
+45,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official statistics site""}",0.4646565914154053
+46,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official statistics""}",0.2493903636932373
+47,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official statistics site""}",0.3406708240509033
+48,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official statistics site""}",0.4216911792755127
+49,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official statistics site""}",0.327258825302124
+50,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official statistics site""}",0.3672158718109131
+51,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate official statistics site""}",0.4227559566497803
+54,search_wiki,"{""entity"": ""longest-lived vertebrate""}",0.32153892517089844
+55,search_google,"{""num_result_pages"": 1, ""query"": ""longest-lived vertebrate Greenland shark island""}",0.40450000762939453
+56,extract_document_content,"{""document_path"": ""https://www.bbc.com/news/science-environment-37047168"", ""query"": ""Greenland shark island name""}",17.94451665878296
+60,search_wiki_revisions,"{""entity"": ""Greenland"", ""month"": 1, ""year"": 2021}",0.08602142333984375
+61,search_wiki,"{""entity"": ""Greenland""}",0.4490809440612793
+62,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Greenland"", ""query"": ""2020 estimated population""}",58.390456199645996
+73,search_archived_webpage,"{""date"": ""20210101"", ""url"": ""https://en.wikipedia.org/wiki/Greenland""}",0.6747586727142334
+74,extract_document_content,"{""document_path"": ""http://web.archive.org/web/20210105055241/https://en.wikipedia.org/wiki/Greenland"", ""query"": ""2020 estimated population""}",72.33725666999817
+89,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland 2020 population estimate""}",0.4342923164367676
+90,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 estimate""}",0.3237483501434326
+91,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020""}",0.2871510982513428
+92,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 statistics""}",0.3867614269256592
+93,search_google,"{""num_result_pages"": 1, ""query"": ""Greenland population 2020 World Bank""}",0.4303703308105469
+94,extract_document_content,"{""document_path"": ""https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GL"", ""query"": ""Greenland population 2020""}",8.727202653884888
+95,extract_document_content,"{""document_path"": ""https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GL"", ""query"": ""Greenland population 2020""}",13.69027066230774

@@ -1,0 +1,14 @@
+# conf/config.yaml
+defaults:
+  - llm: default
+  - agent: default
+  - benchmark: default
+  - _self_  # Allows variables to be defined at the top of this file
+
+hydra:
+  run:
+    dir: ${debug_dir}
+
+# You can define some top-level or default parameters here
+project_name: "miroflow-agent"
+debug_dir: ../../logs/benchmarks/${benchmark.name}_${now:%Y-%m-%d_%H-%M-%S}

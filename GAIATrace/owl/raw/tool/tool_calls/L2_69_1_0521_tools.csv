@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Babylonian number system""}",0.6037745475769043
+2,search_wiki,"{""entity"": ""Sumerian cuneiform""}",0.5166566371917725
+6,search_google,"{""num_result_pages"": 1, ""query"": ""\ud809\udc1c Babylonian number system""}",0.29363393783569336
+6,search_google,"{""num_result_pages"": 1, ""query"": ""\ud809\udc10\ud809\udc1a Babylonian number system""}",0.32174062728881836
+7,extract_document_content,"{""document_path"": ""https://www.dcode.fr/babylonian-numbers"", ""query"": ""\ud809\udc1c and \ud809\udc10\ud809\udc1a numerical values""}",21.527265787124634
+7,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Babylonian_cuneiform_numerals"", ""query"": ""\ud809\udc1c and \ud809\udc10\ud809\udc1a numerical values""}",14.951091527938843
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Babylonian numeral \ud809\udc1c \ud809\udc10\ud809\udc1a conversion""}",0.2431952953338623
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Babylonian numeral \ud809\udc1c \ud809\udc10\ud809\udc1a Arabic numeral""}",0.22386598587036133
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Babylonian numeral \ud809\udc1c \ud809\udc10\ud809\udc1a""}",0.24906182289123535
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Babylonian numeral conversion \ud809\udc1c \ud809\udc10\ud809\udc1a""}",0.26578545570373535

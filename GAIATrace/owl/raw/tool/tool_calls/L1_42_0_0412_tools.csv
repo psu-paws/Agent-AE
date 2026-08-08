@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Yankees player most walks 1977 regular season""}",0.3297910690307617
+13,search_wiki,"{""entity"": ""Reggie Jackson 1977 season""}",0.9113049507141113
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Reggie Jackson 1977 regular season at bats""}",0.34276700019836426
+15,extract_document_content,"{""document_path"": ""https://www.baseball-almanac.com/players/hittinglogs.php?p=jacksre01&y=1977"", ""query"": ""Reggie Jackson 1977 regular season at bats""}",19.617098569869995
+18,search_google,"{""num_result_pages"": 1, ""query"": ""Reggie Jackson 1977 walks and at bats""}",0.29842352867126465
+18,search_wiki,"{""entity"": ""Reggie Jackson""}",0.5821278095245361
+19,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Reggie_Jackson"", ""query"": ""Reggie Jackson 1977 walks and at bats""}",34.78542876243591

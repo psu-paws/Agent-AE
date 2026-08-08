@@ -1,0 +1,12 @@
+turn,tool_name,args_json
+0,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""Manash Pratim Kashyap customer retention 2018 study model""}"
+1,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""P S Fader 2019 customer retention model 2019 study""}"
+2,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""\""Peter S. Fader\"" 2019 customer retention""}"
+3,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""\""How to project customer retention\"" 2018""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Identify the model used in this paper"", ""url"": ""https://ideas.repec.org/a/eee/joinma/v43y2018icp1-16.html""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Identify the model used in this paper"", ""url"": ""https://www.researchgate.net/publication/332297417_A_SIMPLE_MODEL_FOR_ANALYZING_THE_CUSTOMER_RETENTION_COMPARING_RURAL_AND_URBAN_STORE""}"
+6,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""\""A Simple Model for Analyzing the Customer Retention\"" beta geometric""}"
+7,scrape_and_extract_info,"{""info_to_extract"": ""What model(s) are discussed in this 2018 paper by Peter Fader on customer retention"", ""url"": ""https://journals.sagepub.com/doi/10.1002/dir.20074""}"
+8,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""\""How to Project Customer Retention\"" Revisited beta geometric""}"
+9,scrape_and_extract_info,"{""info_to_extract"": ""Identify the model(s) used in this paper"", ""url"": ""https://www.journalijar.com/article/26843/a-simple-model-for-analyzing-the-customer-retention-comparing-rural-and-urban-store/""}"
+10,scrape_and_extract_info,"{""info_to_extract"": ""Identify the model(s) used in this paper"", ""url"": ""http://brucehardie.com/papers/037/BdW_JIM_2018-01-10_rev.pdf""}"

@@ -1,0 +1,38 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""List of Survivor (American TV series) winners""}",1.0747289657592773
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Survivor_(American_TV_series)"", ""query"": ""list of all winners of the US version of Survivor""}",31.02415895462036
+12,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Survivor_(American_TV_series)"", ""query"": ""Winners of Survivor (American TV series)""}",36.061455965042114
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Richard Hatch birth month""}",0.41008615493774414
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Ethan Zohn birth month""}",0.3525960445404053
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Jenna Morasca birth month""}",0.33259129524230957
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Sandra Diaz-Twine birth month""}",0.36521339416503906
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Amber Brkich birth month""}",0.307694673538208
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Westman birth month""}",0.4496324062347412
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Danni Boatwright birth month""}",0.36444950103759766
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Yul Kwon birth month""}",0.33968138694763184
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Todd Herzog birth month""}",0.46428942680358887
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Parvati Shallow birth month""}",0.37605762481689453
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Rob Mariano birth month""}",0.3572728633880615
+24,search_google,"{""num_result_pages"": 1, ""query"": ""John Cochran birth month""}",0.307112455368042
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Tyson Apostol birth month""}",0.299562931060791
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Tony Vlachos birth month""}",0.4234766960144043
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Natalie Anderson birth month""}",0.3594381809234619
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Jeremy Collins birth month""}",0.4385991096496582
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Sarah Lacina birth month""}",0.3479456901550293
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Nick Wilson birth month""}",66.37294244766235
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Maryanne Oketch birth month""}",0.3212764263153076
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Kyle Fraser birth month""}",0.34920525550842285
+27,search_wiki,"{""entity"": ""List of Survivor (American TV series) winners""}",0.25235867500305176
+28,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Survivor_(American_TV_series)"", ""query"": ""list of all winners of the US version of Survivor""}",0.3008706569671631
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Richard Hatch birth month""}",0.31542325019836426
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Tina Wesson birth month""}",0.28117990493774414
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Ethan Zohn birth month""}",0.2796006202697754
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Vecepia Towery birth month""}",0.23779582977294922
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Brian Heidik birth month""}",0.42026257514953613
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Jenna Morasca birth month""}",0.25618863105773926
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Sandra Diaz-Twine birth month""}",0.4374532699584961
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Amber Brkich birth month""}",0.31279492378234863
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Chris Daugherty birth month""}",0.47839832305908203
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Westman birth month""}",0.326416015625
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Danni Boatwright birth month""}",0.24713754653930664
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Aras Baskauskas birth month""}",0.2406785488128662

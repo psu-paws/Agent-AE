@@ -1,0 +1,17 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Lego"", ""month"": 12, ""year"": 2022}",0.0930628776550293
+3,search_wiki,"{""entity"": ""Lego""}",0.5687987804412842
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Lego Wikipedia article""}",0.42877936363220215
+5,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Lego"", ""query"": ""2022 Lego article""}",6.495173931121826
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Lego"", ""query"": ""number of images in the article""}",8.774130582809448
+12,search_wiki_revisions,"{""entity"": ""Lego"", ""month"": 12, ""year"": 2022}",0.08508038520812988
+13,search_wiki,"{""entity"": ""Lego""}",0.42560791969299316
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Lego Wikipedia article December 2022""}",0.4045839309692383
+15,search_archived_webpage,"{""date"": ""20221231"", ""url"": ""https://en.wikipedia.org/wiki/Lego""}",10.618307828903198
+34,search_wiki_revisions,"{""entity"": ""Lego"", ""month"": 12, ""year"": 2022}",0.0916450023651123
+35,search_wiki,"{""entity"": ""Lego""}",0.3485112190246582
+39,search_wiki,"{""entity"": ""Lego""}",0.2861504554748535
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Lego Wikipedia""}",0.40995359420776367
+41,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Lego"", ""query"": ""number of images""}",15.08396291732788
+45,search_google,"{""num_result_pages"": 1, ""query"": ""Lego Wikipedia article""}",0.3549485206604004
+46,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Lego"", ""query"": ""number of images in the article""}",13.842108726501465

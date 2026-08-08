@@ -1,0 +1,10 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""uk"", ""hl"": ""en"", ""num"": 10, ""q"": ""Can Hiccup Supply Enough Fish to Maintain a Dragon\u2019s Diet""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Find the volume in cubic meters of the fish bag that was calculated in the paper."", ""url"": ""https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Find the volume in cubic meters of the fish bag that was calculated in the paper."", ""url"": ""https://journals.le.ac.uk/index.php/jist/article/view/733""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Find the volume in cubic meters of the fish bag that was calculated in the paper."", ""url"": ""https://scispace.com/pdf/can-hiccup-supply-enough-fish-to-maintain-a-dragon-s-diet-38gfo01u13.pdf""}"
+4,google_search,"{""num"": 5, ""q"": ""site:journals.le.ac.uk \""Can Hiccup Supply Enough Fish\""""}"
+5,google_search,"{""q"": ""\""Can Hiccup Supply Enough Fish\"" PDF""}"
+6,google_search,"{""num"": 10, ""q"": ""\""Can Hiccup Supply Enough Fish to Maintain a Dragon\"" fish bag volume""}"
+7,scrape_and_extract_info,"{""info_to_extract"": ""Extract the paragraph that mentions the fish bag volume, including the value and any relevant equations or context."", ""url"": ""https://scispace.com/pdf/can-hiccup-supply-enough-fish-to-maintain-a-dragon-s-diet-38gfo01u13.pdf""}"
+8,scrape_and_extract_info,"{""info_to_extract"": ""Extract the section that includes the fish bag volume calculation, including any equations and numeric details."", ""url"": ""https://journals.le.ac.uk/index.php/jist/article/download/733/684/1496""}"

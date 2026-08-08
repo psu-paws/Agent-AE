@@ -1,0 +1,17 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,search_google,"{""num_result_pages"": 1, ""query"": ""National Air and Space Museum east of the Potomac River closest metro station""}",0.4158203601837158
+4,extract_document_content,"{""document_path"": ""https://balderson.house.gov/services/visit-washington-d-c.htm"", ""query"": ""National Air and Space Museum east of the Potomac River closest metro station""}",16.28239607810974
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Cleveland Elementary School closest metro station Washington DC""}",0.46648454666137695
+8,extract_document_content,"{""document_path"": ""https://clevelandelementary.org/apps/pages/index.jsp?uREC_ID=591775&type=d"", ""query"": ""closest metro station""}",6.593081951141357
+28,search_google,"{""num_result_pages"": 1, ""query"": ""Fire Station 301 DCA ARFF closest metro station""}",0.3274214267730713
+29,extract_document_content,"{""document_path"": ""https://www.mwaa.com/policefireems/fire-ems/fire-ems-ronald-reagan-washington-national-airport"", ""query"": ""closest metro station to Fire Station 301 DCA ARFF""}",13.630018949508667
+30,search_google,"{""num_result_pages"": 1, ""query"": ""closest metro station to Ronald Reagan Washington National Airport""}",0.4359602928161621
+31,extract_document_content,"{""document_path"": ""https://www.wmata.com/rider-guide/airport-and-rail/index.cfm"", ""query"": ""closest metro station to Ronald Reagan Washington National Airport""}",12.856591939926147
+37,search_google,"{""num_result_pages"": 1, ""query"": ""Washington DC metro map 2022 Yellow Line stations""}",0.4852297306060791
+38,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Yellow_Line_(Washington_Metro)"", ""query"": ""Yellow Line stations 2022""}",7.760973691940308
+41,search_google,"{""num_result_pages"": 1, ""query"": ""Washington Metro Yellow Line stations 2022""}",0.5114877223968506
+53,search_google,"{""num_result_pages"": 1, ""query"": ""closest metro station to National Air and Space Museum east of the Potomac River""}",0.45638155937194824
+54,extract_document_content,"{""document_path"": ""https://balderson.house.gov/services/visit-washington-d-c.htm"", ""query"": ""National Air and Space Museum Nearest Metro""}",3.5090229511260986
+58,search_google,"{""num_result_pages"": 1, ""query"": ""Cleveland Elementary School Washington DC closest metro station""}",0.41585397720336914
+59,extract_document_content,"{""document_path"": ""https://clevelandelementary.org/apps/pages/index.jsp?uREC_ID=591775&type=d"", ""query"": ""closest metro station""}",4.002349138259888
+78,search_wiki,"{""entity"": ""Cleveland Elementary School Washington DC""}",0.551516056060791

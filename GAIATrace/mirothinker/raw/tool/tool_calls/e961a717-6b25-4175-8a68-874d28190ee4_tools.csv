@@ -1,0 +1,6 @@
+turn,tool_name,args_json
+0,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""Asian countries monarchy Wikipedia""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the list of Asian sovereign states that are monarchies as of 2021"", ""url"": ""https://en.wikipedia.org/wiki/Monarchies_in_Asia""}"
+2,google_search,"{""hl"": ""en"", ""num"": 5, ""q"": ""Jordan coastline Red Sea Wikipedia""}"
+3,google_search,"{""hl"": ""en"", ""num"": 5, ""q"": ""Bhutan landlocked Wikipedia""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Find statement that Bhutan is a landlocked country"", ""url"": ""https://en.wikipedia.org/wiki/Bhutan""}"

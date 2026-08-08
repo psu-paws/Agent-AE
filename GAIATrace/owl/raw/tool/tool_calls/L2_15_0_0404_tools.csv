@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""OpenCV Mask-RCNN support version""}",0.39565396308898926
+3,extract_document_content,"{""document_path"": ""https://opencv.org/blog/opencv-4-0-alpha/"", ""query"": ""Mask-RCNN support contributors""}",23.462145805358887
+7,search_wiki,"{""entity"": ""List of premiers of the People's Republic of China""}",0.8114755153656006
+8,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_premiers_of_China"", ""query"": ""List of premiers of the PRC (since 1949)""}",11.706283569335938
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Li Peng OpenCV contributor""}",0.3153233528137207
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Li Peng Chinese Premier""}",0.34652137756347656
+14,extract_document_content,"{""document_path"": ""https://github.com/opencv/opencv/wiki/ChangeLog/9dc09f369ba5304fd02f4ec21b6daf5027a3a0ed"", ""query"": ""Li Peng contribution""}",29.033432245254517
+14,search_wiki,"{""entity"": ""Li Peng""}",0.6331281661987305

@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx""}",0.10962224006652832
+6,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx""}",0.026984691619873047
+9,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx""}",0.027324676513671875
+12,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx""}",0.017508745193481445

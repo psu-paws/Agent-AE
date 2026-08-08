@@ -1,0 +1,18 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database nonindigenous crocodiles Florida""}",0.3793818950653076
+3,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database""}",0.34097862243652344
+24,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database nonindigenous crocodiles Florida""}",0.30170512199401855
+25,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database""}",0.24876832962036133
+38,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database site:nas.er.usgs.gov""}",0.28243064880371094
+39,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database Florida crocodiles""}",0.3106076717376709
+45,search_google,"{""num_result_pages"": 3, ""query"": ""nonindigenous crocodiles in Florida site:usgs.gov""}",0.2399613857269287
+46,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=223"", ""query"": ""nonindigenous crocodiles in Florida""}",11.507237195968628
+51,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/"", ""query"": ""Crocodiles Florida 2000 2020""}",9.773318529129028
+52,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/default.aspx"", ""query"": ""crocodile""}",6.986933946609497
+53,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/StateSearch.aspx?state=FL"", ""query"": ""crocodile""}",4.876022577285767
+54,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/SpSimpleSearch.aspx?taxon=Crocodile&state=FL"", ""query"": """"}",6.5447282791137695
+55,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/SpSearch.aspx?taxon=Crocodile&state=FL&date=2000-01-01%20to%202020-12-31"", ""query"": """"}",6.3460352420806885
+56,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/SpSearch.aspx?taxon=Crocodile&state=FL&date=2000-01-01%20to%202020-12-31&format=csv"", ""query"": """"}",5.124528884887695
+57,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/SpSearchExport.aspx?taxon=Crocodile&state=FL&date=2000-01-01%20to%202020-12-31&format=csv"", ""query"": """"}",22.64586877822876
+58,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/SpSearch.aspx?taxon=Crocodile&state=FL&date=2000-01-01%20to%202020-12-31&download=csv"", ""query"": """"}",12.38168716430664
+59,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/SpSearchExport.aspx?taxon=Crocodile&state=FL&date=2000-01-01%20to%202020-12-31&format=csv&download=1"", ""query"": """"}",18.44491457939148

@@ -1,0 +1,10 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Phys.org article July 15, 2008 catastrophe""}",0.48696255683898926
+3,extract_document_content,"{""document_path"": ""https://phys.org/news/2008-07-tunguska-catastrophe-evidence-acid-meteorite.html"", ""query"": ""catastrophe mentioned""}",28.605573415756226
+14,search_wiki,"{""entity"": ""Tunguska event""}",0.5991342067718506
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Tunguska event explosive force site:britannica.com""}",0.2882816791534424
+16,extract_document_content,"{""document_path"": ""https://www.britannica.com/event/Tunguska-event"", ""query"": ""explosive force""}",9.15541410446167
+20,search_google,"{""num_result_pages"": 1, ""query"": ""US nuclear test 15 megatons yield""}",0.4050440788269043
+21,extract_document_content,"{""document_path"": ""https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2024-02-29/castle-bravo-70-worst-nuclear-test-us-history"", ""query"": ""US nuclear test 15 megatons yield""}",45.61042499542236
+27,search_google,"{""num_result_pages"": 1, ""query"": ""US nuclear test Bravo""}",0.43292927742004395
+28,extract_document_content,"{""document_path"": ""https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2024-02-29/castle-bravo-70-worst-nuclear-test-us-history"", ""query"": ""Castle Bravo nuclear test name""}",3.8954920768737793

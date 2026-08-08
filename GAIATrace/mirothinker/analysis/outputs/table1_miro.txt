@@ -1,0 +1,35 @@
+================================================================
+  MIROTHINKER SESSION STATISTICS
+  103 tasks (no selection stage — one run each)
+  block-size = 1   (sessions walked in sorted filename order)
+================================================================
+
+  main  (Qwen-32B fine-tuned)
+  ────────────────────────────────────────────────────────
+  Requests      : 1,491  across 103 files
+  Turns/file    : min=2  mean=14.5±10.3  max=48
+  Prefill (tok) : min=2,332  mean=11,201.3±5,436.8  max=22,727
+  Decode  (tok) : min=30  mean=347.7±572.3  max=8,419
+  KV cache (block=1)
+    total prefill :     16,701,116
+    intra-session :     13,193,011  (79.0% hit rate)  cache reset per session
+    + inter       :     13,423,993  (80.4% hit rate)  cache shared across all sessions
+    cross-session :        230,982  (+1.4 pp from reuse between sessions)
+    unseen (intra):      3,508,105  (21.0%)
+  Reasoning (tok): min=6  mean=244.5±555.6  max=8,377  (70.3% of decode)
+
+  summarizer  (gpt-4o-mini)
+  ────────────────────────────────────────────────────────
+  Requests      : 591  across 81 files
+  Turns/file    : min=1  mean=7.3±5.1  max=25
+  Prefill (tok) : min=165  mean=17,248.4±20,922.7  max=93,393
+  Decode  (tok) : min=5  mean=189.9±530.3  max=8,192
+  KV cache (block=1)
+    total prefill :     10,193,794
+    intra-session :         27,453  (0.3% hit rate)  cache reset per session
+    + inter       :         31,523  (0.3% hit rate)  cache shared across all sessions
+    cross-session :          4,070  (+0.0 pp from reuse between sessions)
+    unseen (intra):     10,166,341  (99.7%)
+  Reasoning (tok): N/A (gpt-4o-mini has no reasoning tokens)
+
+================================================================

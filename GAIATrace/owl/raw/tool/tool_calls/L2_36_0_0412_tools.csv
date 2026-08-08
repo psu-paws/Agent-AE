@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 2008}",0.23485302925109863
+3,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 2004}",0.14414739608764648
+7,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Dragon&oldid=2580816"", ""query"": ""joke removed""}",5.342919111251831
+33,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 2004}",0.16840887069702148
+34,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Dragon&oldid=2580816"", ""query"": ""joke removed""}",72.04591608047485
+35,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Dragon&oldid=2572029"", ""query"": ""joke removed""}",14.267636060714722
+36,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Dragon&oldid=2563589"", ""query"": ""joke removed""}",13.676419734954834

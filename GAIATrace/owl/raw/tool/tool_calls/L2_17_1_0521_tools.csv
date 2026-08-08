@@ -1,0 +1,10 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Manash Pratim Kashyap PS Fader customer retention study 2018 2019""}",0.31045031547546387
+2,search_wiki,"{""entity"": ""Manash Pratim Kashyap""}",0.12857413291931152
+2,search_wiki,"{""entity"": ""PS Fader""}",0.10372495651245117
+3,search_google,"{""num_result_pages"": 3, ""query"": ""Manash Pratim Kashyap PS Fader customer retention model 2018 2019""}",0.3602609634399414
+11,search_google,"{""num_result_pages"": 3, ""query"": ""customer retention Manash Pratim Kashyap PS Fader 2018 2019""}",0.36159372329711914
+12,search_google,"{""num_result_pages"": 3, ""query"": ""Manash Pratim Kashyap PS Fader customer retention model 2018 2019""}",0.331693172454834
+13,search_google,"{""num_result_pages"": 3, ""query"": ""Manash Pratim Kashyap PS Fader customer retention study 2018 2019""}",0.3378908634185791
+14,search_google,"{""num_result_pages"": 3, ""query"": ""Manash Pratim Kashyap PS Fader customer retention model common 2018 2019""}",0.30632448196411133
+15,search_google,"{""num_result_pages"": 3, ""query"": ""Manash Pratim Kashyap PS Fader customer retention research 2018 2019""}",0.37072324752807617

@@ -1,0 +1,3 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,search_google,"{""num_result_pages"": 1, ""query"": ""numpy.polynomial GitHub repository""}",0.3042464256286621
+48,search_google,"{""num_result_pages"": 1, ""query"": ""site:github.com/numpy/numpy/issues polynomial Regression label""}",0.3101673126220703

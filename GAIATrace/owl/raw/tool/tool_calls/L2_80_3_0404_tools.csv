@@ -1,0 +1,19 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""2011 Bulgarian census gender split tertiary education""}",0.5224413871765137
+3,extract_document_content,"{""document_path"": ""https://www.nsi.bg/census2011/pdocs2/census2011final_en.pdf"", ""query"": ""gender split tertiary education""}",4.115222692489624
+3,extract_document_content,"{""document_path"": ""https://catalog.ihsn.org/index.php/catalog/4349/download/56663"", ""query"": ""gender split tertiary education""}",10.22049617767334
+13,search_google,"{""num_result_pages"": 3, ""query"": ""2011 Bulgarian census tertiary education gender split""}",0.4754059314727783
+14,extract_document_content,"{""document_path"": ""https://www.nsi.bg/census2011/pdocs2/census2011final_en.pdf"", ""query"": ""tertiary education gender split""}",2.501676559448242
+14,extract_document_content,"{""document_path"": ""https://catalog.ihsn.org/index.php/catalog/4349/download/56663"", ""query"": ""tertiary education gender split""}",14.240591049194336
+14,search_wiki,"{""entity"": ""Demographics of Bulgaria""}",0.8335392475128174
+15,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Demographics_of_Bulgaria"", ""query"": ""tertiary education gender split 2011""}",50.374123096466064
+34,search_google,"{""num_result_pages"": 3, ""query"": ""2011 Bulgarian census gender split tertiary education""}",0.40253400802612305
+35,extract_document_content,"{""document_path"": ""https://www.nsi.bg/census2011/pdocs2/census2011final_en.pdf"", ""query"": ""gender split tertiary education""}",2.386005401611328
+35,extract_document_content,"{""document_path"": ""https://catalog.ihsn.org/index.php/catalog/4349/download/56663"", ""query"": ""gender split tertiary education""}",36.692691802978516
+35,search_wiki,"{""entity"": ""Demographics of Bulgaria""}",0.30617237091064453
+36,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Demographics_of_Bulgaria"", ""query"": ""gender split tertiary education 2011""}",58.58280396461487
+55,search_google,"{""num_result_pages"": 3, ""query"": ""2011 Bulgarian census tertiary education gender split""}",0.3706846237182617
+56,extract_document_content,"{""document_path"": ""https://www.nsi.bg/census2011/pdocs2/census2011final_en.pdf"", ""query"": ""tertiary education gender split""}",2.4190897941589355
+56,extract_document_content,"{""document_path"": ""https://catalog.ihsn.org/index.php/catalog/4349/download/56663"", ""query"": ""tertiary education gender split""}",17.32674789428711
+56,search_wiki,"{""entity"": ""Demographics of Bulgaria""}",0.3060762882232666
+57,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Demographics_of_Bulgaria"", ""query"": ""tertiary education gender split 2011""}",48.294209718704224

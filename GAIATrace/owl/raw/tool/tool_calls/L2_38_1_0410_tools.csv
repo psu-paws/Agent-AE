@@ -1,0 +1,3 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""10.2307/j.ctv9b2xdv""}",0.23516845703125
+17,search_google,"{""num_result_pages"": 1, ""query"": ""10.2307/j.ctv9b2xdv""}",0.2206401824951172

@@ -1,0 +1,2 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,ask_question_about_video,"{""question"": ""What is the highest number of bird species visible on camera simultaneously?"", ""video_path"": ""https://www.youtube.com/watch?v=L1vXCYZAYYM""}",13.032123804092407

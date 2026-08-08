@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Michael Jackson""}",0.5682966709136963
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Michael Jackson sixth studio album""}",0.45958781242370605
+4,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Thriller_(album)"", ""query"": ""fifth single""}",79.66856551170349
+18,search_google,"{""num_result_pages"": 1, ""query"": ""Human Nature lyrics""}",0.360382080078125
+19,extract_document_content,"{""document_path"": ""https://genius.com/Michael-jackson-human-nature-lyrics"", ""query"": ""lyrics""}",19.39323925971985
+22,extract_document_content,"{""document_path"": ""https://genius.com/Michael-jackson-human-nature-lyrics"", ""query"": ""last word before the second chorus""}",6.2428553104400635
+25,extract_document_content,"{""document_path"": ""https://genius.com/Michael-jackson-human-nature-lyrics"", ""query"": ""last word before the second chorus""}",7.115865468978882

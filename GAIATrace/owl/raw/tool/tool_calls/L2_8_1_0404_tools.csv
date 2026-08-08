@@ -1,0 +1,29 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""SPFMV SPCSV Pearl Of Africa 2016 virus testing method paper""}",0.29943060874938965
+3,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC6716578/"", ""query"": ""virus testing method""}",43.258925437927246
+3,extract_document_content,"{""document_path"": ""https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0167769"", ""query"": ""virus testing method""}",18.362547874450684
+7,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC6716578/"", ""query"": ""two most commonly used chemicals for the virus testing method""}",18.962636709213257
+8,extract_document_content,"{""document_path"": ""https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0167769"", ""query"": ""two most commonly used chemicals for the virus testing method""}",13.719421625137329
+11,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent EC number""}",0.36462998390197754
+11,search_google,"{""num_result_pages"": 1, ""query"": ""SYBR Safe DNA gel stain EC number""}",0.41634345054626465
+12,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent CAS number""}",0.3669600486755371
+13,search_google,"{""num_result_pages"": 1, ""query"": ""SYBR Safe DNA gel stain CAS number""}",0.40083980560302734
+14,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent EC number database""}",0.37612485885620117
+15,search_google,"{""num_result_pages"": 1, ""query"": ""SYBR Safe DNA gel stain EC number database""}",0.3629019260406494
+16,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent EC number""}",0.3660585880279541
+17,search_google,"{""num_result_pages"": 1, ""query"": ""SYBR Safe DNA gel stain EC number""}",0.5052084922790527
+18,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent EC number""}",0.2666454315185547
+19,search_google,"{""num_result_pages"": 1, ""query"": ""SYBR Safe DNA gel stain EC number""}",0.2814192771911621
+20,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent EC number""}",0.25052952766418457
+21,search_google,"{""num_result_pages"": 1, ""query"": ""SYBR Safe DNA gel stain EC number""}",0.23468017578125
+22,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent EC number""}",0.24405717849731445
+23,search_google,"{""num_result_pages"": 1, ""query"": ""SYBR Safe DNA gel stain EC number""}",0.29422616958618164
+24,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent EC number""}",0.22938966751098633
+25,search_google,"{""num_result_pages"": 1, ""query"": ""SYBR Safe DNA gel stain EC number""}",0.49529504776000977
+28,search_google,"{""num_result_pages"": 3, ""query"": ""SPFMV SPCSV Pearl Of Africa 2016 virus testing method paper""}",0.2601327896118164
+29,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC6716578/"", ""query"": ""virus testing method""}",11.041921138763428
+29,extract_document_content,"{""document_path"": ""https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0167769"", ""query"": ""virus testing method""}",28.155672788619995
+33,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC6716578/"", ""query"": ""two most commonly used chemicals for the virus testing method""}",10.271950960159302
+33,extract_document_content,"{""document_path"": ""https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0167769"", ""query"": ""two most commonly used chemicals for the virus testing method""}",14.894800662994385
+36,search_google,"{""num_result_pages"": 1, ""query"": ""TRIzol LS reagent EC number""}",0.2589085102081299
+36,search_google,"{""num_result_pages"": 1, ""query"": ""RT-PCR kit New England Biolabs EC number""}",0.38230156898498535

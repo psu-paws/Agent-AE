@@ -1,0 +1,9 @@
+turn,tool_name,args_json
+0,google_search,"{""num"": 10, ""q"": ""Merriam-Webster Word of the Day June 27 2022""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Find the writer quoted in the Word of the Day entry"", ""url"": ""https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Extract the quote and attribution from the page, and verify the writer quoted"", ""url"": ""https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27""}"
+3,google_search,"{""num"": 10, ""q"": ""\""June 27, 2022\"" \""Merriam-Webster\"" \""Word of the Day\"" \""quote\""""}"
+4,google_search,"{""num"": 10, ""q"": ""\""Jingoism\"" \""Merriam-Webster\"" \""Word of the Day\"" \""quote\""""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Extract any text that indicates the writer quoted"", ""url"": ""https://www.instagram.com/popular/jingoism-merriam-webster-word-of-the-day-june-27-2022-quote/""}"
+6,scrape_and_extract_info,"{""info_to_extract"": ""Extract all visible text from the page"", ""url"": ""https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27""}"
+7,google_search,"{""num"": 10, ""q"": ""\""War is bad for culture. Not least of all because it turns our cultural institutions into bastions of jingoism\"" - Merriam-Webster""}"

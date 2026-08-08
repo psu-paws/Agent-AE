@@ -1,0 +1,37 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""List of Survivor (American TV series) winners""}",0.8673474788665771
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Survivor_(American_TV_series)"", ""query"": ""list of all winners of the US version of Survivor""}",56.09225821495056
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Richard Hatch birth month""}",0.3172931671142578
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Tina Wesson birth month""}",0.3955721855163574
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Ethan Zohn birth month""}",0.2628602981567383
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Vecepia Towery birth month""}",0.2376387119293213
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Brian Heidik birth month""}",0.2719275951385498
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Jenna Morasca birth month""}",0.2574312686920166
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Sandra Diaz-Twine birth month""}",0.27073097229003906
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Amber Brkich birth month""}",0.25159406661987305
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Chris Daugherty birth month""}",0.30829429626464844
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Westman birth month""}",0.34864068031311035
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Danni Boatwright birth month""}",0.28826355934143066
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Aras Baskauskas birth month""}",0.2492969036102295
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Yul Kwon birth month""}",0.26879119873046875
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Earl Cole birth month""}",0.3196876049041748
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Todd Herzog birth month""}",0.3016037940979004
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Parvati Shallow birth month""}",0.27851080894470215
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Bob Crowley birth month""}",0.33039402961730957
+15,search_google,"{""num_result_pages"": 1, ""query"": ""J.T. Thomas birth month""}",53.48218560218811
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Natalie White birth month""}",0.23652386665344238
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Rob Mariano birth month""}",0.19843602180480957
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Sophie Clarke birth month""}",0.21379995346069336
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Kim Spradlin birth month""}",0.21641278266906738
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Denise Stapley birth month""}",0.19896769523620605
+15,search_google,"{""num_result_pages"": 1, ""query"": ""John Cochran birth month""}",0.21781229972839355
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Tyson Apostol birth month""}",0.24010872840881348
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Tony Vlachos birth month""}",0.21152782440185547
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Natalie Anderson birth month""}",0.217132568359375
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Mike Holloway birth month""}",0.24971675872802734
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Jeremy Collins birth month""}",0.21794748306274414
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Michele Fitzgerald birth month""}",0.20189404487609863
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Adam Klein birth month""}",0.2502470016479492
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Sarah Lacina birth month""}",0.24051952362060547
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Ben Driebergen birth month""}",0.29902076721191406
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Wendell Holland birth month""}",0.21314358711242676

@@ -1,0 +1,35 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,search_wiki,"{""entity"": ""United States Secretary of Homeland Security""}",0.7504541873931885
+4,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/United_States_Secretary_of_Homeland_Security"", ""query"": ""List of secretaries of homeland security prior to April 2019, excluding acting secretaries""}",3.5016231536865234
+8,search_wiki,"{""entity"": ""Tom Ridge""}",0.4189591407775879
+8,search_wiki,"{""entity"": ""Michael Chertoff""}",0.5866856575012207
+8,search_wiki,"{""entity"": ""Janet Napolitano""}",0.572749137878418
+8,search_wiki,"{""entity"": ""Jeh Johnson""}",0.3914499282836914
+8,search_wiki,"{""entity"": ""John F. Kelly""}",0.5366814136505127
+8,search_wiki,"{""entity"": ""Kirstjen Nielsen""}",0.4037930965423584
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge education""}",0.4097018241882324
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Jeh Johnson education""}",0.30123114585876465
+9,search_google,"{""num_result_pages"": 1, ""query"": ""John F. Kelly education""}",0.3829376697540283
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Kirstjen Nielsen education""}",0.32752180099487305
+10,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Jeh_Johnson"", ""query"": ""bachelor's degree""}",17.929100275039673
+10,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/John_F._Kelly"", ""query"": ""bachelor's degree""}",13.723824262619019
+10,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Kirstjen_Nielsen"", ""query"": ""bachelor's degree""}",15.269213914871216
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge bachelor's degree""}",0.3687136173248291
+12,extract_document_content,"{""document_path"": ""https://www.phmc.state.pa.us/portal/communities/governors/1951-2015/thomas-ridge.html"", ""query"": ""bachelor's degree""}",16.19909119606018
+16,search_wiki,"{""entity"": ""United States Secretary of Homeland Security""}",0.31426572799682617
+17,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/United_States_Secretary_of_Homeland_Security"", ""query"": ""List of secretaries of homeland security prior to April 2019, excluding acting secretaries""}",8.310709714889526
+21,search_wiki,"{""entity"": ""Tom Ridge""}",0.18136978149414062
+21,search_wiki,"{""entity"": ""Michael Chertoff""}",0.2841000556945801
+21,search_wiki,"{""entity"": ""Janet Napolitano""}",0.2972228527069092
+21,search_wiki,"{""entity"": ""Jeh Johnson""}",0.14492058753967285
+21,search_wiki,"{""entity"": ""John F. Kelly""}",0.15343093872070312
+21,search_wiki,"{""entity"": ""Kirstjen Nielsen""}",0.1333475112915039
+22,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge education""}",0.32889389991760254
+22,search_google,"{""num_result_pages"": 1, ""query"": ""Jeh Johnson education""}",0.3527083396911621
+22,search_google,"{""num_result_pages"": 1, ""query"": ""John F. Kelly education""}",0.3234522342681885
+22,search_google,"{""num_result_pages"": 1, ""query"": ""Kirstjen Nielsen education""}",0.2541055679321289
+23,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Jeh_Johnson"", ""query"": ""bachelor's degree""}",6.118473291397095
+23,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/John_F._Kelly"", ""query"": ""bachelor's degree""}",18.240249395370483
+23,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Kirstjen_Nielsen"", ""query"": ""bachelor's degree""}",15.94730520248413
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge bachelor's degree""}",0.2872469425201416
+25,extract_document_content,"{""document_path"": ""https://www.phmc.state.pa.us/portal/communities/governors/1951-2015/thomas-ridge.html"", ""query"": ""bachelor's degree""}",25.93144989013672

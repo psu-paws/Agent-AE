@@ -1,0 +1,16 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Moon perigee minimum distance Wikipedia""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Find the minimum perigee distance (closest approach) of the Moon to Earth in kilometers"", ""url"": ""https://en.wikipedia.org/wiki/Moon""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Find the perigee distance section and extract the range of perigee distances"", ""url"": ""https://en.wikipedia.org/wiki/Moon""}"
+3,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Moon perigee minimum distance 356400 km Wikipedia""}"
+4,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Eliud Kipchoge marathon world record time""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Find Eliud Kipchoge's marathon record time (both official and unofficial) and his marathon distance"", ""url"": ""https://en.wikipedia.org/wiki/Eliud_Kipchoge""}"
+6,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""\""record-making marathon pace\"" Eliud Kipchoge""}"
+7,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""INEOS 1:59 challenge marathon time Wikipedia""}"
+8,create_sandbox,{}
+9,run_python_code,"{""code_block"": ""distance = 42.195 # km\ntime_official_h = 2*3600 + 1*60 + 9\nime_official_h = time_official_h/3600\nspeed = distance/ime_official_h\nprint('official speed km/h =', speed)\n# compute hours to travel 356400 km at that speed\nperigee = 356400 # km\nhours = perigee / speed\nprint('hours needed =', hours)\n# round to nearest 1000\nrounded = round(hours/1000)*1000\nprint('rounded to nearest 1000 =', rounded)\n# also compute thousand units (integer thousands)\nprint('hours/1000 =', hours/1000)\n"", ""sandbox_id"": ""ioggu9ml7f2fwdwl0o103-6532622b""}"
+10,run_python_code,"{""code_block"": ""distance = 42.195 # km\ntime_unoff_sec = 1*3600 + 59*60 + 40\n#time_unoff_sec = 7180\nh_unoff = time_unoff_sec/3600\nspeed = distance/h_unoff\nprint('unofficial speed =', speed)\nperigee = 356400\nhours = perigee / speed\nprint('hours needed =', hours)\nrounded = round(hours/1000)*1000\nprint('rounded to nearest 1000 =', rounded)\nprint('hours/1000 =', hours/1000)\n"", ""sandbox_id"": ""ioggu9ml7f2fwdwl0o103-6532622b""}"
+11,scrape_and_extract_info,"{""info_to_extract"": ""Find the minimum perigee distance value"", ""url"": ""https://en.wikipedia.org/wiki/Orbit_of_the_Moon""}"
+12,scrape_and_extract_info,"{""info_to_extract"": ""Extract the perigee distance range values"", ""url"": ""https://en.wikipedia.org/wiki/Orbit_of_the_Moon""}"
+13,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Moon minimum perigee 356400 km Wikipedia""}"
+14,scrape_and_extract_info,"{""info_to_extract"": ""Find the official marathon world record time listed for Eliud Kipchoge"", ""url"": ""https://en.wikipedia.org/wiki/Eliud_Kipchoge""}"

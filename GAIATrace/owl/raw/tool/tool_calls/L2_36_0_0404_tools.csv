@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 2008}",0.09290742874145508
+3,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 2004}",0.08495664596557617
+3,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 2000}",0.07907295227050781
+3,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 1996}",0.06937932968139648
+11,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 2004}",0.0862419605255127
+11,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 2000}",0.07903695106506348
+11,search_wiki_revisions,"{""entity"": ""Dragon"", ""month"": 2, ""year"": 1996}",0.07080912590026855

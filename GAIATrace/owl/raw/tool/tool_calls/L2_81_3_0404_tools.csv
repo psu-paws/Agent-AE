@@ -1,0 +1,17 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Survivor (American TV series)""}",0.5867135524749756
+3,search_google,"{""num_result_pages"": 3, ""query"": ""total number of unique winners of Survivor US as of season 44""}",0.6102721691131592
+4,search_google,"{""num_result_pages"": 3, ""query"": ""list of Survivor US winners""}",0.5941624641418457
+5,extract_document_content,"{""document_path"": ""https://www.goldderby.com/gallery/survivor-winners-list/"", ""query"": ""unique winners of Survivor US""}",20.813844203948975
+5,extract_document_content,"{""document_path"": ""https://www.imdb.com/list/ls020601329/"", ""query"": ""unique winners of Survivor US""}",16.835999965667725
+6,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Survivor_(American_TV_series)"", ""query"": ""unique winners of Survivor US""}",62.11276125907898
+17,search_wiki,"{""entity"": ""American Idol""}",0.49837636947631836
+18,search_google,"{""num_result_pages"": 1, ""query"": ""total number of unique winners of American Idol""}",0.5085828304290771
+19,search_google,"{""num_result_pages"": 1, ""query"": ""list of American Idol winners""}",0.3954765796661377
+20,extract_document_content,"{""document_path"": ""https://www.etonline.com/gallery/the-complete-list-of-american-idol-winners-21116"", ""query"": ""total number of unique winners of American Idol""}",12.558326244354248
+27,search_wiki,"{""entity"": ""Survivor (American TV series)""}",0.15298819541931152
+27,search_wiki,"{""entity"": ""American Idol""}",0.1582646369934082
+27,search_google,"{""num_result_pages"": 1, ""query"": ""list of Survivor winners""}",0.4725027084350586
+27,search_google,"{""num_result_pages"": 1, ""query"": ""list of American Idol winners""}",0.46820569038391113
+28,extract_document_content,"{""document_path"": ""https://www.goldderby.com/gallery/survivor-winners-list/"", ""query"": ""unique winners of Survivor""}",6.542196989059448
+28,extract_document_content,"{""document_path"": ""https://www.etonline.com/gallery/the-complete-list-of-american-idol-winners-21116"", ""query"": ""unique winners of American Idol""}",15.161970615386963

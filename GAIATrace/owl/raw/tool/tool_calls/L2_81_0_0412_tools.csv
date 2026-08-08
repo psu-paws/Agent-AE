@@ -1,0 +1,19 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Survivor (American TV series)""}",0.5753066539764404
+3,search_google,"{""num_result_pages"": 3, ""query"": ""Survivor American version unique winners as of season 44""}",0.3991727828979492
+4,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Survivor_44"", ""query"": ""total number of unique winners of Survivor American version as of season 44""}",13.5166597366333
+5,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_Survivor_(American_TV_series)_contestants"", ""query"": ""total number of unique winners of Survivor American version as of season 44""}",40.84207320213318
+30,search_google,"{""num_result_pages"": 3, ""query"": ""list of unique winners of Survivor American version as of season 44""}",0.3831164836883545
+31,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Survivor_(American_TV_series)"", ""query"": ""total number of unique winners of Survivor American version as of season 44""}",36.40879940986633
+42,search_wiki,"{""entity"": ""Survivor (American TV series)""}",0.16428136825561523
+43,search_google,"{""num_result_pages"": 3, ""query"": ""total number of unique winners of Survivor US as of season 44""}",0.3648052215576172
+44,search_google,"{""num_result_pages"": 3, ""query"": ""list of Survivor US winners""}",0.383709192276001
+45,extract_document_content,"{""document_path"": ""https://www.goldderby.com/gallery/survivor-winners-list/"", ""query"": ""list of Survivor US winners""}",8.80664348602295
+45,extract_document_content,"{""document_path"": ""https://www.imdb.com/list/ls020601329/"", ""query"": ""list of Survivor US winners""}",15.341172933578491
+49,search_wiki,"{""entity"": ""American Idol""}",0.4917483329772949
+50,search_google,"{""num_result_pages"": 3, ""query"": ""total number of unique winners of American Idol""}",0.412034273147583
+51,extract_document_content,"{""document_path"": ""https://www.etonline.com/gallery/the-complete-list-of-american-idol-winners-21116"", ""query"": ""total number of unique winners of American Idol""}",18.449151754379272
+56,search_google,"{""num_result_pages"": 1, ""query"": ""list of Survivor winners""}",0.3626978397369385
+56,search_google,"{""num_result_pages"": 1, ""query"": ""list of American Idol winners""}",0.3589959144592285
+57,extract_document_content,"{""document_path"": ""https://www.goldderby.com/gallery/survivor-winners-list/"", ""query"": ""Survivor winners list""}",8.778079748153687
+57,extract_document_content,"{""document_path"": ""https://www.etonline.com/gallery/the-complete-list-of-american-idol-winners-21116"", ""query"": ""American Idol winners list""}",15.1199209690094

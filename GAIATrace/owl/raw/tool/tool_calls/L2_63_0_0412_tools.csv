@@ -1,0 +1,3 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2.xlsx""}",0.13087677955627441
+10,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2.xlsx""}",0.025055885314941406

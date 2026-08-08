@@ -1,0 +1,17 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Virtue restaurant Chicago menu March 22 2021 Wayback Machine""}"
+1,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""virtuerestaurant.com \""menu\"" \""2021\"" \""Wayback Machine\""""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Extract all main courses from the dinner menu on this page"", ""url"": ""https://web.archive.org/web/20210322/https://www.virtuerestaurant.com/menu/dine-in/""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Find the URL for the dinner menu page"", ""url"": ""https://www.virtuerestaurant.com/""}"
+4,scrape_and_extract_info,"{
+  ""url"": ""https://web.archive.org/web/20210322/https://www.virtuerestaurant.com/menus/"",
+  ""info_to_extract"": ""Extract the main courses from the dinner menu on this snapshot""
+}
+}"
+5,scrape_and_extract_info,"{
+  ""url"": ""https://web.archive.org/web/20210421/https://www.virtuerestaurant.com/menus/"",
+  ""info_to_extract"": ""Extract the main courses from the dinner menu on this snapshot""
+}
+}"
+6,scrape_and_extract_info,"{""info_to_extract"": ""Extract the entire menu including categories to verify which sections correspond to dinner menu"", ""url"": ""https://web.archive.org/web/20210322/https://www.virtuerestaurant.com/menus/""}"
+7,scrape_and_extract_info,"{""info_to_extract"": ""Extract the entire menu including categories"", ""url"": ""https://web.archive.org/web/20210421/https://www.virtuerestaurant.com/menus/""}"

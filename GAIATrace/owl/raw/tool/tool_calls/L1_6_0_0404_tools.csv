@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Doctor Who Series 9 Episode 11 official script""}",0.4871056079864502
+3,extract_document_content,"{""document_path"": ""https://www.bbc.co.uk/writers/documents/doctor-who-s9-ep11-heaven-sent-steven-moffat.pdf"", ""query"": ""first scene heading""}",1.216872215270996
+11,extract_document_content,"{""document_path"": ""https://www.bbc.co.uk/writers/documents/doctor-who-s9-ep11-heaven-sent-steven-moffat.pdf"", ""query"": ""first scene heading""}",0.7412889003753662

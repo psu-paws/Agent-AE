@@ -1,0 +1,16 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""History of Apple Inc.""}",0.9143548011779785
+3,search_google,"{""num_result_pages"": 3, ""query"": ""Apple stock price history first time above $50""}",0.47260093688964844
+4,extract_document_content,"{""document_path"": ""https://www.reddit.com/r/apple/comments/6ts3a7/for_those_that_bought_apple_shares_presplit_apple/"", ""query"": ""first year Apple stock closed above $50 without splits""}",0.29326725006103516
+5,extract_document_content,"{""document_path"": ""https://investor.apple.com/faq/default.aspx"", ""query"": ""first year Apple stock went above $50 without adjusting for stock splits""}",12.800088882446289
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Apple stock historical prices site:finance.yahoo.com""}",0.39084887504577637
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Apple stock historical prices site:bloomberg.com""}",0.26242685317993164
+31,search_google,"{""num_result_pages"": 1, ""query"": ""Apple stock historical prices site:google.com""}",0.38381218910217285
+32,search_google,"{""num_result_pages"": 1, ""query"": ""Apple stock historical prices""}",0.3790404796600342
+33,extract_document_content,"{""document_path"": ""https://finance.yahoo.com/quote/AAPL/history/"", ""query"": ""first year Apple stock went above $50 without adjusting for stock splits""}",8.813566446304321
+34,search_google,"{""num_result_pages"": 1, ""query"": ""Apple stock price history above $50""}",0.43221068382263184
+35,extract_document_content,"{""document_path"": ""https://www.reddit.com/r/investing/comments/1pebsca/historical_actual_unadjusted_stock_price/"", ""query"": ""first year Apple stock went above $50 without adjusting for stock splits""}",0.349609375
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Apple stock first time above $50 unadjusted""}",0.32311487197875977
+37,extract_document_content,"{""document_path"": ""https://www.statmuse.com/money/ask/first-time-apple-stock-closed-above-50-unadjusted"", ""query"": ""first year Apple stock went above $50 without adjusting for stock splits""}",8.382382869720459
+42,search_google,"{""num_result_pages"": 1, ""query"": ""Apple stock price history site:finance.yahoo.com""}",0.4552116394042969
+42,search_google,"{""num_result_pages"": 1, ""query"": ""Apple stock price history site:bloomberg.com""}",0.2679874897003174

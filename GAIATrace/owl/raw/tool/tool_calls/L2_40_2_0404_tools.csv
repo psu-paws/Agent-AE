@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Phys.org article July 15, 2008 catastrophe""}",0.37213826179504395
+3,extract_document_content,"{""document_path"": ""https://phys.org/news/2008-07-tunguska-catastrophe-evidence-acid-meteorite.html"", ""query"": ""explosive force of Tunguska catastrophe""}",36.65848135948181
+8,search_wiki,"{""entity"": ""Tunguska event""}",0.572434663772583
+12,search_wiki,"{""entity"": ""Tunguska event""}",0.3111119270324707
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Tunguska event explosive force site:britannica.com""}",0.21950650215148926
+14,extract_document_content,"{""document_path"": ""https://www.britannica.com/event/Tunguska-event"", ""query"": ""explosive force of Tunguska event""}",18.256985664367676
+17,search_google,"{""num_result_pages"": 1, ""query"": ""US nuclear test 15 megatons yield""}",0.3555564880371094
+18,extract_document_content,"{""document_path"": ""https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2024-02-29/castle-bravo-70-worst-nuclear-test-us-history"", ""query"": ""US nuclear test 15 megatons yield""}",6.759122848510742
+25,search_google,"{""num_result_pages"": 1, ""query"": ""US nuclear test 15 megatons TNT""}",0.33684277534484863
+26,extract_document_content,"{""document_path"": ""https://www.brookings.edu/articles/castle-bravo-the-largest-u-s-nuclear-explosion/"", ""query"": ""US nuclear test 15 megatons TNT""}",14.855626583099365

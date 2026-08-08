@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Moon""}",1.0322935581207275
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Moon Wikipedia""}",0.3726077079772949
+4,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Moon"", ""query"": ""minimum perigee value of the Moon's distance from Earth""}",81.63634514808655
+23,search_wiki,"{""entity"": ""Eliud Kipchoge""}",0.5945749282836914
+24,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Eliud_Kipchoge"", ""query"": ""Eliud Kipchoge marathon pace speed time per kilometer""}",66.02368640899658
+35,execute_code,"{""code"": ""distance = 356400\\npace_sec_per_km = 2*60 + 52\\nspeed_kmh = 3600/pace_sec_per_km\\nhours = distance / speed_kmh\\nhours""}",0.0012111663818359375

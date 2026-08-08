@@ -1,0 +1,13 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos paper alvei species genus Copenhagen""}",0.2889859676361084
+3,extract_document_content,"{""document_path"": ""https://arxiv.org/pdf/2506.03011"", ""query"": ""animals mentioned in the paper excluding bibliography""}",22.33876872062683
+4,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos paper alvei species genus Copenhagen animals""}",0.29746365547180176
+5,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos alvei species genus Copenhagen paper""}",0.2381277084350586
+6,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos alvei species genus Copenhagen""}",0.2530660629272461
+7,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos paper on alvei species""}",0.27110815048217773
+8,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos alvei species paper""}",0.2719614505767822
+9,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC9863150/"", ""query"": ""animals mentioned in the paper excluding bibliography""}",12.607229471206665
+24,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos paper alvei species genus Copenhagen""}",0.24399828910827637
+27,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos alvei species genus Copenhagen paper""}",0.258342981338501
+28,search_google,"{""num_result_pages"": 3, ""query"": ""Ilias Lagkouvardos alvei species paper""}",0.2859766483306885
+32,search_google,"{""num_result_pages"": 3, ""query"": ""Olga Tapia paper Hafnia alvei species""}",0.32801270484924316

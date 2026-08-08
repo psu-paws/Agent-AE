@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""2020 Worldwide Box Office list site:boxofficemojo.com""}",0.3193330764770508
+3,extract_document_content,"{""document_path"": ""https://www.boxofficemojo.com/year/world/2020/"", ""query"": ""top 10 highest-grossing worldwide movies""}",16.379637718200684
+8,search_google,"{""num_result_pages"": 1, ""query"": ""2020 Domestic Box Office list site:boxofficemojo.com""}",0.339505672454834
+9,extract_document_content,"{""document_path"": ""https://www.boxofficemojo.com/year/2020/"", ""query"": ""top 10 highest-grossing domestic movies""}",14.188622951507568
+14,search_google,"{""num_result_pages"": 1, ""query"": ""2020 top 10 highest-grossing worldwide movies Box Office Mojo""}",0.5388412475585938
+14,search_google,"{""num_result_pages"": 1, ""query"": ""2020 top 10 highest-grossing domestic movies Box Office Mojo""}",0.37221407890319824
+15,extract_document_content,"{""document_path"": ""https://www.boxofficemojo.com/year/world/2020/"", ""query"": ""top 10 highest-grossing worldwide movies 2020""}",15.968812942504883
+15,extract_document_content,"{""document_path"": ""https://www.boxofficemojo.com/year/2020/"", ""query"": ""top 10 highest-grossing domestic movies 2020""}",15.04550576210022

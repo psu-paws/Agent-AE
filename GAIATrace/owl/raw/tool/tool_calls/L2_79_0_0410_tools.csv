@@ -1,0 +1,12 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg"", ""question"": ""What is the butterfat content of the ice cream in the pint?"", ""sys_prompt"": null}",18.0235538482666
+6,search_wiki_revisions,"{""entity"": ""Ice_cream"", ""month"": 1, ""year"": 2020}",0.10685539245605469
+7,search_wiki,"{""entity"": ""Ice cream""}",0.48725223541259766
+8,search_google,"{""num_result_pages"": 3, ""query"": ""US federal standards for butterfat content in ice cream site:wikipedia.org""}",0.3095417022705078
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Ice_cream"", ""query"": ""US federal standards for butterfat content in ice cream""}",31.13564705848694
+12,execute_code,"{""code"": ""weight = 473\\nfat = 63\\npercent = fat/weight*100\\npercent""}",0.0011968612670898438
+13,extract_document_content,"{""document_path"": ""data/gaia/2023/validation/b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg"", ""query"": ""weight""}",19.32225799560547
+15,execute_code,"{""code"": ""fat=63\\nweight=144*3\\npercent=fat/weight*100\\npercent""}",0.0009393692016601562
+18,search_wiki,"{""entity"": ""Ice cream""}",0.13668489456176758
+19,search_google,"{""num_result_pages"": 1, ""query"": ""US federal standards for butterfat content in ice cream Wikipedia 2020""}",0.36568427085876465
+20,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Butterfat"", ""query"": ""US federal standards for butterfat content in ice cream""}",19.613319635391235

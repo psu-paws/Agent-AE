@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Nedoshivina 2010 paper Kuznetzov Vietnamese specimens""}",0.2248976230621338
+3,extract_document_content,"{""document_path"": ""https://archive.org/details/atalanta-41-335-347"", ""query"": ""Kuznetzov Vietnamese specimens""}",16.723145246505737
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Zoological Institute St. Petersburg specimen deposits""}",0.25139856338500977
+14,extract_document_content,"{""document_path"": ""https://pubmed.ncbi.nlm.nih.gov/37045163/"", ""query"": ""Zoological Institute St. Petersburg specimen deposits""}",4.388493776321411

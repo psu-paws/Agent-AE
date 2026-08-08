@@ -1,0 +1,4 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Box Office Mojo 2020 Worldwide Box Office top 10""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the names of the top 10 movies in the worldwide box office list for 2020 (rank 1 to 10) from the page."", ""url"": ""https://www.boxofficemojo.com/year/world/2020/""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Extract the names of the top 10 movies in the domestic box office list for 2020 (rank 1 to 10) from the page."", ""url"": ""https://www.boxofficemojo.com/year/2020/""}"

@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""August 2021 Vogue cover famous landmark""}",0.38213181495666504
+11,search_wiki,"{""entity"": ""Washington Monument""}",0.7478477954864502
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Washington Monument height in yards""}",0.43015170097351074
+12,extract_document_content,"{""document_path"": ""https://www.nps.gov/wamo/faqs.htm"", ""query"": ""Washington Monument height in yards""}",6.466975688934326
+15,search_wiki,"{""entity"": ""Washington Monument""}",0.31828999519348145
+19,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Vogue_(magazine)#Covers"", ""query"": ""August 2021 Vogue cover Washington Monument""}",25.328060150146484

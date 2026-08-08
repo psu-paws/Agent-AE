@@ -1,0 +1,3 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""NeurIPS 2022 Conference papers site:openreview.net""}",0.2925395965576172
+21,search_google,"{""num_result_pages"": 1, ""query"": ""NeurIPS 2022 Conference papers site:openreview.net""}",0.26119422912597656

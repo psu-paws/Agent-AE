@@ -1,0 +1,22 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 12, ""year"": 2022}",0.10823965072631836
+3,search_wiki,"{""entity"": ""Mercedes Sosa""}",0.5986413955688477
+4,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 11, ""year"": 2022}",0.08485674858093262
+5,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 10, ""year"": 2022}",0.08580899238586426
+6,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 9, ""year"": 2022}",0.07074809074401855
+7,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 8, ""year"": 2022}",0.07080626487731934
+8,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 7, ""year"": 2022}",0.07066702842712402
+9,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 6, ""year"": 2022}",0.07152438163757324
+10,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 5, ""year"": 2022}",0.07113289833068848
+11,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 4, ""year"": 2022}",0.07108378410339355
+12,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 3, ""year"": 2022}",0.07015132904052734
+13,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 2, ""year"": 2022}",0.07126331329345703
+14,search_wiki_revisions,"{""entity"": ""Mercedes Sosa"", ""month"": 1, ""year"": 2022}",0.07070398330688477
+18,search_wiki,"{""entity"": ""Mercedes Sosa""}",0.3023955821990967
+19,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Mercedes_Sosa"", ""query"": ""studio albums""}",15.437307119369507
+26,search_google,"{""num_result_pages"": 1, ""query"": ""Mercedes Sosa studio albums discography""}",0.3948400020599365
+27,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Mercedes_Sosa"", ""query"": ""studio albums discography""}",13.431665182113647
+28,search_google,"{""num_result_pages"": 1, ""query"": ""Mercedes Sosa discography""}",0.34844183921813965
+29,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Mercedes_Sosa"", ""query"": ""discography""}",10.924414873123169
+30,search_google,"{""num_result_pages"": 1, ""query"": ""Mercedes Sosa discography site:discogs.com""}",0.280498743057251
+31,extract_document_content,"{""document_path"": ""https://www.discogs.com/artist/333361-Mercedes-Sosa"", ""query"": ""studio albums""}",59.02562761306763

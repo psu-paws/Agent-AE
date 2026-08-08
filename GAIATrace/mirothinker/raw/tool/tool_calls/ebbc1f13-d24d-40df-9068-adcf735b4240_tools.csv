@@ -1,0 +1,8 @@
+turn,tool_name,args_json
+0,google_search,"{""num"": 10, ""q"": ""Yola gimlie""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the etymology and Latin root of the word gimlie"", ""url"": ""https://en.wiktionary.org/wiki/gimlie""}"
+2,google_search,"{""num"": 10, ""q"": ""caminata Collins Spanish English 1994 example""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Extract all example sentences, especially those with source titles and dates"", ""url"": ""https://www.collinsdictionary.com/dictionary/spanish-english/caminata""}"
+4,google_search,"{""num"": 10, ""q"": ""caminata \""1994\"" site:collinsdictionary.com""}"
+5,google_search,"{""num"": 10, ""q"": ""\""caminata\"" \""1994\"" \""Collins\""""}"
+6,google_search,"{""num"": 10, ""q"": ""\""1994 example sentence\"" \""Collins\"" \""caminata\""""}"

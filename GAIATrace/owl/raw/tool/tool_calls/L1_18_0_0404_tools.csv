@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Wikipedia:Featured_articles""}",1.7182424068450928
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Wikipedia Featured Articles dinosaurs November 2016""}",0.3788142204284668
+4,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1"", ""query"": ""Featured Article promoted November 2016""}",17.4844868183136
+10,search_wiki_revisions,"{""entity"": ""Giganotosaurus"", ""month"": 11, ""year"": 2016}",0.10756778717041016
+10,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1"", ""query"": ""nominator""}",9.204415321350098
+18,search_wiki,"{""entity"": ""Wikipedia:Featured_articles""}",0.6716022491455078
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Wikipedia Featured Articles dinosaurs November 2016""}",0.3679485321044922
+20,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1"", ""query"": ""Featured Article promoted November 2016""}",6.10427713394165
+26,search_wiki_revisions,"{""entity"": ""Giganotosaurus"", ""month"": 11, ""year"": 2016}",0.10818243026733398
+26,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Wikipedia:Featured_article_candidates/Giganotosaurus/archive1"", ""query"": ""nominator""}",11.018914937973022

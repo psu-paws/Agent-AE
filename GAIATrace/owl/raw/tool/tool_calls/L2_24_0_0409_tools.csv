@@ -1,0 +1,26 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID for Order Helotiales""}",0.4342634677886963
+3,search_wiki,"{""entity"": ""Helotiales""}",0.5387418270111084
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos database search""}",0.34567737579345703
+5,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos database""}",0.40108752250671387
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos Helotiales""}",0.32866477966308594
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID Helotiales""}",0.29235076904296875
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos website""}",0.2849388122558594
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos database access""}",0.5745460987091064
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos plant database""}",0.3239173889160156
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID search""}",0.33534884452819824
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID for Helotiales order""}",0.33381175994873047
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID lookup""}",0.3515605926513672
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos database Helotiales""}",0.2292475700378418
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID for Order Helotiales""}",0.2465834617614746
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID Helotiales""}",0.25294947624206543
+17,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos Helotiales ID""}",0.2768218517303467
+20,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID for Order Helotiales""}",0.3282768726348877
+21,search_google,"{""num_result_pages"": 1, ""query"": ""Helotiales Tropicos ID""}",0.2777519226074219
+22,search_google,"{""num_result_pages"": 1, ""query"": ""Helotiales Tropicos database""}",0.28705906867980957
+23,search_google,"{""num_result_pages"": 1, ""query"": ""Helotiales Tropicos ID site:tropicos.org""}",0.21621346473693848
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Helotiales Tropicos ID botanical database""}",0.271925687789917
+28,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID Order Helotiales""}",0.29584288597106934
+29,search_wiki,"{""entity"": ""Helotiales""}",0.29772162437438965
+32,search_wiki,"{""entity"": ""ISBN-10""}",0.8854079246520996
+33,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/ISBN"", ""query"": ""ISBN-10 check digit calculation""}",16.585870027542114

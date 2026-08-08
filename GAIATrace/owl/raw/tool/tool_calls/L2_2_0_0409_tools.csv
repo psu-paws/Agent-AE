@@ -1,0 +1,6 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""total number of articles published by Nature in 2020""}",0.6155698299407959
+27,execute_code,"{""code"": ""import requests, re, bs4, json, sys, textwrap, math, pandas as pd\\nurl = 'https://www.nature.com/nature/volumes/2020'\\ntry:\\n    r = requests.get(url, timeout=10)\\n    print('status', r.status_code)\\n    txt = r.text\\n    # find number of articles maybe in page\\n    # Look for pattern like 'articles' count\\n    print(txt[:1000])\\nexcept Exception as e:\\n    print('error', e)\\n""}",0.0010402202606201172
+28,execute_code,"{""code"": ""import requests, re, bs4, json, math, sys, textwrap\\nurl='https://api.crossref.org/journals/0028-0836/works?filter=from-pub-date:2020-01-01,until-pub-date:2020-12-31&rows=0'\\nprint(requests.get(url).json()['message']['total-results'])""}",0.0010530948638916016
+31,search_google,"{""num_result_pages"": 1, ""query"": ""Nature journal total articles published 2020""}",0.47017621994018555
+32,search_google,"{""num_result_pages"": 1, ""query"": ""Nature journal 2020 publication statistics""}",0.39266085624694824

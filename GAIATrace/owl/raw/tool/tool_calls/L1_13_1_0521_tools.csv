@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""DDC 633 site:base-search.net""}",0.28903961181640625
+3,search_google,"{""num_result_pages"": 3, ""query"": ""DDC 633 Bielefeld University Library BASE 2020""}",0.4223649501800537
+4,search_google,"{""num_result_pages"": 3, ""query"": ""Bielefeld University Library BASE DDC 633""}",0.36777400970458984
+5,search_google,"{""num_result_pages"": 3, ""query"": ""Bielefeld University Library BASE DDC 633 2020""}",0.5080227851867676

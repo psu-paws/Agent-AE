@@ -1,0 +1,17 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""2015 Metropolitan Museum of Art exhibition Chinese zodiac animal""}",0.4514756202697754
+3,extract_document_content,"{""document_path"": ""https://www.metmuseum.org/art/collection/search/42102"", ""query"": ""2015 exhibition Chinese zodiac animal""}",6.678654432296753
+6,search_google,"{""num_result_pages"": 3, ""query"": ""2015 Metropolitan Museum of Art exhibition Chinese zodiac""}",0.46149253845214844
+7,extract_document_content,"{""document_path"": ""https://laviepartagee.com/2015/08/28/metropolitan-museum-of-art-china-through-the-looking-glass/"", ""query"": ""2015 exhibition theme and key exhibits related to Chinese zodiac""}",7.024050951004028
+11,search_google,"{""num_result_pages"": 3, ""query"": ""2015 Metropolitan Museum of Art exhibition Chinese zodiac animals""}",0.4462287425994873
+12,extract_document_content,"{""document_path"": ""https://www.metmuseum.org/press-releases/schedule-of-exhibitions-through-december-2015-2015-exhibitions"", ""query"": ""2015 Metropolitan Museum of Art exhibition Chinese zodiac animals""}",16.032034873962402
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Chinese zodiac animals with visible hands""}",0.4481387138366699
+20,search_wiki,"{""entity"": ""Chinese zodiac""}",0.6812732219696045
+21,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Chinese_zodiac"", ""query"": ""zodiac animals with visible hands""}",51.39399743080139
+24,extract_document_content,"{""document_path"": ""https://www.metmuseum.org/exhibitions/view/2015-year-of-the-goat"", ""query"": ""hand visible zodiac jade""}",17.79967498779297
+29,search_google,"{""num_result_pages"": 3, ""query"": ""2015 Metropolitan Museum of Art exhibition Year of the Goat Sheep""}",0.475283145904541
+30,extract_document_content,"{""document_path"": ""https://www.metmuseum.org/exhibitions/listings/2015/year-of-the-ram"", ""query"": ""2015 Metropolitan Museum of Art exhibition Year of the Goat Sheep""}",9.341063022613525
+34,search_google,"{""num_result_pages"": 3, ""query"": ""Metropolitan Museum of Art 2015 Celebration of the Year of the Ram exhibition theme and key exhibits""}",0.6614170074462891
+35,extract_document_content,"{""document_path"": ""https://www.metmuseum.org/press-releases/asian-art-100-release-2015-exhibitions"", ""query"": ""Celebration of the Year of the Ram exhibition theme and key exhibits""}",6.04121470451355
+38,search_google,"{""num_result_pages"": 3, ""query"": ""Metropolitan Museum of Art 2015 Celebration of the Year of the Ram exhibition Chinese zodiac animals""}",0.5673232078552246
+39,extract_document_content,"{""document_path"": ""https://www.metmuseum.org/exhibitions/listings/2015/year-of-the-ram"", ""query"": ""twelve animals of the Chinese zodiac featured in the exhibition""}",4.527811288833618

@@ -1,0 +1,37 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""United States Secretary of Homeland Security""}",0.8406956195831299
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/United_States_Secretary_of_Homeland_Security"", ""query"": ""List of secretaries of homeland security prior to April 2019 excluding acting""}",12.940073728561401
+7,search_wiki,"{""entity"": ""Tom Ridge""}",0.394650936126709
+7,search_wiki,"{""entity"": ""Michael Chertoff""}",0.5494725704193115
+7,search_wiki,"{""entity"": ""Janet Napolitano""}",0.5413327217102051
+7,search_wiki,"{""entity"": ""Jeh Johnson""}",0.4229240417480469
+7,search_wiki,"{""entity"": ""John F. Kelly""}",0.5176346302032471
+7,search_wiki,"{""entity"": ""Kirstjen Nielsen""}",2.5429983139038086
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge education""}",0.3382582664489746
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Jeh Johnson education""}",0.287952184677124
+8,search_google,"{""num_result_pages"": 1, ""query"": ""John F. Kelly education""}",0.3152451515197754
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Kirstjen Nielsen education""}",0.3353285789489746
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Jeh_Johnson"", ""query"": ""bachelor's degree""}",6.079485893249512
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/John_F._Kelly"", ""query"": ""bachelor's degree""}",14.994066953659058
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Kirstjen_Nielsen"", ""query"": ""bachelor's degree""}",15.013183832168579
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge education""}",0.27723240852355957
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge bachelor's degree""}",0.2971034049987793
+12,extract_document_content,"{""document_path"": ""https://www.phmc.state.pa.us/portal/communities/governors/1951-2015/thomas-ridge.html"", ""query"": ""bachelor's degree""}",15.445228576660156
+15,search_wiki,"{""entity"": ""United States Secretary of Homeland Security""}",0.310955286026001
+16,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/United_States_Secretary_of_Homeland_Security"", ""query"": ""List of secretaries of homeland security prior to April 2019 excluding acting secretaries""}",6.923025131225586
+20,search_wiki,"{""entity"": ""Tom Ridge""}",0.17945408821105957
+20,search_wiki,"{""entity"": ""Michael Chertoff""}",0.28028392791748047
+20,search_wiki,"{""entity"": ""Janet Napolitano""}",0.31906867027282715
+20,search_wiki,"{""entity"": ""Jeh Johnson""}",0.14807581901550293
+20,search_wiki,"{""entity"": ""John F. Kelly""}",0.13306570053100586
+20,search_wiki,"{""entity"": ""Kirstjen Nielsen""}",0.15545177459716797
+21,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge bachelor's degree university""}",0.3530697822570801
+21,search_google,"{""num_result_pages"": 1, ""query"": ""Jeh Johnson bachelor's degree university""}",0.3003249168395996
+21,search_google,"{""num_result_pages"": 1, ""query"": ""John F. Kelly bachelor's degree university""}",0.3079249858856201
+21,search_google,"{""num_result_pages"": 1, ""query"": ""Kirstjen Nielsen bachelor's degree university""}",0.27449989318847656
+22,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Michael_Chertoff"", ""query"": ""bachelor's degree university""}",6.547006845474243
+22,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Janet_Napolitano"", ""query"": ""bachelor's degree university""}",15.13856816291809
+22,extract_document_content,"{""document_path"": ""https://millercenter.org/kirstjen-m-nielsen-2017-2019"", ""query"": ""bachelor's degree university""}",14.845136880874634
+23,search_google,"{""num_result_pages"": 1, ""query"": ""Tom Ridge bachelor's degree university""}",0.24901032447814941
+23,search_google,"{""num_result_pages"": 1, ""query"": ""Jeh Johnson bachelor's degree university""}",0.20261025428771973
+23,search_google,"{""num_result_pages"": 1, ""query"": ""John F. Kelly bachelor's degree university""}",0.2404191493988037

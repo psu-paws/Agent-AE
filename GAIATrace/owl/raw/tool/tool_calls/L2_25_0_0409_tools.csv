@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Tri-Rail train schedule May 27, 2019""}",0.44275975227355957
+20,search_google,"{""num_result_pages"": 3, ""query"": ""Tri-Rail train schedule May 27, 2019 passenger numbers""}",0.6776430606842041
+21,extract_document_content,"{""document_path"": ""https://www.tri-rail.com/pressreleases"", ""query"": ""Tri-Rail train schedule May 27, 2019 passenger numbers""}",121.43947649002075
+21,extract_document_content,"{""document_path"": ""https://media.tri-rail.com/Files/About/Resources/Ridership/2019/03MAR2019.pdf"", ""query"": ""Tri-Rail train schedule May 27, 2019 passenger numbers""}",1.5902535915374756

@@ -1,0 +1,6 @@
+turn,tool_name,args_json
+0,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""Polish dub Everybody Loves Raymond Ray voice actor""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""List of main cast and characters"", ""url"": ""https://en.wikipedia.org/wiki/Wszyscy_kochaj\u0105_Romana""}"
+2,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""Bart\u0142omiej Kasprzykowski Magda M.""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Find the cast list and the role played by Bartek/Kasprzykowski"", ""url"": ""https://pl.wikipedia.org/wiki/Magda_M.""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Confirm the actor for Roman (Ray) in Wszyscy kochaj\u0105 Romana"", ""url"": ""https://en.wikipedia.org/wiki/Wszyscy_kochaj\u0105_Romana""}"

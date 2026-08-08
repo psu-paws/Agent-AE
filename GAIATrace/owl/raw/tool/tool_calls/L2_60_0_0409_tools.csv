@@ -1,0 +1,20 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""distance from Los Angeles to Cincinnati via I-40""}",0.49828338623046875
+2,search_google,"{""num_result_pages"": 1, ""query"": ""distance from Cincinnati to Augusta via I-90""}",0.510533332824707
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Los Angeles to Cincinnati distance via I-40""}",0.3898012638092041
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati to Augusta distance via I-90""}",0.3566446304321289
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Los Angeles to Cincinnati distance I-40""}",0.4018688201904297
+5,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati to Augusta distance I-90""}",0.3446085453033447
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Los Angeles to Cincinnati driving distance""}",0.393282413482666
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati to Augusta driving distance""}",0.508730411529541
+8,extract_document_content,"{""document_path"": ""https://www.distance.to/Cincinnati/Los-Angeles"", ""query"": ""driving distance from Los Angeles to Cincinnati via I-40""}",18.285106420516968
+9,extract_document_content,"{""document_path"": ""https://www.travelmath.com/distance/from/Augusta,+GA/to/Cincinnati,+OH"", ""query"": ""driving distance from Cincinnati to Augusta via I-90""}",28.90854024887085
+15,search_wiki,"{""entity"": ""Recycling in the United States""}",0.7566063404083252
+16,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""recycling rate for 12-ounce water bottles""}",2.5033907890319824
+19,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""12\\u2011ounce water bottle recycling rate""}",11.320180654525757
+20,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""PET bottle""}",13.748343706130981
+21,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/PET_bottle_recycling"", ""query"": ""recycling rate""}",11.75627064704895
+24,search_google,"{""num_result_pages"": 1, ""query"": ""current recycling rate for 12-ounce PET water bottles in the U.S. 2023""}",0.591726541519165
+24,search_google,"{""num_result_pages"": 1, ""query"": ""bottle deposit refund rate in the U.S. 2023""}",0.5122952461242676
+25,extract_document_content,"{""document_path"": ""https://www.recyclingtoday.com/news/napcor-reports-rise-in-2023-pet-bottle-recycling-rate/"", ""query"": ""2023 PET bottle recycling rate in the U.S.""}",33.03050184249878
+25,extract_document_content,"{""document_path"": ""https://www.michigan.gov/taxes/business-taxes/misc/bottle-deposit/bottle-deposit-information"", ""query"": ""bottle deposit refund rate in the U.S. 2023""}",15.007016658782959

@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Scikit-Learn July 2017 changelog""}",0.31811952590942383
+3,extract_document_content,"{""document_path"": ""https://scikit-learn.org/stable/whats_new.html"", ""query"": ""July 2017 changelog""}",15.112280130386353
+18,search_google,"{""num_result_pages"": 1, ""query"": ""Scikit-Learn July 2017 changelog""}",0.24594330787658691
+19,extract_document_content,"{""document_path"": ""https://scikit-learn.org/stable/whats_new.html"", ""query"": ""July 2017 changelog""}",9.282846927642822

@@ -1,0 +1,14 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""animated videos rooster hamster songs different tempos lyrics""}",0.3570587635040283
+3,extract_document_content,"{""document_path"": ""https://www.reddit.com/r/tipofmytongue/comments/1b0lywl/tomt_songvideoclip_music_video_from_the_early/"", ""query"": ""rooster hamster songs different tempos lyrics""}",0.5146515369415283
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/The_Hampsterdance_Song"", ""query"": ""rooster hamster songs different tempos lyrics""}",14.367920398712158
+7,search_wiki,"{""entity"": ""The Hampsterdance Song""}",0.44101381301879883
+7,search_wiki,"{""entity"": ""Whistle-Stop (Disney song)""}",1.1307153701782227
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Whistle-Stop Disney song composer""}",0.39788055419921875
+9,extract_document_content,"{""document_path"": ""https://disney.fandom.com/wiki/Whistle_Stop"", ""query"": ""composer of Whistle-Stop Disney song""}",30.95578098297119
+12,search_wiki,"{""entity"": ""Roger Miller""}",0.5637695789337158
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Roger Miller composer Whistle-Stop""}",0.43222928047180176
+13,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Roger_Miller"", ""query"": ""Whistle-Stop composer""}",6.198993682861328
+18,search_google,"{""num_result_pages"": 1, ""query"": ""Roger Miller composer Whistle-Stop""}",0.2735717296600342
+18,search_wiki,"{""entity"": ""Roger Miller""}",0.2959918975830078
+19,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Roger_Miller"", ""query"": ""Whistle-Stop composer""}",7.083895206451416

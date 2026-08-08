@@ -1,0 +1,7 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""2011 Bulgarian census completed tertiary education gender split""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Find the number of men and women in Bulgaria with completed tertiary education according to the 2011 Bulgarian census"", ""url"": ""https://www.nsi.bg/census2011/pdocs2/census2011final_en.pdf""}"
+2,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""\""791.8 thousand\"" women 2011 Bulgaria tertiary education""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Find the number of men and women with tertiary education according to the 2011 census"", ""url"": ""https://www.nsi.bg/en/file/16172/education2012.pdf""}"
+4,create_sandbox,{}
+5,run_python_code,"{""code_block"": ""women = 791750\nmen = 556900\ndiff = women - men\ndiff_thousands = diff / 1000\nprint(diff, diff_thousands)"", ""sandbox_id"": ""i8y9a80lrqh5nyft4lh6g-6532622b""}"

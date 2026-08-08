@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Scikit-Learn July 2017 changelog""}",0.3321950435638428
+3,extract_document_content,"{""document_path"": ""https://scikit-learn.org/stable/whats_new.html"", ""query"": ""July 2017 changelog""}",5.7213358879089355
+4,extract_document_content,"{""document_path"": ""https://scikit-learn.org/0.20/"", ""query"": ""July 2017 changelog""}",12.587717294692993
+5,extract_document_content,"{""document_path"": ""https://scikit-learn.org/0.20/whats_new/v0.19.html#version-0-19"", ""query"": ""July 2017 changelog""}",14.713865518569946
+10,extract_document_content,"{""document_path"": ""https://scikit-learn.org/0.20/whats_new/v0.19.html#version-0-19"", ""query"": ""bug fixes""}",3.2164931297302246
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Scikit-Learn 0.19 release notes July 2017 bug fixes""}",0.37793564796447754
+17,extract_document_content,"{""document_path"": ""https://scikit-learn.org/stable/whats_new/v0.19.html"", ""query"": ""July 2017 bug fixes""}",6.2287516593933105
+20,extract_document_content,"{""document_path"": ""https://scikit-learn.org/0.20/whats_new/v0.19.html#version-0-19"", ""query"": ""predictor base command bug fix""}",18.507479667663574

@@ -1,0 +1,14 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 2, ""query"": ""density of Freon-12 at bottom of Marianas Trench""}",0.4134645462036133
+2,search_google,"{""num_result_pages"": 2, ""query"": ""Marianas Trench temperature and pressure""}",0.3676183223724365
+2,search_wiki,"{""entity"": ""Freon-12""}",0.6867899894714355
+2,search_wiki,"{""entity"": ""Marianas Trench""}",0.491365909576416
+3,search_wiki,"{""entity"": ""Mariana Trench""}",0.5867681503295898
+4,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Dichlorodifluoromethane"", ""query"": ""density of Freon-12 at high pressure""}",3.5455808639526367
+8,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Freon-12"", ""query"": ""density""}",7.276750087738037
+9,extract_document_content,"{""document_path"": ""https://pubchem.ncbi.nlm.nih.gov/compound/Freon-12"", ""query"": ""density""}",54.02348709106445
+18,extract_document_content,"{""document_path"": ""https://webbook.nist.gov/cgi/cbook.cgi?ID=C6391&Mask=4"", ""query"": ""density""}",23.918739795684814
+19,execute_code,"{""code"": ""mass_kg = 0.312\\ndensity_kg_per_m3 = 1350  # from 1.35 g/mL\\nvolume_m3 = mass_kg / density_kg_per_m3\\nvolume_ml = volume_m3 * 1e6  # 1 m3 = 1,000,000 mL\\nvolume_ml""}",0.0010695457458496094
+25,search_google,"{""num_result_pages"": 2, ""query"": ""Freon-12 density high pressure conditions""}",0.4366569519042969
+26,search_google,"{""num_result_pages"": 2, ""query"": ""Freon-12 density at 1086 bar""}",0.40909790992736816
+27,extract_document_content,"{""document_path"": ""https://www.engineeringtoolbox.com/dichlorodifluoromethane-R-12-d_972.html"", ""query"": ""Freon-12 density at high pressure""}",10.431787490844727

@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Carolyn Collins Petersen article June 6 2023 site:universetoday.com""}",0.23601484298706055
+3,extract_document_content,"{""document_path"": ""https://www.universetoday.com/articles/there-are-hundreds-of-mysterious-filaments-at-the-center-of-the-milky-way"", ""query"": ""link to the paper mentioned in the article""}",14.0845205783844
+7,extract_document_content,"{""document_path"": ""https://iopscience.iop.org/article/10.3847/2041-8213/acd54b"", ""query"": ""NASA award number R. G. Arendt""}",16.310735940933228
+21,search_google,"{""num_result_pages"": 1, ""query"": ""Carolyn Collins Petersen article June 6 2023 site:universetoday.com""}",0.22590136528015137
+22,extract_document_content,"{""document_path"": ""https://www.universetoday.com/articles/there-are-hundreds-of-mysterious-filaments-at-the-center-of-the-milky-way"", ""query"": ""link to the paper mentioned in the article""}",11.638240337371826
+26,extract_document_content,"{""document_path"": ""https://iopscience.iop.org/article/10.3847/2041-8213/acd54b"", ""query"": ""NASA award number R. G. Arendt""}",12.690947771072388

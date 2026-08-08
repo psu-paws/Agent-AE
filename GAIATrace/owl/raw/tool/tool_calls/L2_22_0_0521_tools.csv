@@ -1,0 +1,43 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Fiona Apple discography""}",0.5552084445953369
+2,search_wiki,"{""entity"": ""Paula Cole discography""}",0.5802793502807617
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Fiona Apple Tidal""}",0.2904207706451416
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole Harbinger""}",0.22399425506591797
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole This Fire""}",0.2513315677642822
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Fiona Apple Tidal site:robertchristgau.com""}",0.24025225639343262
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole Harbinger site:robertchristgau.com""}",0.1972348690032959
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole This Fire site:robertchristgau.com""}",0.316814661026001
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau reviews Fiona Apple Paula Cole""}",0.2865471839904785
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Consumer Guide Fiona Apple Paula Cole""}",0.2790806293487549
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau album reviews Fiona Apple Paula Cole""}",0.35349202156066895
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Fiona Apple Tidal review""}",0.31321144104003906
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Paula Cole Harbinger review""}",0.23650026321411133
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Paula Cole This Fire review""}",0.30573439598083496
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Fiona Apple review""}",0.2412865161895752
+17,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Paula Cole review""}",0.22983360290527344
+18,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Fiona Apple Tidal review letter grade""}",0.28534412384033203
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Paula Cole Harbinger review letter grade""}",0.28033947944641113
+23,search_wiki,"{""entity"": ""Fiona Apple discography""}",0.10283017158508301
+23,search_wiki,"{""entity"": ""Paula Cole discography""}",0.09839582443237305
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Fiona Apple albums before 1999""}",0.3926663398742676
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Paula Cole albums before 1999""}",0.36135101318359375
+25,search_google,"{""num_result_pages"": 1, ""query"": ""Fiona Apple discography""}",0.3386099338531494
+25,search_google,"{""num_result_pages"": 1, ""query"": ""Paula Cole discography""}",0.2549858093261719
+26,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Fiona_Apple_discography"", ""query"": ""albums released before 1999""}",23.280246019363403
+26,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Paula_Cole"", ""query"": ""albums released before 1999""}",9.030359029769897
+30,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Fiona Apple Tidal""}",0.23902416229248047
+30,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole Harbinger""}",0.25014209747314453
+30,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole This Fire""}",0.2788655757904053
+31,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau reviews Fiona Apple Paula Cole""}",0.2801237106323242
+32,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Consumer Guide Fiona Apple Paula Cole""}",0.27057814598083496
+33,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau album reviews Fiona Apple Paula Cole""}",0.2654144763946533
+34,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Fiona Apple Paula Cole site:robertchristgau.com""}",0.2730891704559326
+35,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Fiona Apple Tidal site:robertchristgau.com""}",0.24948954582214355
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole Harbinger site:robertchristgau.com""}",0.20222783088684082
+37,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole This Fire site:robertchristgau.com""}",0.25675368309020996
+38,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Fiona Apple Tidal""}",0.2814140319824219
+39,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole Harbinger""}",0.24874067306518555
+40,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Paula Cole This Fire""}",0.30881595611572266
+41,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau review Fiona Apple Paula Cole""}",0.3176708221435547
+42,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau Consumer Guide Fiona Apple Paula Cole""}",0.2646050453186035
+43,search_google,"{""num_result_pages"": 1, ""query"": ""Robert Christgau album reviews Fiona Apple Paula Cole""}",0.284027099609375

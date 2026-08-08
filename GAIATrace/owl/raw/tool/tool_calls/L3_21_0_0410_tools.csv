@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/5b2a14e8-6e59-479c-80e3-4696e8980152.jpg"", ""question"": ""What is the brand of the harnesses the dogs are wearing?"", ""sys_prompt"": null}",19.744536638259888
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Ruffwear official website ambassador stories""}",0.31107354164123535
+26,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/5b2a14e8-6e59-479c-80e3-4696e8980152.jpg"", ""question"": ""What brand are the harnesses the dogs are wearing?"", ""sys_prompt"": null}",19.7513210773468
+31,search_google,"{""num_result_pages"": 1, ""query"": ""Ruffwear official website""}",0.3142702579498291

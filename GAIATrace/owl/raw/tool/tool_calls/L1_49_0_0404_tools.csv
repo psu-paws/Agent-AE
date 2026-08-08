@@ -1,0 +1,10 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""1928 Summer Olympics""}",0.9360902309417725
+3,search_google,"{""num_result_pages"": 1, ""query"": ""1928 Summer Olympics participating countries and number of athletes""}",0.4668004512786865
+4,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/1928_Summer_Olympics"", ""query"": ""participating countries and number of athletes""}",18.983633041381836
+10,search_google,"{""num_result_pages"": 1, ""query"": ""IOC country code for Cuba""}",0.4118509292602539
+11,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_IOC_country_codes"", ""query"": ""Cuba""}",5.754562854766846
+16,search_google,"{""num_result_pages"": 1, ""query"": ""IOC country code Cuba""}",0.46598100662231445
+16,search_google,"{""num_result_pages"": 1, ""query"": ""IOC country code Panama""}",0.32276153564453125
+17,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_IOC_country_codes"", ""query"": ""Cuba IOC code""}",12.340207576751709
+17,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_IOC_country_codes"", ""query"": ""Panama IOC code""}",14.973397493362427

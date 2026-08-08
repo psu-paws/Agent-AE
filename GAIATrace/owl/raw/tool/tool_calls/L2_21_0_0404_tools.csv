@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_archived_webpage,"{""date"": ""20210322"", ""url"": ""https://www.virtuerestaurant.com/""}",0.6305880546569824
+6,search_archived_webpage,"{""date"": ""20210421"", ""url"": ""https://www.virtuerestaurant.com/""}",0.5740025043487549
+11,search_archived_webpage,"{""date"": ""20210322"", ""url"": ""https://www.virtuerestaurant.com/""}",0.6105010509490967
+15,search_archived_webpage,"{""date"": ""20210421"", ""url"": ""https://www.virtuerestaurant.com""}",13.704992055892944
+16,search_google,"{""num_result_pages"": 3, ""query"": ""Virtue restaurant & bar Chicago archived website April 2021""}",0.3732597827911377
+19,search_google,"{""num_result_pages"": 3, ""query"": ""Virtue restaurant & bar Chicago dinner menu March April 2021 reviews blog posts""}",0.2627382278442383
+20,extract_document_content,"{""document_path"": ""https://www.virtuerestaurant.com/menus/"", ""query"": ""dinner menu March April 2021""}",210.2679967880249

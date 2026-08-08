@@ -1,0 +1,13 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""The Thinking Machine (Artificial Intelligence in the 1960s) YouTube video""}",0.4832186698913574
+22,search_google,"{""num_result_pages"": 1, ""query"": ""The Thinking Machine (Artificial Intelligence in the 1960s) YouTube video""}",0.28271055221557617
+23,extract_document_content,"{""document_path"": ""https://www.youtube.com/watch?v=aygSMgK3BEM"", ""query"": ""scientists featured in the video""}",44.513856410980225
+27,ask_question_about_video,"{""question"": ""Identify the scientists interviewed and their predictions about thinking machines or robots."", ""video_path"": ""The Thinking Machine (Artificial Intelligence in the 1960s)""}",0.9137835502624512
+34,search_google,"{""num_result_pages"": 1, ""query"": ""Jerome Wiesner AI predictions 1960s""}",0.3118753433227539
+34,search_google,"{""num_result_pages"": 1, ""query"": ""Oliver Selfridge AI predictions 1960s""}",0.3215656280517578
+34,search_google,"{""num_result_pages"": 1, ""query"": ""Claude Shannon AI predictions 1960s""}",0.38565993309020996
+35,extract_document_content,"{""document_path"": ""https://medium.com/hackernoon/is-another-ai-winter-coming-ac552669e58c"", ""query"": ""Jerome Wiesner AI predictions 1960s""}",30.961220502853394
+35,extract_document_content,"{""document_path"": ""https://medium.com/hackernoon/is-another-ai-winter-coming-ac552669e58c"", ""query"": ""Oliver Selfridge AI predictions 1960s""}",15.001029968261719
+35,extract_document_content,"{""document_path"": ""https://www.reddit.com/r/compsci/comments/bnnd2z/the_thinking_machine_1961_mit_ai_documentary/"", ""query"": ""Claude Shannon AI predictions 1960s""}",0.260866641998291
+38,execute_code,"{""code"": ""import requests, re, bs4, json, sys, textwrap, html\\nurl = 'https://www.youtube.com/watch?v=someid'\\nprint('skip')""}",0.0010559558868408203
+40,execute_code,"{""code"": ""import requests, urllib.parse, re, bs4, json, textwrap, html\\nfrom bs4 import BeautifulSoup\\n\\ndef search(query):\\n    url = f'https://duckduckgo.com/html/?q={urllib.parse.quote_plus(query)}'\\n    headers = {'User-Agent':'Mozilla/5.0'}\\n    r = requests.get(url, headers=headers, timeout=10)\\n    return r.text\\n\\nqueries = [\\n    'Jerome Wiesner thinking machines sooner',\\n    'Oliver Selfridge thinking machines sooner',\\n    'Claude Shannon thinking machines sooner'\\n]\\nfor q in queries:\\n    html = search(q)\\n    soup = BeautifulSoup(html, 'html.parser')\\n    print('---', q)\\n    for a in soup.select('a.result__a')[:5]:\\n        print(a.get_text())\\n        print(a['href'])\\n    print('\\\\n')\\n""}",0.00102996826171875

@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Malko Competition winners list after 1977""}",0.27727699279785156
+3,extract_document_content,"{""document_path"": ""https://malkocompetition.dk/winners/all"", ""query"": ""Malko Competition winners after 1977 and their nationalities""}",14.252115726470947
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Malko_Competition"", ""query"": ""Malko Competition winners after 1977 and their nationalities""}",15.052002906799316
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Claus Peter Flor nationality""}",0.4145658016204834
+11,search_wiki,"{""entity"": ""Claus Peter Flor""}",0.12339043617248535
+12,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Claus_Peter_Flor"", ""query"": ""Claus Peter Flor nationality""}",19.023594617843628

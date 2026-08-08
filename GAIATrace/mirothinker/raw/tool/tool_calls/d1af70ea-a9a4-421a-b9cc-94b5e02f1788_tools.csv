@@ -1,0 +1,9 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Washington county seats land area list""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract a table of all cities in Washington that are county seats, including the land area (in square miles) for each city"", ""url"": ""https://en.wikipedia.org/wiki/List_of_municipalities_in_Washington""}"
+2,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 5, ""q"": ""List of counties in Washington county seat Wikipedia""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Extract the table of counties with their county seats"", ""url"": ""https://en.wikipedia.org/wiki/List_of_counties_in_Washington""}"
+4,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""list of Washington cities land area square miles Wikipedia""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Extract all rows of the table that includes city name, county, and land area (sq mi) in the Wikipedia page. Return a list of entries for each city with its land area (sq mi)."", ""url"": ""https://en.wikipedia.org/wiki/List_of_municipalities_in_Washington""}"
+6,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Cathlamet land area Washington Wikipedia""}"
+7,scrape_and_extract_info,"{""info_to_extract"": ""Search for Cathlamet in this page and extract its land area if present"", ""url"": ""https://en.wikipedia.org/wiki/List_of_municipalities_in_Washington""}"

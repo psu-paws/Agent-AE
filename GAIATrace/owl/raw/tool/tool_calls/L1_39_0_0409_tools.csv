@@ -1,0 +1,37 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""List of Presidents of the United States by place of birth""}",1.0558626651763916
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state"", ""query"": ""birthplaces of U.S. presidents""}",21.123526334762573
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Popes Creek, Virginia coordinates""}",0.4100644588470459
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Braintree, Massachusetts coordinates""}",0.31569910049438477
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Shadwell, Virginia coordinates""}",0.36528849601745605
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Port Conway, Virginia coordinates""}",0.3309507369995117
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Monroe Hall, Virginia coordinates""}",0.5491602420806885
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Waxhaws Region, South Carolina coordinates""}",0.4768025875091553
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Kinderhook, New York coordinates""}",0.41365551948547363
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Charles City County, Virginia coordinates""}",0.3514597415924072
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Barboursville, Virginia coordinates""}",0.37511134147644043
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Pineville, North Carolina coordinates""}",0.35156702995300293
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Summerhill, New York coordinates""}",0.33721232414245605
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Hillsborough, New Hampshire coordinates""}",0.3834106922149658
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Raleigh, North Carolina coordinates""}",0.37767505645751953
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Hodgenville, Kentucky coordinates""}",0.40105104446411133
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Point Pleasant, Ohio coordinates""}",0.3814964294433594
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Delaware, Ohio coordinates""}",0.5223386287689209
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Fairfield, Vermont coordinates""}",0.30545997619628906
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Moreland Hills, Ohio coordinates""}",6.240080118179321
+7,search_google,"{""num_result_pages"": 1, ""query"": ""North Bend, Ohio coordinates""}",0.3051457405090332
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Caldwell, New Jersey coordinates""}",0.22742915153503418
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Niles, Ohio coordinates""}",0.21856212615966797
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Staunton, Virginia coordinates""}",0.24298310279846191
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati, Ohio coordinates""}",0.2732412815093994
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Gramercy Park, New York coordinates""}",0.3439958095550537
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Blooming Grove, Ohio coordinates""}",0.28670597076416016
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Plymouth, Vermont coordinates""}",0.23700332641601562
+7,search_google,"{""num_result_pages"": 1, ""query"": ""West Branch, Iowa coordinates""}",0.25629615783691406
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Hyde Park, New York coordinates""}",0.2951316833496094
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Lamar, Missouri coordinates""}",0.2587876319885254
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Denison, Texas coordinates""}",0.2857980728149414
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Stonewall, Texas coordinates""}",0.28133368492126465
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Tampico, Illinois coordinates""}",0.2406015396118164
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Yorba Linda, California coordinates""}",0.2612636089324951
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Omaha, Nebraska coordinates""}",0.2160332202911377

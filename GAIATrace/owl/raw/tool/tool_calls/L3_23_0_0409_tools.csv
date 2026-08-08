@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,search_google,"{""num_result_pages"": 1, ""query"": ""multiwavelength observations of fast radio bursts March 2021 site:arxiv.org""}",0.3434762954711914
+4,extract_document_content,"{""document_path"": ""https://arxiv.org/abs/2103.07786"", ""query"": ""X-ray time profile diagram information, including the measured time span in seconds""}",14.672845602035522
+13,search_google,"{""num_result_pages"": 1, ""query"": ""multiwavelength observations of fast radio bursts March 2021 site:arxiv.org""}",0.24834966659545898
+14,extract_document_content,"{""document_path"": ""https://arxiv.org/abs/2103.07786"", ""query"": ""X-ray time profile diagram information, including the measured time span in seconds""}",10.423622369766235

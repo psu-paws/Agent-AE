@@ -1,0 +1,2 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,ask_question_about_audio,"{""audio_path"": ""data/gaia/2023/validation/99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3.mp3"", ""question"": ""What are the ingredients for the pie filling?""}",5.681517839431763

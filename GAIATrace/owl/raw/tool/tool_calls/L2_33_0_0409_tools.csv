@@ -1,0 +1,10 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""2023 IPCC report 85 pages version""}",0.6109490394592285
+3,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf"", ""query"": ""85 pages version""}",44.48334813117981
+21,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf"", ""query"": ""85 pages version""}",27.7780282497406
+37,search_google,"{""num_result_pages"": 3, ""query"": ""2023 IPCC report 85 pages version download""}",0.48749566078186035
+42,search_google,"{""num_result_pages"": 3, ""query"": ""2023 IPCC report 85 pages PDF""}",0.4716215133666992
+43,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf"", ""query"": ""85 pages version""}",44.714996099472046
+43,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/"", ""query"": ""85 pages version""}",81.04398345947266
+67,search_google,"{""num_result_pages"": 3, ""query"": ""2023 IPCC report 85 pages version download""}",0.4011404514312744
+68,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf"", ""query"": ""85 pages version""}",27.142805337905884

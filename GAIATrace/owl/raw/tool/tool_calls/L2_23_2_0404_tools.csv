@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""2018 VSCode blog post site:replit.com""}",0.2332918643951416
+3,extract_document_content,"{""document_path"": ""https://blog.replit.com/intel"", ""query"": ""2018 VSCode blog post""}",12.142005920410156
+8,search_google,"{""num_result_pages"": 1, ""query"": ""2018 VSCode blog post site:replit.com""}",0.20998668670654297
+9,extract_document_content,"{""document_path"": ""https://blog.replit.com/intel"", ""query"": ""2018 VSCode blog post video""}",4.159436464309692

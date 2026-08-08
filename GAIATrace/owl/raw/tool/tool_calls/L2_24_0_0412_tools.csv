@@ -1,0 +1,18 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID for Order Helotiales""}",0.25791287422180176
+3,search_wiki,"{""entity"": ""Helotiales""}",0.5896446704864502
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos database search""}",0.3369722366333008
+5,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos database""}",0.28287506103515625
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos ID Helotiales site:tropicos.org""}",0.2135019302368164
+28,search_google,"{""num_result_pages"": 1, ""query"": ""Tropicos Helotiales ID""}",0.2567172050476074
+29,search_google,"{""num_result_pages"": 1, ""query"": ""Helotiales Tropicos site:tropicos.org""}",0.20815706253051758
+30,search_wiki,"{""entity"": ""Helotiales""}",0.30962133407592773
+33,search_wiki,"{""entity"": ""ISBN""}",1.5338692665100098
+34,search_google,"{""num_result_pages"": 1, ""query"": ""ISBN-10 check digit calculation formula""}",0.34223222732543945
+35,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/ISBN"", ""query"": ""ISBN-10 check digit calculation formula""}",5.367522954940796
+38,execute_code,"{""code"": ""import requests, re, bs4, json, sys, textwrap, html\\nurl = 'https://en.wikipedia.org/wiki/Helotiales'\\nresp = requests.get(url, timeout=10)\\nprint('status', resp.status_code)\\nhtml_text = resp.text\\n# search for Tropicos ID pattern\\nmatches = re.findall(r'Tropicos[^\\\\d]*([0-9]+)', html_text)\\nprint('matches', matches[:20])\\n# also look for external links\\nsoup = bs4.BeautifulSoup(html_text, 'html.parser')\\nlinks = soup.find_all('a', href=True)\\nfor a in links:\\n    if 'tropicos' in a['href']:\\n        print('link', a['href'])\\n        break\\n""}",0.0010478496551513672
+39,execute_code,"{""code"": ""import requests, json, re\\nurl = 'https://en.wikipedia.org/api/rest_v1/page/summary/Helotiales'\\nresp = requests.get(url, timeout=10)\\nprint(resp.status_code)\\nprint(resp.text[:500])""}",0.0011525154113769531
+41,execute_code,"{""code"": ""import requests, re, bs4, json, sys, urllib.parse\\nheaders={'User-Agent':'Mozilla/5.0'}\\nquery='Helotiales Tropicos ID'\\nurl='https://duckduckgo.com/html/?q='+urllib.parse.quote(query)\\nresp=requests.get(url, headers=headers, timeout=10)\\nprint('status', resp.status_code)\\nhtml=resp.text\\nsoup=bs4.BeautifulSoup(html,'html.parser')\\nresults=soup.select('a.result__a')\\nfor a in results[:10]:\\n    print(a.get('href'))\\n    print(a.get_text())\\n""}",0.0009601116180419922
+42,execute_code,"{""code"": ""import requests, json\\nentity='Q134490'\\nurl=f'https://www.wikidata.org/wiki/Special:EntityData/{entity}.json'\\nresp=requests.get(url, headers={'User-Agent':'Mozilla/5.0'}, timeout=10)\\nprint('status', resp.status_code)\\ndata=resp.json()\\nclaims=data['entities'][entity]['claims']\\n# property P960 is Tropicos ID\\nif 'P960' in claims:\\n    vals=claims['P960']\\n    for v in vals:\\n        print(v['mainsnak']['datavalue']['value'])\\nelse:\\n    print('no P960')""}",0.0009872913360595703
+43,execute_code,"{""code"": ""id_str='100370510'\\nweights=range(10,1,-1)\\nsum_val=sum(int(d)*w for d,w in zip(id_str,weights))\\nmod=sum_val%11\\ncheck=(11-mod)%11\\nprint('sum',sum_val,'mod',mod,'check',check)\\n""}",0.0010313987731933594
+46,execute_code,"{""code"": ""id_full = '1003705103'\\nweights = range(10, 0, -1)\\nchecksum = sum(int(d)*w for d,w in zip(id_full, weights))\\nprint('Checksum sum:', checksum)\\nprint('Modulo 11:', checksum % 11)"", ""content"": """"}",0.0011820793151855469

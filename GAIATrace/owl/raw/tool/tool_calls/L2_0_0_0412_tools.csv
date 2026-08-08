@@ -1,0 +1,10 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""AI regulation paper arXiv June 2022""}",0.3722968101501465
+3,extract_document_content,"{""document_path"": ""https://arxiv.org/pdf/2207.01510"", ""query"": ""figure with three axes""}",5.771947145462036
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Physics and Society article arXiv.org August 11, 2016""}",0.37193751335144043
+9,extract_document_content,"{""document_path"": ""https://arxiv.org/abs/1608.03637"", ""query"": ""words used to describe a type of society""}",15.641082048416138
+15,search_google,"{""num_result_pages"": 3, ""query"": ""AI regulation society types""}",0.36091089248657227
+15,search_google,"{""num_result_pages"": 3, ""query"": ""Physics and Society article August 11, 2016 Egalitarian Hierarchical""}",0.3962743282318115
+16,extract_document_content,"{""document_path"": ""https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence"", ""query"": ""AI regulation society types""}",19.59168553352356
+16,extract_document_content,"{""document_path"": ""https://www.adalovelaceinstitute.org/report/regulating-ai-in-the-uk/"", ""query"": ""AI regulation society types""}",14.4638671875
+16,extract_document_content,"{""document_path"": ""https://arxiv.org/abs/1608.03637"", ""query"": ""egalitarian hierarchical society types""}",15.158372640609741

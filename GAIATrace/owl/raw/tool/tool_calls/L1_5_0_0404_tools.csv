@@ -1,0 +1,32 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Pie Menus or Linear Menus, Which Is Better? authors 2015""}",0.47336268424987793
+4,extract_document_content,"{""document_path"": ""https://www.researchgate.net/publication/283265537_Pie_Menus_or_Linear_Menus_Which_Is_Better"", ""query"": ""authors""}",13.328774213790894
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano publications before 2015""}",0.4925649166107178
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan publications before 2015""}",0.4906787872314453
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano academic publications""}",0.3642587661743164
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan academic publications""}",0.3690938949584961
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano academic profile""}",0.3508596420288086
+10,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=RzmqKwcAAAAJ&hl=en"", ""query"": ""Iram N. Khan publications before 2015""}",11.426383256912231
+11,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=L9um4xoAAAAJ&hl=en"", ""query"": ""Pietro Murano publications before 2015""}",63.923049211502075
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano Anthropomorphic vs non-anthropomorphic software interface feedback for online factual delivery 2003 publication date""}",0.42529296875
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan Impact of Privatisation on Employment and Output in Pakistan 2003 publication date""}",0.39210963249206543
+30,search_google,"{""num_result_pages"": 1, ""query"": ""Pie Menus or Linear Menus, Which Is Better? 2015 authors""}",0.450206995010376
+31,extract_document_content,"{""document_path"": ""https://www.researchgate.net/publication/283265537_Pie_Menus_or_Linear_Menus_Which_Is_Better"", ""query"": ""authors""}",16.04917049407959
+35,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano publications before 2015""}",0.2603788375854492
+35,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan publications before 2015""}",0.25734663009643555
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano academic publications""}",0.3309671878814697
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan academic publications""}",0.31887197494506836
+37,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano academic profile""}",0.25140833854675293
+37,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=RzmqKwcAAAAJ&hl=en"", ""query"": ""Iram N. Khan publications before 2015""}",13.9354727268219
+38,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=L9um4xoAAAAJ&hl=en"", ""query"": ""Pietro Murano publications before 2015""}",14.152426719665527
+41,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano 2003 paper publication date""}",0.4045848846435547
+41,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan 2003 paper publication date""}",0.48180365562438965
+42,search_google,"{""num_result_pages"": 1, ""query"": ""Anthropomorphic vs non-anthropomorphic software interface feedback for online factual delivery publication date""}",0.6203415393829346
+42,search_google,"{""num_result_pages"": 1, ""query"": ""Impact of Privatisation on Employment and Output in Pakistan publication date""}",0.6509947776794434
+43,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=L9um4xoAAAAJ&hl=en"", ""query"": ""Anthropomorphic vs non-anthropomorphic software interface feedback for online factual delivery publication date""}",16.916435480117798
+43,extract_document_content,"{""document_path"": ""https://pide.org.pk/research/impact-of-privatisation-on-employment-and-output-in-pakistan/"", ""query"": ""publication date""}",14.971385717391968
+46,search_google,"{""num_result_pages"": 1, ""query"": ""Anthropomorphic vs non-anthropomorphic software interface feedback for online factual delivery 2003 publication date""}",0.4670085906982422
+46,search_google,"{""num_result_pages"": 1, ""query"": ""Impact of Privatisation on Employment and Output in Pakistan 2003 publication date""}",0.3833339214324951
+47,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=L9um4xoAAAAJ&hl=en"", ""query"": ""Anthropomorphic vs non-anthropomorphic software interface feedback for online factual delivery 2003 publication date""}",3.276289939880371
+47,extract_document_content,"{""document_path"": ""https://pide.org.pk/research/impact-of-privatisation-on-employment-and-output-in-pakistan/"", ""query"": ""Impact of Privatisation on Employment and Output in Pakistan 2003 publication date""}",14.849765300750732
+51,extract_document_content,"{""document_path"": ""https://scholar.google.com/scholar?q=Anthropomorphic+vs+non-anthropomorphic+software+interface+feedback+for+online+factual+delivery"", ""query"": """"}",26.803033590316772

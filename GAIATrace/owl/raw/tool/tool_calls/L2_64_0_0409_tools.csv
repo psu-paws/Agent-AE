@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""DOI 10.1353/book.24372""}",0.27367448806762695
+3,extract_document_content,"{""document_path"": ""https://muse.jhu.edu/book/24372"", ""query"": ""title and author""}",17.11062741279602
+7,search_google,"{""num_result_pages"": 3, ""query"": ""A Dark Trace: Sigmund Freud on the Sense of Guilt Chapter 2""}",0.5188100337982178
+8,extract_document_content,"{""document_path"": ""https://library.oapen.org/bitstream/20.500.12657/49617/1/9789461664174.pdf"", ""query"": ""Chapter 2""}",21.49431085586548
+26,search_google,"{""num_result_pages"": 1, ""query"": ""DOI 10.1353/book.24372""}",0.26189708709716797
+27,extract_document_content,"{""document_path"": ""https://muse.jhu.edu/book/24372"", ""query"": ""title and author""}",7.703091859817505
+31,search_google,"{""num_result_pages"": 3, ""query"": ""A Dark Trace: Sigmund Freud on the Sense of Guilt Chapter 2""}",0.3351917266845703
+32,extract_document_content,"{""document_path"": ""https://library.oapen.org/bitstream/20.500.12657/49617/1/9789461664174.pdf"", ""query"": ""Chapter 2""}",21.26112699508667

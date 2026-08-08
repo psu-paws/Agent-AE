@@ -1,0 +1,22 @@
+This directory is a modified copy of OWL, including its bundled CAMEL package.
+
+    Copyright 2023-2024 CAMEL-AI.org
+    Licensed under the Apache License, Version 2.0 — see LICENSE.
+
+Upstream: https://github.com/camel-ai/owl
+          branch gaia69_workforce_vllm, commit e398ed2
+
+As required by section 4(b) of the License, note that the following was changed.
+23 files differ from upstream and 3 are new; all original copyright headers are
+unmodified.
+
+  added     tool_bench.py, runner.sh, Dockerfile
+  timing    document_processing_toolkit.py and audio_analysis_toolkit.py record
+            extraction/transcription time in _bench_timings, so the tool can be
+            timed without the summarizer LLM
+  hygiene   search_toolkit.py refuses URLs that would leak GAIA answers
+  serving   chat_agent.py, openai_model.py, workforce/, utils/ and related files
+            adjusted to drive the open-weight model served by vLLM
+
+The traces under ../traces and ../raw are outputs of running this code, not part
+of the upstream project.

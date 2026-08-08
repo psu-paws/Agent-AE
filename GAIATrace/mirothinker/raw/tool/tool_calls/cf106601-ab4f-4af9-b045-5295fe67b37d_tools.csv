@@ -1,0 +1,4 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""1928 Summer Olympics participating nations number of athletes""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the list of participating nations at the 1928 Summer Olympics and the number of athletes each nation sent (male, female, total if available). Return in a format that includes country name and athlete count."", ""url"": ""https://en.wikipedia.org/wiki/1928_Summer_Olympics""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Find the section on participating nations (the list of NOCs) and list all countries along with their athlete counts. Include all entries present in the table."", ""url"": ""https://en.wikipedia.org/wiki/1928_Summer_Olympics""}"

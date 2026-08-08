@@ -1,0 +1,52 @@
+Tool                           Category                   N   Err   Eff min  Eff max Eff μ±σ           
+-------------------------------------------------------------------------------------------------------
+ask_question_about_audio       local.mp3                 17     0     1.327    4.041    2.398±0.829   
+  ask_question_about_audio [TOTAL]                           17     0     1.327    4.041    2.398±0.829   
+
+ask_question_about_image       local.jpg                  9     0     3.482   20.586   16.497±5.062   
+ask_question_about_image       local.png                 62     0     0.628    4.295    2.443±0.942   
+ask_question_about_image       url:upload.wikimedia.org     8     0     0.046    3.119    1.294±1.130   
+  ask_question_about_image [TOTAL]                           79     0     0.046   20.586    3.928±4.912   
+
+ask_question_about_video       local                      0     3   (excluded: llm_invalid_args)
+ask_question_about_video       youtube                   40     0     2.604   47.299   16.611±13.439  
+  ask_question_about_video [TOTAL]                           40     0     2.604   47.299   16.611±13.439  
+
+execute_code                   code                     786     0     0.021   60.072    1.480±6.917   
+  execute_code [TOTAL]                                  786     0     0.021   60.072    1.480±6.917   
+
+extract_document_content       docx                       3     0     0.011    0.024    0.016±0.008   
+extract_document_content       local.gz                   3     0     0.001    0.011    0.006±0.005   
+extract_document_content       local.jpg                  3     0     3.369   17.800   12.969±8.313   
+extract_document_content       local.jsonld               6     0     0.001    0.001    0.001±0.000   
+extract_document_content       local.mp3                  0     1   (all errors)
+extract_document_content       local.pdb                  1     0     0.420    0.420    0.420±0.000   
+extract_document_content       local.png                  5     0     1.459    3.519    2.708±0.877   
+extract_document_content       local.py                   3     0     0.001    0.001    0.001±0.000   
+extract_document_content       local.txt                  3     0     0.000    0.019    0.007±0.010   
+extract_document_content       local.xml                  0     9   (all errors)
+extract_document_content       local.zip                 19    12     0.003    0.011    0.005±0.002   
+extract_document_content       pdf                      142     0     0.000   87.522    8.501±12.857  
+extract_document_content       pptx                       3     0     1.174    1.218    1.192±0.023   
+extract_document_content       spreadsheet                9     0     0.000    0.664    0.181±0.255   
+extract_document_content       web                     1308    41     0.176  654.986   15.568±20.330  
+extract_document_content       youtube                    6     0     6.920   26.067   12.525±6.848   
+  extract_document_content [TOTAL]                         1514    63     0.000  654.986   14.336±19.605  
+
+extract_excel_content          local.xls                  0    12   (all errors)
+extract_excel_content          local.xlsx               110     9     0.008    1.048    0.047±0.141   
+extract_excel_content          local.zip                 12     1     0.000    0.001    0.000±0.000   
+  extract_excel_content [TOTAL]                          122    22     0.000    1.048    0.043±0.134   
+
+search_archived_webpage        archived                  55     0     0.249   10.620    3.197±3.332   
+  search_archived_webpage [TOTAL]                           55     0     0.249   10.620    3.197±3.332   
+
+search_google                  query                   2689     0     0.141    5.297    0.304±0.137   
+  search_google [TOTAL]                                2689     0     0.141    5.297    0.304±0.137   
+
+search_wiki                    entity                   608     0     0.089    1.570    0.469±0.236   
+  search_wiki [TOTAL]                                   608     0     0.089    1.570    0.469±0.236   
+
+search_wiki_revisions          entity                   328     0     0.071    0.357    0.098±0.029   
+  search_wiki_revisions [TOTAL]                          328     0     0.071    0.357    0.098±0.029   
+

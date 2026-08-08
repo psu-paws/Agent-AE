@@ -1,0 +1,11 @@
+turn,tool_name,args_json
+0,google_search,"{""q"": ""OpenCV version where support was added for Mask-RCNN model contributor""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Find version information and contributors for added Mask-RCNN support"", ""url"": ""https://github.com/opencv/opencv/wiki/ChangeLog/1fbc4414210217372cfd0d7ecdfd2ae5dafcc626""}"
+2,google_search,"{""q"": ""opencv mask rcnn model contributor mask-rcnn.cpp""}"
+3,google_search,"{""q"": ""\""Added support for Mask-RCNN\"" OpenCV""}"
+4,google_search,"{""q"": ""OpenCV 4.5 Mask-RCNN""}"
+5,google_search,"{""q"": ""opencv 3.4.3 mask rcnn added support""}"
+6,google_search,"{""q"": ""opencv 4.0.0 \""Mask-RCNN\""""}"
+7,scrape_and_extract_info,"{""info_to_extract"": ""Read the release highlights and find any mention of contributors for Mask-RCNN support"", ""url"": ""https://opencv.org/opencv-4-0-alpha/""}"
+8,scrape_and_extract_info,"{""info_to_extract"": ""Find \""Li Peng\"" in the changelog page"", ""url"": ""https://github.com/opencv/opencv/wiki/ChangeLog""}"
+9,google_search,"{""q"": ""Li Peng former Chinese Premier""}"

@@ -1,0 +1,6 @@
+turn,tool_name,args_json
+0,google_search,"{""q"": ""Venezuelan Declaration of Independence year""}"
+1,google_search,"{""q"": ""TikTok logo colors July 2023""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Extract the number of colors in the TikTok logo as of July 2023, excluding black and white."", ""url"": ""https://shop.tiktok.com/us/k/number-of-colors-in-the-tiktok-logo-as-of-july-2023-excluding-black-and-white""}"
+3,google_search,"{""q"": ""Business Insider July 2023 average height of woman Philippines""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Find the average height of an average woman in the Philippines as stated in this Business Insider article."", ""url"": ""https://africa.businessinsider.com/health/ranked-the-countries-with-the-shortest-people-in-the-world/xc8fc6t""}"

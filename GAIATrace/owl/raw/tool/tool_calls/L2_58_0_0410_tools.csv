@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"", ""question"": ""What are the details of the current Standard plan, including storage limits and costs?"", ""sys_prompt"": null}",2.0588951110839844
+6,search_google,"{""num_result_pages"": 3, ""query"": ""cloud storage upgrade plans and costs""}",0.49339771270751953
+7,extract_document_content,"{""document_path"": ""https://support.apple.com/en-us/108047"", ""query"": ""upgrade plans and costs""}",14.915119647979736
+7,extract_document_content,"{""document_path"": ""https://one.google.com/about/plans"", ""query"": ""upgrade plans and costs""}",109.30373811721802
+15,search_google,"{""num_result_pages"": 1, ""query"": ""average additional cost per file cloud storage upgrade calculation""}",0.5251410007476807
+16,extract_document_content,"{""document_path"": ""https://cloud.google.com/storage/pricing"", ""query"": ""average additional cost per file cloud storage upgrade calculation""}",12.269882678985596

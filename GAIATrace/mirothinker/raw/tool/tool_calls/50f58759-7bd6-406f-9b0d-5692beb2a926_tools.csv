@@ -1,0 +1,6 @@
+turn,tool_name,args_json
+0,scrape_and_extract_info,"{""info_to_extract"": ""return the raw content"", ""url"": ""https://en.wikipedia.org/w/api.php?action=query&titles=August_1&prop=revisions&rvlimit=1&rvstart=2023-06-30T23%3A59%3A59Z&rvdir=older&rvprop=ids|timestamp&format=json""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""return the raw content"", ""url"": ""https://en.wikipedia.org/w/index.php?title=August_1&oldid=1162212811&action=raw""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""return the raw content"", ""url"": ""https://en.wikipedia.org/w/api.php?action=parse&page=August_1&oldid=1162212811&prop=references&format=json""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""return the raw content"", ""url"": ""https://en.wikipedia.org/w/api.php?action=parse&oldid=1162212811&prop=references&format=json""}"
+4,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""MediaWiki API parse prop=references""}"

@@ -1,0 +1,10 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""site:clinicaltrials.gov H. pylori acne vulgaris January May 2018""}",0.3952038288116455
+3,search_google,"{""num_result_pages"": 1, ""query"": ""H. pylori acne vulgaris clinical trial January May 2018 site:clinicaltrials.gov""}",0.25987911224365234
+4,search_google,"{""num_result_pages"": 1, ""query"": ""H. pylori acne vulgaris clinical trial 2018 site:clinicaltrials.gov""}",0.31177616119384766
+5,search_google,"{""num_result_pages"": 1, ""query"": ""H. pylori acne vulgaris clinical trial NIH 2018""}",0.33920836448669434
+6,search_google,"{""num_result_pages"": 1, ""query"": ""H. pylori acne vulgaris clinical trial 2018 site:nih.gov""}",0.2817096710205078
+7,search_google,"{""num_result_pages"": 1, ""query"": ""H. pylori acne vulgaris clinical trial January May 2018 site:nih.gov""}",0.28760862350463867
+8,search_google,"{""num_result_pages"": 1, ""query"": ""H. pylori acne vulgaris clinical trial 2018 site:clinicaltrials.gov""}",0.21456670761108398
+26,search_google,"{""num_result_pages"": 3, ""query"": ""site:clinicaltrials.gov H. pylori acne vulgaris January to May 2018""}",0.5203666687011719
+27,search_google,"{""num_result_pages"": 3, ""query"": ""H. pylori acne vulgaris clinical trial January to May 2018 site:clinicaltrials.gov""}",0.28989124298095703

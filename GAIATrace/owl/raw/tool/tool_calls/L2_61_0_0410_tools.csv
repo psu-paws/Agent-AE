@@ -1,0 +1,25 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 8, ""year"": 2023}",0.14135146141052246
+3,search_wiki,"{""entity"": ""Carl Nebel""}",0.523951530456543
+4,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 7, ""year"": 2023}",0.0550234317779541
+5,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 6, ""year"": 2023}",0.06762313842773438
+6,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 5, ""year"": 2023}",0.06893658638000488
+7,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 4, ""year"": 2023}",0.05445551872253418
+8,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 3, ""year"": 2023}",0.0549776554107666
+9,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 2, ""year"": 2023}",0.0540928840637207
+10,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 1, ""year"": 2023}",0.06903433799743652
+11,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 12, ""year"": 2022}",0.053952932357788086
+12,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 11, ""year"": 2022}",0.054976463317871094
+13,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 10, ""year"": 2022}",0.06857156753540039
+14,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 9, ""year"": 2022}",0.06922364234924316
+15,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 8, ""year"": 2022}",0.05529189109802246
+16,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 7, ""year"": 2022}",0.05471396446228027
+17,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 6, ""year"": 2022}",0.0542299747467041
+21,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 8, ""year"": 2023}",0.0842893123626709
+21,search_wiki,"{""entity"": ""Carl Nebel""}",0.2834961414337158
+22,search_archived_webpage,"{""date"": ""20230831"", ""url"": ""https://en.wikipedia.org/wiki/Carl_Nebel""}",10.646698474884033
+50,extract_document_content,"{""document_path"": ""https://de.wikipedia.org/wiki/Thieme-Becker"", ""query"": ""images""}",17.082729816436768
+51,ask_question_about_image,"{""image_path"": ""https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Das_Deutsche_Buchmuseum_zu_Leipzig_111b.jpg/500px-Das_Deutsche_Buchmuseum_zu_Leipzig_111b.jpg"", ""question"": ""What is the latest chronological year date written in this image?"", ""sys_prompt"": null}",2.443413734436035
+51,ask_question_about_image,"{""image_path"": ""https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Perwanger%2C_Christoph_%28aus_Ulrich_Thieme%2C_Felix_Becker%2C_Allgemeines_Lexikon_der_Bildenden_K%C3%BCnstler_von_der_Antike_bis_zur_Gegenwart%2C_S._460%29.jpg/500px-Perwanger%2C_Christoph_%28aus_Ulrich_Thieme%2C_Felix_Becker%2C_Allgemeines_Lexikon_der_Bildenden_K%C3%BCnstler_von_der_Antike_bis_zur_Gegenwart%2C_S._460%29.jpg"", ""question"": ""What is the latest chronological year date written in this image?"", ""sys_prompt"": null}",1.638169527053833
+58,search_google,"{""num_result_pages"": 3, ""query"": ""Thieme-Becker 1950""}",0.3296022415161133
+59,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Thieme-Becker"", ""query"": ""1950""}",15.449583053588867

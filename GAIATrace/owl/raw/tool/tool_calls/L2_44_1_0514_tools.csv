@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Federico Lauria 2014 dissertation""}",0.5947256088256836
+3,extract_document_content,"{""document_path"": ""https://philarchive.org/rec/LAUQLO"", ""query"": ""footnote 397""}",57.35745882987976
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Federico Lauria 2014 dissertation footnote 397""}",0.4478142261505127
+17,extract_document_content,"{""document_path"": ""https://philarchive.org/rec/LAUQLO"", ""query"": ""footnote 397""}",19.86525273323059

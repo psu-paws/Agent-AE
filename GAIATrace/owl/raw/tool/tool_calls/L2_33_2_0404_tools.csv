@@ -1,0 +1,15 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""2023 IPCC report 85 pages PDF""}",0.4115760326385498
+3,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf"", ""query"": ""85 pages version""}",91.91006350517273
+3,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/"", ""query"": ""85 pages version""}",7.305162668228149
+21,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf"", ""query"": ""85 pages version""}",53.66034412384033
+34,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf"", ""query"": ""nuclear energy""}",4.541911602020264
+34,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf"", ""query"": ""nuclear energy""}",56.0626220703125
+34,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf"", ""query"": ""nuclear energy""}",119.91995811462402
+65,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf"", ""query"": ""nuclear energy""}",4.650773286819458
+65,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf"", ""query"": ""nuclear energy""}",55.89922380447388
+65,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf"", ""query"": ""nuclear energy""}",145.7647659778595
+98,search_google,"{""num_result_pages"": 3, ""query"": ""2023 IPCC report 85 pages version""}",0.4107820987701416
+99,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf"", ""query"": ""85 pages version""}",91.16236090660095
+99,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/"", ""query"": ""85 pages version""}",4.960140943527222
+117,extract_document_content,"{""document_path"": ""https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf"", ""query"": ""85 pages version""}",53.37652802467346

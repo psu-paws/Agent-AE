@@ -1,0 +1,33 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's online flavor graveyard""}",0.42087864875793457
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard""}",0.2652904987335205
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard website""}",0.32872462272644043
+5,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard site""}",0.28302502632141113
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard online""}",0.28830718994140625
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard headstone oldest flavor""}",0.34322237968444824
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard website link""}",0.2560138702392578
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard site link""}",0.37013697624206543
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard official site""}",0.28439998626708984
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard""}",0.2585883140563965
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard site""}",0.28383588790893555
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard website""}",0.25041723251342773
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard online""}",0.2691001892089844
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard headstone oldest flavor""}",0.26593852043151855
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard website link""}",0.27112865447998047
+17,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard site link""}",0.2606322765350342
+20,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's online flavor graveyard""}",0.2944643497467041
+21,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard site""}",0.28472447395324707
+22,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard official website""}",0.3081648349761963
+23,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard""}",0.291074275970459
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard site""}",0.27462291717529297
+25,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard official site""}",0.34188175201416016
+26,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard website""}",0.2395782470703125
+27,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard page""}",0.22335171699523926
+28,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard official page""}",0.27837181091308594
+29,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard site""}",0.22380781173706055
+30,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard""}",0.2713925838470459
+31,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard official website""}",0.27223896980285645
+32,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard site""}",0.2320089340209961
+33,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard page""}",0.24968242645263672
+34,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard official page""}",0.22663593292236328
+35,search_google,"{""num_result_pages"": 1, ""query"": ""Ben & Jerry's flavor graveyard""}",0.2716996669769287

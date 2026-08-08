@@ -1,0 +1,17 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Yankees player most walks 1977 regular season""}",0.38245463371276855
+3,extract_document_content,"{""document_path"": ""https://www.mlb.com/yankees/stats/1977"", ""query"": ""Yankees player with most walks 1977 regular season""}",11.150380849838257
+7,search_wiki,"{""entity"": ""Reggie Jackson""}",0.6262342929840088
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Reggie Jackson 1977 regular season at bats""}",0.5688490867614746
+9,extract_document_content,"{""document_path"": ""https://www.baseball-almanac.com/players/hittinglogs.php?p=jacksre01&y=1977"", ""query"": ""Reggie Jackson 1977 regular season at bats""}",17.81415629386902
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Reggie Jackson 1977 walks and at bats""}",0.3791189193725586
+13,search_wiki,"{""entity"": ""Reggie Jackson""}",0.3161585330963135
+14,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Reggie_Jackson"", ""query"": ""Reggie Jackson 1977 walks and at bats""}",60.624727964401245
+24,search_google,"{""num_result_pages"": 1, ""query"": ""Reggie Jackson 1977 season statistics""}",0.5549800395965576
+25,extract_document_content,"{""document_path"": ""https://www.baseball-reference.com/players/j/jacksre01.shtml"", ""query"": ""Reggie Jackson 1977 walks and at bats""}",83.58675646781921
+39,search_google,"{""num_result_pages"": 3, ""query"": ""Yankee player most walks 1977 regular season""}",0.3675086498260498
+40,extract_document_content,"{""document_path"": ""https://www.mlb.com/yankees/stats/1977"", ""query"": ""most walks 1977 regular season""}",8.157494068145752
+40,extract_document_content,"{""document_path"": ""https://www.baseball-reference.com/teams/NYY/1977.shtml"", ""query"": ""most walks 1977 regular season""}",15.152720928192139
+44,search_google,"{""num_result_pages"": 2, ""query"": ""Reggie Jackson 1977 regular season at bats""}",0.4521448612213135
+44,search_wiki,"{""entity"": ""Reggie Jackson""}",0.33585262298583984
+45,extract_document_content,"{""document_path"": ""https://www.baseball-almanac.com/players/hittinglogs.php?p=jacksre01&y=1977"", ""query"": ""Reggie Jackson 1977 regular season at bats""}",16.473974466323853

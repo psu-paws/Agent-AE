@@ -1,0 +1,10 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Mercedes Sosa studio albums Wikipedia""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the list of studio albums and their release years from the Wikipedia page, especially for the period 2000-2009 inclusive."", ""url"": ""https://en.wikipedia.org/wiki/Mercedes_Sosa""}"
+2,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Mercedes Sosa discography Wikipedia studio albums""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Identify whether Cantora 1 and Cantora 2 are considered studio albums, and their release years."", ""url"": ""https://en.wikipedia.org/wiki/Cantora,_un_Viaje_\u00cdntimo""}"
+4,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""2000 Mercedes Sosa studio album""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Extract the complete table/list of studio albums with their release years from the Wikipedia page, including the period 2000-2009."", ""url"": ""https://en.wikipedia.org/wiki/Mercedes_Sosa""}"
+6,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""\""Ac\u00fastico\"" Mercedes Sosa 2002 album""}"
+7,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""\""Argentina quiere cantar\"" Mercedes Sosa album 2003""}"
+8,scrape_and_extract_info,"{""info_to_extract"": ""Extract the full list of studio albums (title and release year) from the Wikipedia page's discography section."", ""url"": ""https://en.wikipedia.org/wiki/Mercedes_Sosa""}"

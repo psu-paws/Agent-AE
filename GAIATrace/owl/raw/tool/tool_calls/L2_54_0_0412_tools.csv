@@ -1,0 +1,3 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""site:sciencedirect.com Life Science Reference Works 2022""}",0.33436155319213867
+13,search_google,"{""num_result_pages"": 3, ""query"": ""site:sciencedirect.com Life Science Reference Works 2022""}",0.2573564052581787

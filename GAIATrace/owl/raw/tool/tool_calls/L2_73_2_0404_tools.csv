@@ -1,0 +1,17 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""2019 British Academy Games Awards best game winner""}",0.4315207004547119
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/15th_British_Academy_Games_Awards"", ""query"": ""best game winner""}",12.809327602386475
+7,search_wiki,"{""entity"": ""God of War (2018 video game)""}",0.6382777690887451
+8,search_google,"{""num_result_pages"": 1, ""query"": ""God of War 2018 Wikipedia""}",0.35919833183288574
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"", ""query"": ""God of War 2018 Wikipedia page""}",46.780056953430176
+20,search_wiki,"{""entity"": ""God of War (2018 video game)""}",0.13981342315673828
+21,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"", ""query"": ""release date""}",55.54859471321106
+32,search_wiki_revisions,"{""entity"": ""God of War (2018 video game)"", ""month"": 4, ""year"": 2018}",0.09220600128173828
+37,search_google,"{""num_result_pages"": 1, ""query"": ""2019 British Academy Games Awards best game winner""}",0.36897730827331543
+38,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/15th_British_Academy_Games_Awards"", ""query"": ""2019 British Academy Games Awards best game winner""}",16.001442432403564
+42,search_wiki,"{""entity"": ""God of War (2018 video game)""}",0.14890718460083008
+43,search_google,"{""num_result_pages"": 1, ""query"": ""God of War 2018 Wikipedia""}",0.37282633781433105
+44,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"", ""query"": ""God of War 2018 Wikipedia page""}",62.49847650527954
+55,search_wiki,"{""entity"": ""God of War (2018 video game)""}",0.16548585891723633
+56,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"", ""query"": ""release date""}",51.62500357627869
+67,search_wiki_revisions,"{""entity"": ""God of War (2018 video game)"", ""month"": 4, ""year"": 2018}",0.08520936965942383

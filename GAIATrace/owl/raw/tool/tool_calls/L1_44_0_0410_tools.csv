@@ -1,0 +1,3 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,ask_question_about_audio,"{""audio_path"": ""data/gaia/2023/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"", ""question"": ""What are the page numbers recommended by Professor Willowbrook for the Calculus mid-term study?""}",10.721134185791016
+11,ask_question_about_audio,"{""audio_path"": ""data/gaia/2023/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"", ""question"": ""What are the page numbers mentioned in the audio recording?""}",8.329653263092041

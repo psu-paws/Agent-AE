@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Venezuelan Declaration of Independence""}",0.6438555717468262
+5,search_google,"{""num_result_pages"": 1, ""query"": ""TikTok logo colors July 2023""}",0.43643760681152344
+6,search_wiki,"{""entity"": ""TikTok logo""}",0.6408798694610596
+7,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/TikTok"", ""query"": ""TikTok logo colors July 2023""}",33.636131048202515
+42,search_google,"{""num_result_pages"": 3, ""query"": ""average height of women in the Philippines July 2023 site:businessinsider.com""}",0.3295578956604004
+43,extract_document_content,"{""document_path"": ""https://www.businessinsider.com/shortest-people-in-world-by-country-2019-6"", ""query"": ""average height of women in the Philippines July 2023""}",21.26546287536621
+65,search_wiki,"{""entity"": ""Venezuelan Declaration of Independence""}",0.36802053451538086
+70,search_google,"{""num_result_pages"": 2, ""query"": ""TikTok logo colors July 2023 branding guidelines""}",0.48159146308898926
+70,search_google,"{""num_result_pages"": 2, ""query"": ""TikTok logo colors July 2023 design article""}",0.6915125846862793
+71,search_google,"{""num_result_pages"": 2, ""query"": ""TikTok logo colors branding guidelines""}",0.475477933883667

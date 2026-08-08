@@ -1,0 +1,12 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Audre Lorde poem Father Son and Holy Ghost full text""}",0.3854410648345947
+3,extract_document_content,"{""document_path"": ""https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"", ""query"": ""full text of Audre Lorde's poem Father Son and Holy Ghost""}",30.43424415588379
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Audre Lorde Father Son and Holy Ghost poem full text""}",0.513181209564209
+13,extract_document_content,"{""document_path"": ""https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"", ""query"": ""stanza structure and indentation""}",27.113940000534058
+17,extract_document_content,"{""document_path"": ""https://www.poetryfoundation.org/poems/53986/father-son-and-holy-ghost"", ""query"": ""Father Son and Holy Ghost Audre Lorde poem stanza indentation""}",22.117116928100586
+21,search_google,"{""num_result_pages"": 2, ""query"": ""Audre Lorde Father Son and Holy Ghost full text""}",0.49054646492004395
+22,extract_document_content,"{""document_path"": ""https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"", ""query"": ""full text of Audre Lorde's poem Father Son and Holy Ghost""}",14.696163415908813
+22,extract_document_content,"{""document_path"": ""https://lindas-literary-home.com/my-literary-home/essays-poems-with-commentaries/audre-lordes-father-son-and-holy-ghost/"", ""query"": ""full text of Audre Lorde's poem Father Son and Holy Ghost""}",14.98457384109497
+28,search_google,"{""num_result_pages"": 1, ""query"": ""Audre Lorde Father Son and Holy Ghost poem text""}",0.3946666717529297
+28,search_wiki,"{""entity"": ""Father Son and Holy Ghost Audre Lorde""}",0.609194278717041
+29,extract_document_content,"{""document_path"": ""https://www.poetryfoundation.org/poems/46462/father-son-and-holy-ghost"", ""query"": ""stanza number with indented lines""}",17.465912103652954

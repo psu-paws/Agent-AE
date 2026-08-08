@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+11,search_google,"{""num_result_pages"": 1, ""query"": ""World of Warcraft classes list""}",0.37589311599731445
+11,search_wiki,"{""entity"": ""World of Warcraft classes""}",0.6511263847351074
+12,extract_document_content,"{""document_path"": ""https://worldofwarcraft.blizzard.com/game/classes"", ""query"": ""list of World of Warcraft classes""}",5.3226752281188965

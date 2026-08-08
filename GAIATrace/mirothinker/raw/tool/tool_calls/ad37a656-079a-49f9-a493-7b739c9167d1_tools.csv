@@ -1,0 +1,7 @@
+turn,tool_name,args_json
+0,google_search,"{""num"": 10, ""q"": ""July 15 2008 site:phys.org catastrophe""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the date, title, and any mention of explosive force of the catastrophe"", ""url"": ""https://phys.org/news/2008-07-tunguska-catastrophe-evidence-acid-meteorite.html""}"
+2,google_search,"{""num"": 10, ""q"": ""Tunguska event Encyclopedia Britannica explosive force""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Find the estimated explosive force in megatons of TNT of the Tunguska event according to this page"", ""url"": ""https://www.britannica.com/event/Tunguska-event""}"
+4,google_search,"{""num"": 10, ""q"": ""US nuclear test 15 megatons yield""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Find the yield of Castle Bravo"", ""url"": ""https://en.wikipedia.org/wiki/Castle_Bravo""}"

@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Omar Valencfia-Mendez 2017 paper harlequin shrimp total length""}",0.5321667194366455
+3,extract_document_content,"{""document_path"": ""https://threatenedtaxa.org/index.php/JoTT/article/view/3238"", ""query"": ""total length of the harlequin shrimp""}",16.292048931121826
+4,extract_document_content,"{""document_path"": ""https://threatenedtaxa.org/index.php/JoTT/article/view/3238/4123"", ""query"": ""total length of the harlequin shrimp""}",28.974874258041382
+16,search_google,"{""num_result_pages"": 3, ""query"": ""Omar Valencfia-Mendez 2017 paper harlequin shrimp total length""}",0.3344907760620117
+17,extract_document_content,"{""document_path"": ""https://threatenedtaxa.org/index.php/JoTT/article/view/3238"", ""query"": ""total length of the harlequin shrimp""}",5.349323987960815
+18,extract_document_content,"{""document_path"": ""https://threatenedtaxa.org/index.php/JoTT/article/view/3238/4123"", ""query"": ""total length of the harlequin shrimp""}",13.847274780273438

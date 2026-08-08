@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""British Museum collection 2012,5015.17 mollusk species""}",0.27422118186950684
+6,search_google,"{""num_result_pages"": 3, ""query"": ""Science Advances 2021 beads Nassa gibbosula""}",0.39855456352233887
+7,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC8457661/"", ""query"": ""abstract""}",41.588735580444336
+15,search_google,"{""num_result_pages"": 3, ""query"": ""Nassa gibbosula shell beads 142,000 years old Science Advances 2021""}",0.2920951843261719
+16,extract_document_content,"{""document_path"": ""https://www.science.org/doi/10.1126/sciadv.abi8620"", ""query"": ""age of Nassa gibbosula shell beads""}",35.21948528289795
+16,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC8457661/"", ""query"": ""age of Nassa gibbosula shell beads""}",15.677848100662231

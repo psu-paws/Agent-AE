@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Nature journal Scientific Reports 2012 conference proceedings""}",0.6449778079986572
+21,extract_document_content,"{""document_path"": ""https://www.nature.com/articles/srep00914"", ""query"": ""nano-compound studied""}",31.001149892807007
+24,extract_document_content,"{""document_path"": ""https://www.nature.com/articles/srep00914"", ""query"": ""nano-compound studied""}",36.193021297454834
+25,search_google,"{""num_result_pages"": 2, ""query"": ""nano-diamond photonic crystal slab""}",0.37401771545410156
+25,search_google,"{""num_result_pages"": 2, ""query"": ""nano-diamond scientific reports 2012""}",0.46230149269104004
+26,search_wiki,"{""entity"": ""nano-diamond""}",0.5977206230163574

@@ -1,0 +1,35 @@
+================================================================
+  SET STATISTICS  (one best run per question, seed=42)
+  165 questions selected
+  block-size = 1   (sessions walked in manifest order)
+================================================================
+
+  gpt-oss-120b
+  ────────────────────────────────────────────────────────
+  Requests      : 2,669  across 165 files
+  Turns/file    : min=2  mean=16.2±12.7  max=113
+  Prefill (tok) : min=204  mean=4,803.5±5,626.0  max=62,813
+  Decode  (tok) : min=5  mean=323.7±485.2  max=3,790
+  KV cache (block=1)
+    total prefill :     12,820,494
+    intra-session :      7,439,444  (58.0% hit rate)  cache reset per session
+    + inter       :      7,530,286  (58.7% hit rate)  cache shared across all sessions
+    cross-session :         90,842  (+0.7 pp from reuse between sessions)
+    unseen (intra):      5,381,050  (42.0%)
+  Reasoning (tok): min=0  mean=152.0±188.5  max=2,570  (47.0% of decode)
+
+  gpt-4o
+  ────────────────────────────────────────────────────────
+  Requests      : 2,737  across 165 files
+  Turns/file    : min=3  mean=16.6±9.9  max=54
+  Prefill (tok) : min=713  mean=7,848.1±12,908.4  max=122,711
+  Decode  (tok) : min=0  mean=92.7±173.0  max=7,546
+  KV cache (block=1)
+    total prefill :     21,480,307
+    intra-session :     12,973,757  (60.4% hit rate)  cache reset per session
+    + inter       :     13,158,863  (61.3% hit rate)  cache shared across all sessions
+    cross-session :        185,106  (+0.9 pp from reuse between sessions)
+    unseen (intra):      8,506,550  (39.6%)
+  Reasoning (tok): N/A (gpt-4o has no reasoning tokens)
+
+================================================================

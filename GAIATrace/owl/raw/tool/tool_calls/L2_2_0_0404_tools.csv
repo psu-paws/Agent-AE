@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""total number of articles published by Nature in 2020""}",0.29358863830566406
+28,execute_code,"{""code"": ""import requests, re, bs4, json, math, sys, textwrap, os\\nfrom bs4 import BeautifulSoup\\nurl='https://www.nature.com/nature/volumes/586'  # Volume 586 corresponds to 2020\\nhtml=requests.get(url, timeout=10).text\\nsoup=BeautifulSoup(html,'html.parser')\\n# Find article list items\\narticles=soup.find_all('article')\\nprint('article tags', len(articles))\\n# maybe each article entry has class 'c-card' etc\\ncards=soup.find_all(class_=re.compile('c-card'))\\nprint('cards', len(cards))\\n# Let's extract titles\\ntitles=[]\\nfor card in cards:\\n    h2=card.find('h2')\\n    if h2:\\n        titles.append(h2.get_text(strip=True))\\nprint('titles count', len(titles))\\n# maybe pagination needed\\n""}",0.0011565685272216797
+30,execute_code,"{""code"": ""import requests, json, math\\nurl='https://api.crossref.org/works?filter=container-title:Nature,from-pub-date:2020-01-01,until-pub-date:2020-12-31,type:journal-article&rows=0'\\nresp=requests.get(url, timeout=10).json()\\nprint(resp['message']['total-results'])\\n""}",0.0009634494781494141
+34,search_google,"{""num_result_pages"": 1, ""query"": ""total number of articles published by Nature in 2020""}",0.2976338863372803
+55,search_google,"{""num_result_pages"": 3, ""query"": ""Nature journal 2020 publication statistics""}",0.42231035232543945
+56,search_google,"{""num_result_pages"": 3, ""query"": ""Nature journal 2020 annual report""}",0.3688070774078369
+57,search_google,"{""num_result_pages"": 3, ""query"": ""Nature journal 2020 publication statistics site:nature.com""}",0.35312581062316895

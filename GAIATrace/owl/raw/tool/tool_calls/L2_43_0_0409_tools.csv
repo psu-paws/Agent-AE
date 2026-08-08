@@ -1,0 +1,13 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database nonindigenous crocodiles Florida""}",0.4057164192199707
+3,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database""}",0.29439401626586914
+23,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database crocodiles Florida""}",0.4370119571685791
+24,search_google,"{""num_result_pages"": 1, ""query"": ""USGS Nonindigenous Aquatic Species database""}",0.24102473258972168
+46,search_google,"{""num_result_pages"": 3, ""query"": ""USGS Nonindigenous Aquatic Species database nonindigenous crocodiles Florida""}",0.29935526847839355
+47,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=223"", ""query"": ""nonindigenous crocodiles Florida 2000-2020""}",18.141193628311157
+52,search_google,"{""num_result_pages"": 3, ""query"": ""nonindigenous crocodiles in Florida 2000-2020""}",0.3938937187194824
+52,search_google,"{""num_result_pages"": 3, ""query"": ""nonindigenous species database Florida crocodiles""}",0.3348376750946045
+52,search_google,"{""num_result_pages"": 3, ""query"": ""Florida wildlife agency reports nonindigenous crocodiles""}",0.3663914203643799
+53,extract_document_content,"{""document_path"": ""https://www.unodc.org/cofrb/uploads/documents/ECOS/World_Wildlife_Crime_Report_2024.pdf"", ""query"": ""nonindigenous crocodiles in Florida""}",100.71985077857971
+53,extract_document_content,"{""document_path"": ""https://www.floridamuseum.ufl.edu/science/man-eating-monster-crocodile-may-be-floridas-newest-invasive-species/"", ""query"": ""Nile crocodiles in Florida""}",74.33752298355103
+53,extract_document_content,"{""document_path"": ""https://myfwc.com/wildlifehabitats/nonnatives/"", ""query"": ""nonindigenous crocodiles""}",16.38347339630127

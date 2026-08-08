@@ -1,0 +1,14 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Legume"", ""month"": 11, ""year"": 2022}",0.14708852767944336
+44,search_wiki_revisions,"{""entity"": ""Legume"", ""month"": 11, ""year"": 2022}",0.17231178283691406
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1119390517"", ""query"": ""core policies content violations""}",8.668872117996216
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1119392823"", ""query"": ""core policies content violations""}",15.110196590423584
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1119675241"", ""query"": ""core policies content violations""}",15.114410161972046
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1120546722"", ""query"": ""core policies content violations""}",14.95664381980896
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1120546771"", ""query"": ""core policies content violations""}",15.09542989730835
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1122998432"", ""query"": ""core policies content violations""}",15.06914472579956
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1122998447"", ""query"": ""core policies content violations""}",14.928995847702026
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1123334526"", ""query"": ""core policies content violations""}",15.080666542053223
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1123339042"", ""query"": ""core policies content violations""}",28.424251317977905
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1123519021"", ""query"": ""core policies content violations""}",16.61719274520874
+45,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Legume&oldid=1123551088"", ""query"": ""core policies content violations""}",14.911924839019775

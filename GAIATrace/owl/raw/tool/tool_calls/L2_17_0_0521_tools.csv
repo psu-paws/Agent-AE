@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Manash Pratim Kashyap PS Fader customer retention study 2018 2019""}",0.2621190547943115
+2,search_wiki,"{""entity"": ""Manash Pratim Kashyap""}",0.4046914577484131
+2,search_wiki,"{""entity"": ""PS Fader""}",0.4176342487335205

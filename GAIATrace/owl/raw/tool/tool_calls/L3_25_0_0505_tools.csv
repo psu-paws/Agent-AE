@@ -1,0 +1,47 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""NASA Astronomy Picture of the Day January 21 2006""}",0.4018087387084961
+3,extract_document_content,"{""document_path"": ""https://apod.nasa.gov/apod/ap060121.html"", ""query"": ""smaller astronaut""}",17.02810049057007
+7,search_wiki,"{""entity"": ""Alan Bean""}",0.14783048629760742
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Alan Bean NASA Astronaut Group""}",0.3954203128814697
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Alan_Bean"", ""query"": ""NASA Astronaut Group""}",15.276311159133911
+12,search_wiki,"{""entity"": ""NASA Astronaut Group 3""}",0.6925733089447021
+13,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/NASA_Astronaut_Group_3"", ""query"": ""List of astronauts who have spent time in space""}",4.20978307723999
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Buzz Aldrin total time spent in space in minutes""}",0.49546122550964355
+16,search_google,"{""num_result_pages"": 1, ""query"": ""William Anders total time spent in space in minutes""}",0.5184376239776611
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Alan Bean total time spent in space in minutes""}",0.47248196601867676
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Gene Cernan total time spent in space in minutes""}",0.370650053024292
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Michael Collins total time spent in space in minutes""}",0.4797530174255371
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Walter Cunningham total time spent in space in minutes""}",0.4426133632659912
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Donn Eisele total time spent in space in minutes""}",0.3819854259490967
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Richard Gordon total time spent in space in minutes""}",0.5338306427001953
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Rusty Schweickart total time spent in space in minutes""}",0.38685035705566406
+16,search_google,"{""num_result_pages"": 1, ""query"": ""David Scott total time spent in space in minutes""}",0.5290799140930176
+17,extract_document_content,"{""document_path"": ""https://spacecenter.org/astronaut-friday-alan-bean/"", ""query"": ""total time spent in space in minutes""}",17.335841178894043
+17,extract_document_content,"{""document_path"": ""https://www.britannica.com/biography/Walter-Cunningham"", ""query"": ""total time spent in space in minutes""}",8.980041980743408
+17,extract_document_content,"{""document_path"": ""https://www.britannica.com/biography/Donn-Eisele"", ""query"": ""total time spent in space in minutes""}",15.053555011749268
+17,extract_document_content,"{""document_path"": ""https://www.facebook.com/groups/261265912631524/posts/924342146323894/"", ""query"": ""total time spent in space in minutes""}",0.28507399559020996
+18,extract_document_content,"{""document_path"": ""https://www.facebook.com/groups/spacehipsters/posts/4562164703828377/"", ""query"": ""David Scott total time spent in space in minutes""}",0.20913243293762207
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Buzz Aldrin total time spent in space in minutes""}",0.27954769134521484
+19,search_google,"{""num_result_pages"": 1, ""query"": ""William Anders total time spent in space in minutes""}",0.4375748634338379
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Gene Cernan total time spent in space in minutes""}",13.670146465301514
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Michael Collins total time spent in space in minutes""}",0.12530827522277832
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Rusty Schweickart total time spent in space in minutes""}",0.3625671863555908
+19,search_google,"{""num_result_pages"": 1, ""query"": ""David Scott total time spent in space in minutes""}",4.6404359340667725
+22,search_google,"{""num_result_pages"": 1, ""query"": ""NASA Astronomy Picture of the Day January 21 2006""}",0.3178365230560303
+23,extract_document_content,"{""document_path"": ""https://apod.nasa.gov/apod/ap060121.html"", ""query"": ""smaller astronaut""}",5.27705192565918
+27,search_wiki,"{""entity"": ""Alan Bean""}",0.3073844909667969
+28,search_google,"{""num_result_pages"": 1, ""query"": ""Alan Bean NASA Astronaut Group""}",0.3124814033508301
+29,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Alan_Bean"", ""query"": ""NASA Astronaut Group""}",0.4259946346282959
+32,search_wiki,"{""entity"": ""NASA Astronaut Group 3""}",0.33885741233825684
+33,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/NASA_Astronaut_Group_3"", ""query"": ""list of astronauts who have spent time in space""}",0.5005674362182617
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Buzz Aldrin total time spent in space in minutes""}",0.2783679962158203
+36,search_google,"{""num_result_pages"": 1, ""query"": ""William Anders total time spent in space in minutes""}",0.30678629875183105
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Alan Bean total time spent in space in minutes""}",0.2899959087371826
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Gene Cernan total time spent in space in minutes""}",0.255368709564209
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Michael Collins total time spent in space in minutes""}",0.29991960525512695
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Walter Cunningham total time spent in space in minutes""}",4.523633241653442
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Donn Eisele total time spent in space in minutes""}",14.928691864013672
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Richard Gordon total time spent in space in minutes""}",15.094858646392822
+36,search_google,"{""num_result_pages"": 1, ""query"": ""Rusty Schweickart total time spent in space in minutes""}",0.22455453872680664
+36,search_google,"{""num_result_pages"": 1, ""query"": ""David Scott total time spent in space in minutes""}",0.3463578224182129
+37,extract_document_content,"{""document_path"": ""https://spacecenter.org/astronaut-friday-alan-bean/"", ""query"": ""total time spent in space in minutes""}",0.48691439628601074

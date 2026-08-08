@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,search_google,"{""num_result_pages"": 1, ""query"": ""AI regulation paper arXiv June 2022""}",0.41944146156311035
+4,extract_document_content,"{""document_path"": ""https://arxiv.org/pdf/2207.01510"", ""query"": ""figure with three axes""}",2.534799814224243
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Physics and Society article arXiv.org August 11, 2016""}",0.46504998207092285
+9,extract_document_content,"{""document_path"": ""https://arxiv.org/abs/1608.03637"", ""query"": ""words used to describe a type of society""}",5.358863115310669
+15,search_google,"{""num_result_pages"": 2, ""query"": ""AI regulation egalitarian society""}",0.4002838134765625
+16,extract_document_content,"{""document_path"": ""https://dl.acm.org/doi/10.1145/3630106.3658934"", ""query"": ""egalitarian society AI regulation""}",30.330647945404053

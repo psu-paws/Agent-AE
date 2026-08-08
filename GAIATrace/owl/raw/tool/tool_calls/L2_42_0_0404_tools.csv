@@ -1,0 +1,18 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 6, ""year"": 2023}",0.08707761764526367
+8,search_wiki,"{""entity"": ""Antidisestablishmentarianism""}",0.5725231170654297
+8,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 6, ""year"": 2023}",0.0707862377166748
+9,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 5, ""year"": 2023}",0.0709695816040039
+10,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 4, ""year"": 2023}",0.05597972869873047
+11,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 3, ""year"": 2023}",0.06939220428466797
+12,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 2, ""year"": 2023}",0.09044480323791504
+13,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 1, ""year"": 2023}",0.0695950984954834
+14,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 12, ""year"": 2022}",0.0868527889251709
+15,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 11, ""year"": 2022}",0.08408904075622559
+16,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 10, ""year"": 2022}",0.08720135688781738
+17,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 9, ""year"": 2022}",0.09063148498535156
+18,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 8, ""year"": 2022}",0.08599114418029785
+19,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 7, ""year"": 2022}",0.07449579238891602
+20,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 6, ""year"": 2022}",0.08486366271972656
+21,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 5, ""year"": 2022}",0.08635354042053223
+22,search_wiki_revisions,"{""entity"": ""Antidisestablishmentarianism"", ""month"": 4, ""year"": 2022}",0.07034564018249512

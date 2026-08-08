@@ -1,0 +1,8 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""Malko Competition recipients 1978 1999 nationality country no longer exists""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""List of winners of the Malko Competition, including years, names, and nationalities"", ""url"": ""https://en.wikipedia.org/wiki/Malko_Competition""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Details about the winner in 1983, including his full name and nationality"", ""url"": ""https://en.wikipedia.org/wiki/Malko_Competition""}"
+3,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""Claus Peter Flor""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Extract the winners table rows for years after 1977 and their nationalities"", ""url"": ""https://en.wikipedia.org/wiki/Malko_Competition""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Extract his given name(s)"", ""url"": ""https://en.wikipedia.org/wiki/Claus_Peter_Flor""}"
+6,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""Claus Peter Flor given name""}"

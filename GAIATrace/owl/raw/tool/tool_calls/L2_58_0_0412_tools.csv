@@ -1,0 +1,12 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"", ""question"": ""What is the current storage limit and pricing details of the Standard plan?"", ""sys_prompt"": null}",1.2461810111999512
+11,search_google,"{""num_result_pages"": 2, ""query"": ""cloud storage plans pricing""}",0.3656117916107178
+12,search_google,"{""num_result_pages"": 2, ""query"": ""cloud storage plans 3TB 4TB 5TB pricing""}",0.31337785720825195
+13,extract_document_content,"{""document_path"": ""https://one.google.com/about/plans"", ""query"": ""3TB 4TB 5TB pricing""}",7.806981563568115
+35,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"", ""question"": ""What are the current storage limit and pricing details of the Standard plan?"", ""sys_prompt"": null}",1.4863879680633545
+41,execute_code,"{""code"": ""size_per_file = 100/60  # GB\\ntotal = size_per_file * 980\\nsize_per_file, total""}",0.0010445117950439453
+44,search_google,"{""num_result_pages"": 2, ""query"": ""cloud storage plans pricing""}",0.38342833518981934
+45,search_google,"{""num_result_pages"": 2, ""query"": ""cloud storage plans pricing 2023""}",0.3630061149597168
+46,extract_document_content,"{""document_path"": ""https://cloud.google.com/storage/pricing"", ""query"": ""minimum plan pricing for 3.63 TB storage""}",8.297812223434448
+52,search_google,"{""num_result_pages"": 1, ""query"": ""cloud storage plans 4TB pricing""}",0.3579857349395752
+53,search_google,"{""num_result_pages"": 1, ""query"": ""Google Drive storage plans pricing""}",0.3974785804748535

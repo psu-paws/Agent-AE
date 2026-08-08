@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/3da89939-209c-4086-8520-7eb734e6b4ef.xlsx""}",0.10564804077148438
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Trans fatty acid contents in chocolates and chocolate wafers in Turkey paper""}",0.4430685043334961
+8,extract_document_content,"{""document_path"": ""https://publications.jrc.ec.europa.eu/repository/bitstream/JRC91353/lbna26795enn.pdf"", ""query"": ""Trans fatty acid contents in chocolates and chocolate wafers in Turkey bibliography""}",9.570276975631714
+9,search_google,"{""num_result_pages"": 2, ""query"": ""Trans fatty acid contents in chocolates and chocolate wafers in Turkey paper""}",0.33777427673339844
+10,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC8566673/"", ""query"": ""Trans fatty acid contents in chocolates and chocolate wafers in Turkey bibliography""}",6.596640110015869
+26,extract_excel_content,"{""document_path"": ""data/gaia/2023/validation/3da89939-209c-4086-8520-7eb734e6b4ef.xlsx""}",0.015823841094970703
+30,search_google,"{""num_result_pages"": 1, ""query"": ""Trans fatty acid contents in chocolates and chocolate wafers in Turkey paper""}",0.5426030158996582
+31,extract_document_content,"{""document_path"": ""https://publications.jrc.ec.europa.eu/repository/bitstream/JRC91353/lbna26795enn.pdf"", ""query"": ""Trans fatty acid contents in chocolates and chocolate wafers in Turkey bibliography""}",9.32620644569397
+32,search_google,"{""num_result_pages"": 2, ""query"": ""Trans fatty acid contents in chocolates and chocolate wafers in Turkey paper""}",0.3348503112792969
+33,extract_document_content,"{""document_path"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC8566673/"", ""query"": ""Trans fatty acid contents in chocolates and chocolate wafers in Turkey bibliography""}",11.749425888061523

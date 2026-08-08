@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Whitney Museum of American Art accession number 2022.128""}",0.28316307067871094
+3,extract_document_content,"{""document_path"": ""https://whitney.org/collection/works/65848"", ""query"": ""book being held by the person in the photograph""}",11.62238359451294
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Erik Prince Civilian Warriors military unit 1813""}",0.376800537109375
+5,search_google,"{""num_result_pages"": 1, ""query"": ""Erik Prince Civilian Warriors book""}",0.35940122604370117
+6,extract_document_content,"{""document_path"": ""https://www.amazon.com/Civilian-Warriors-Inside-Blackwater-Unsung/dp/1591847214"", ""query"": ""military unit joined in 1813""}",10.571329355239868
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Whitney Museum of American Art accession number 2022.128""}",0.2086958885192871
+15,extract_document_content,"{""document_path"": ""https://whitney.org/collection/works/65848"", ""query"": ""book being held in the photograph with accession number 2022.128""}",8.368022680282593

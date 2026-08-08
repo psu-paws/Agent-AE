@@ -1,0 +1,3 @@
+turn,tool_name,args_json
+0,create_sandbox,{}
+1,run_python_code,"{""code_block"": ""s = '.rewsna eht sa \""tfel\"" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI'\nprint(s[::-1])"", ""sandbox_id"": ""id8g3wwnogvw8k20goavp-6532622b""}"

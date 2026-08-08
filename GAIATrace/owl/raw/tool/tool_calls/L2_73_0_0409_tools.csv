@@ -1,0 +1,18 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""2019 British Academy Games Awards winner""}",0.396268367767334
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/15th_British_Academy_Games_Awards"", ""query"": ""2019 British Academy Games Awards winner""}",14.638097524642944
+4,search_wiki,"{""entity"": ""God of War (2018 video game)""}",0.5991277694702148
+5,search_google,"{""num_result_pages"": 1, ""query"": ""God of War 2018 video game Wikipedia""}",0.5712985992431641
+6,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"", ""query"": ""release date""}",30.98851728439331
+18,search_wiki,"{""entity"": ""God of War (2018 video game)""}",0.20255041122436523
+19,search_google,"{""num_result_pages"": 1, ""query"": ""God of War (2018 video game) Wikipedia""}",0.426499605178833
+20,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)"", ""query"": ""release date""}",35.69661998748779
+31,search_wiki_revisions,"{""entity"": ""God of War (2018 video game)"", ""month"": 4, ""year"": 2018}",0.06845426559448242
+36,search_wiki,"{""entity"": ""British Academy Games Awards 2019""}",0.7373340129852295
+37,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/British_Academy_Games_Awards"", ""query"": ""2019 Best Game winner""}",232.39269399642944
+42,search_wiki,"{""entity"": ""Outer Wilds""}",0.45104551315307617
+43,search_google,"{""num_result_pages"": 1, ""query"": ""Outer Wilds Wikipedia page""}",0.32393980026245117
+44,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Outer_Wilds"", ""query"": ""Outer Wilds""}",9.371958255767822
+47,search_wiki,"{""entity"": ""Outer Wilds""}",0.15163064002990723
+48,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Outer_Wilds"", ""query"": ""release date""}",28.537487030029297
+52,search_wiki_revisions,"{""entity"": ""Outer Wilds"", ""month"": 5, ""year"": 2019}",0.06807398796081543

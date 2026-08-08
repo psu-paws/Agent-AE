@@ -1,0 +1,33 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Principle of double effect""}",0.6838986873626709
+2,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 10, ""year"": 2023}",0.08022022247314453
+3,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 9, ""year"": 2023}",0.06960320472717285
+4,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 8, ""year"": 2023}",0.0689857006072998
+5,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 7, ""year"": 2023}",0.08349299430847168
+6,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 6, ""year"": 2023}",0.08302903175354004
+7,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 5, ""year"": 2023}",0.07013154029846191
+8,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 4, ""year"": 2023}",0.07075953483581543
+9,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 3, ""year"": 2023}",0.07016420364379883
+10,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 2, ""year"": 2023}",0.07088923454284668
+11,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 1, ""year"": 2023}",0.05859112739562988
+12,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 12, ""year"": 2022}",0.08251953125
+13,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 11, ""year"": 2022}",0.08709168434143066
+14,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 10, ""year"": 2022}",0.07019352912902832
+15,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 9, ""year"": 2022}",0.08403253555297852
+16,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 8, ""year"": 2022}",0.06878805160522461
+19,search_wiki,"{""entity"": ""Principle of double effect""}",0.31790971755981445
+19,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 10, ""year"": 2023}",0.0809333324432373
+20,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 9, ""year"": 2023}",0.06878232955932617
+21,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 8, ""year"": 2023}",0.06962323188781738
+22,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 7, ""year"": 2023}",0.06896662712097168
+23,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 6, ""year"": 2023}",0.08477425575256348
+24,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 5, ""year"": 2023}",0.06854915618896484
+25,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 4, ""year"": 2023}",0.06902623176574707
+26,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 3, ""year"": 2023}",0.06938314437866211
+27,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 2, ""year"": 2023}",0.06878995895385742
+28,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 1, ""year"": 2023}",0.06952142715454102
+29,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 12, ""year"": 2022}",0.08475279808044434
+30,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 11, ""year"": 2022}",0.0897212028503418
+31,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 10, ""year"": 2022}",0.08364129066467285
+32,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 9, ""year"": 2022}",0.06979608535766602
+33,search_wiki_revisions,"{""entity"": ""Principle of double effect"", ""month"": 8, ""year"": 2022}",0.06953787803649902

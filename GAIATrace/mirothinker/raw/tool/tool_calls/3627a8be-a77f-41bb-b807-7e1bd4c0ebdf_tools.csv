@@ -1,0 +1,10 @@
+turn,tool_name,args_json
+0,google_search,"{""num"": 10, ""q"": ""British Museum museum number 2012,5015.17 shell mollusk species""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the description of the object, especially the species name of the shell"", ""url"": ""https://www.britishmuseum.org/collection/object/G_2012-5015-17""}"
+2,google_search,"{""num"": 10, ""q"": ""Science Advances 2021 Nassa gibbosula beads""}"
+3,google_search,"{""num"": 10, ""q"": ""\""Tritia gibbosula\"" Science Advances 2021""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Extract the abstract text"", ""url"": ""https://www.science.org/doi/10.1126/sciadv.abi8620""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Extract the abstract of the article"", ""url"": ""https://pmc.ncbi.nlm.nih.gov/articles/PMC8457661/""}"
+6,google_search,"{""num"": 10, ""q"": ""\""Early Middle Stone Age personal ornaments from Bizmoune Cave\"" abstract""}"
+7,scrape_and_extract_info,"{""info_to_extract"": ""Extract the abstract"", ""url"": ""https://pubmed.ncbi.nlm.nih.gov/34550742/""}"
+8,google_search,"{""num"": 10, ""q"": ""\""Nassa gibbosula\"" synonym Tritia gibbosula""}"

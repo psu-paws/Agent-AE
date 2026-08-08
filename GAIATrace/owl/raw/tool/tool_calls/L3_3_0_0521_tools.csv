@@ -1,0 +1,3 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""NCATS PubChem compound database Food Additive Status molecular weight 100 g/mol or less 6 heavy atoms 1 or fewer hydrogen bond acceptors complexity 10 to 15""}",0.3092467784881592
+18,search_google,"{""num_result_pages"": 3, ""query"": ""NCATS PubChem compound database Food Additive Status molecular weight 100 g/mol or less 6 heavy atoms 1 or fewer hydrogen bond acceptors complexity 10 to 15""}",0.466571569442749

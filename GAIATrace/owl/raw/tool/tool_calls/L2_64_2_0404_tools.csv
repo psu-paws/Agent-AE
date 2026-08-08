@@ -1,0 +1,16 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""10.1353/book.24372""}",0.2417011260986328
+3,extract_document_content,"{""document_path"": ""https://muse.jhu.edu/book/24372"", ""query"": ""title and author""}",18.305184364318848
+7,search_google,"{""num_result_pages"": 3, ""query"": ""A Dark Trace: Sigmund Freud on the Sense of Guilt Chapter 2""}",0.5139000415802002
+8,extract_document_content,"{""document_path"": ""https://library.oapen.org/bitstream/20.500.12657/49617/1/9789461664174.pdf"", ""query"": ""Chapter 2""}",21.392024040222168
+24,search_google,"{""num_result_pages"": 1, ""query"": ""DOI 10.1353/book.24372""}",0.2867770195007324
+25,extract_document_content,"{""document_path"": ""https://muse.jhu.edu/book/24372"", ""query"": ""title and author""}",6.041032075881958
+29,search_google,"{""num_result_pages"": 3, ""query"": ""A Dark Trace: Sigmund Freud on the Sense of Guilt Chapter 2""}",0.3058931827545166
+30,extract_document_content,"{""document_path"": ""https://library.oapen.org/bitstream/20.500.12657/49617/1/9789461664174.pdf"", ""query"": ""Chapter 2""}",130.52368140220642
+30,extract_document_content,"{""document_path"": ""https://muse.jhu.edu/book/24372"", ""query"": ""Chapter 2""}",6.087140798568726
+63,extract_document_content,"{""document_path"": ""https://oapen.org/download?type=document&docid=1000000"", ""query"": ""author who influenced the neurologist's belief in 'endopsychic myths'""}",9.914025068283081
+66,search_google,"{""num_result_pages"": 3, ""query"": ""endopsychic myths Freud influence""}",0.2796452045440674
+67,extract_document_content,"{""document_path"": ""https://astrofella.wordpress.com/2023/06/23/freud-on-art-and-literature/"", ""query"": ""endopsychic myths Freud influence""}",19.923810243606567
+68,extract_document_content,"{""document_path"": ""https://www.scribd.com/document/705455862/chapter-2-freud"", ""query"": ""endopsychic myths Freud influence""}",28.21892738342285
+69,search_google,"{""num_result_pages"": 3, ""query"": ""Freud endopsychic myths influence author""}",0.3007771968841553
+70,extract_document_content,"{""document_path"": ""https://eprints.bbk.ac.uk/id/eprint/40071/1/PhD%20FINAL%20to%20bind.pdf"", ""query"": ""Freud endopsychic myths influence""}",124.61865258216858

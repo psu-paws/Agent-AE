@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Taish\u014d Tamai jersey number July 2023""}",0.3498826026916504
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Taish%C5%8D_Tamai"", ""query"": ""jersey number July 2023""}",17.439024448394775
+8,search_google,"{""num_result_pages"": 3, ""query"": ""Taish\u014d Tamai jersey number 19 pitchers before after July 2023""}",0.2824900150299072
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Taish%C5%8D_Tamai"", ""query"": ""pitchers with jersey numbers before and after Taish\u014d Tamai""}",16.35339856147766
+9,extract_document_content,"{""document_path"": ""https://npb.jp/bis/eng/players/active/rst_f.html"", ""query"": ""pitchers with jersey numbers before and after Taish\u014d Tamai""}",18.80269432067871
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Sachiya Yamasaki jersey number July 2023""}",0.21920299530029297
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Kenta Uehara jersey number July 2023""}",0.2901122570037842
+16,extract_document_content,"{""document_path"": ""https://npb.jp/bis/eng/players/active/rst_f.html"", ""query"": ""Kenta Uehara jersey number July 2023""}",17.628869771957397

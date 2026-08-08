@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Polish-language version of Everybody Loves Raymond Ray actor""}",0.46356678009033203
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Wszyscy_kochaj%C4%85_Romana"", ""query"": ""actor who played Ray in the Polish-language version of Everybody Loves Raymond""}",12.544772386550903
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Bart\u0142omiej Kasprzykowski character in Magda M.""}",0.3067359924316406
+8,extract_document_content,"{""document_path"": ""https://www.imdb.com/title/tt0471052/"", ""query"": ""Bart\u0142omiej Kasprzykowski character name""}",19.28796076774597
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Bart\u0142omiej Kasprzykowski character in Magda M.""}",0.25948143005371094
+13,extract_document_content,"{""document_path"": ""https://www.imdb.com/title/tt0471052/"", ""query"": ""Bart\u0142omiej Kasprzykowski character name""}",3.16064715385437

@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""GameGrumps YouTube video May 14, 2017 Mario Kart 8 Deluxe""}",0.33316707611083984
+3,ask_question_about_video,"{""question"": ""What racetrack are the hosts playing on at the two-minute mark?"", ""video_path"": ""https://www.youtube.com/watch?v=nvaLkvUkW0w""}",67.0177013874054
+8,search_google,"{""num_result_pages"": 3, ""query"": ""Yoshi Circuit 150cc world record time Mario Kart 8 Deluxe June 7 2023""}",0.32088303565979004
+9,extract_document_content,"{""document_path"": ""https://mkwrs.com/mk8dx/"", ""query"": ""Yoshi Circuit 150cc world record time as of June 7, 2023""}",12.789878845214844
+12,search_google,"{""num_result_pages"": 3, ""query"": ""Yoshi Circuit 150cc world record time Mario Kart 8 Deluxe June 7, 2023""}",0.3235170841217041
+13,extract_document_content,"{""document_path"": ""https://mkwrs.com/mk8dx/"", ""query"": ""Yoshi Circuit 150cc world record time as of June 7, 2023""}",6.579267263412476

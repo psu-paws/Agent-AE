@@ -1,0 +1,2 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,extract_document_content,"{""document_path"": ""data/gaia/2023/validation/f918266a-b3e0-4914-865d-4faa564f1aef.py"", ""query"": ""Extract the content of the Python file""}",0.0008211135864257812

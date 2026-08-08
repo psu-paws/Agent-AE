@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""federal rules site:law.cornell.edu""}",0.46275949478149414
+20,extract_document_content,"{""document_path"": ""https://www.law.cornell.edu/rules/fre/article_VI"", ""query"": ""witnesses""}",8.907896280288696
+20,extract_document_content,"{""document_path"": ""https://www.law.cornell.edu/rules/fre/rule_702"", ""query"": ""witnesses""}",14.946591138839722
+22,extract_document_content,"{""document_path"": ""https://www.law.cornell.edu/rules/fre/article_VI"", ""query"": ""witnesses""}",12.388059616088867
+36,search_google,"{""num_result_pages"": 1, ""query"": ""site:law.cornell.edu Federal Rules of Evidence Article VI""}",0.4385209083557129
+57,search_google,"{""num_result_pages"": 1, ""query"": ""federal rules site:law.cornell.edu""}",0.3028438091278076
+76,extract_document_content,"{""document_path"": ""https://www.law.cornell.edu/rules/frcp"", ""query"": ""Federal Rules section titles""}",15.380204677581787

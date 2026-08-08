@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Federico Lauria 2014 dissertation""}",0.2823762893676758
+3,extract_document_content,"{""document_path"": ""https://philarchive.org/rec/LAUQLO"", ""query"": ""footnote 397""}",48.07413959503174
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Federico Lauria 2014 dissertation footnote 397""}",0.28058671951293945
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Federico Lauria dissertation footnote 397""}",0.24236702919006348
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Federico Lauria 2014 dissertation PDF""}",0.27216410636901855
+11,extract_document_content,"{""document_path"": ""https://www.researchgate.net/publication/333131394_The_'Logic_of_the_Liver'_A_Deontic_View_of_the_Intentionality_of_Desire"", ""query"": ""footnote 397""}",26.516069173812866
+16,search_google,"{""num_result_pages"": 1, ""query"": ""Federico Lauria 2014 dissertation""}",0.300797700881958
+17,extract_document_content,"{""document_path"": ""https://philarchive.org/rec/LAUQLO"", ""query"": ""footnote 397""}",13.463979721069336

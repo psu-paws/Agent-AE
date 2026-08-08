@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""BERT (language model)""}",0.7201962471008301
+5,search_wiki,"{""entity"": ""Transformer (machine learning model)""}",0.6355085372924805
+6,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Transformer_(deep_learning)"", ""query"": ""number of blocks in the encoder architecture proposed in 'Attention is All You Need'""}",52.51742362976074
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Attention is All You Need Transformer encoder number of layers""}",0.44649505615234375
+14,extract_document_content,"{""document_path"": ""https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf"", ""query"": ""number of blocks in the encoder architecture""}",2.493507146835327
+21,search_wiki,"{""entity"": ""BERT (language model)""}",0.34324216842651367
+21,search_wiki,"{""entity"": ""Attention is All You Need""}",0.9427409172058105

@@ -1,0 +1,7 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""2072 Akaikai Loop Pearl City Hawaii sold 2022""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the sale date and sale price for this property"", ""url"": ""https://www.oahure.com/SearchMLS_Details.php?MLSNumber=202221852&PropertyType=RES""}"
+2,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""2017 Komo Mai Drive Pearl City Hawaii sold 2022""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Extract the sale dates and sale prices for 2022 for 2017 Komo Mai Dr"", ""url"": ""https://www.movoto.com/pearl-city-hi/2017-komo-mai-dr-pearl-city-hi-pid_m5bxhraach/""}"
+4,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""\""2017 Komo Mai\"" \""202211953\""""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Extract the sale price and sale date for the 2022 sale of this property"", ""url"": ""https://www.redfin.com/HI/Pearl-City/2017-Komo-Mai-Dr-96782/home/91455567""}"

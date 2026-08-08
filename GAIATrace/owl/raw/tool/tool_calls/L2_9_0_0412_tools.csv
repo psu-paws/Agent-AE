@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Book of Esther""}",0.7245745658874512
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Book_of_Esther"", ""query"": ""first place mentioned by name in the Book of Esther in the New International Version (NIV)""}",15.684654474258423
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Prime Minister of Iran April 1977""}",0.37902212142944336
+8,search_wiki,"{""entity"": ""Prime Minister of Iran 1977""}",0.7400074005126953
+11,search_wiki,"{""entity"": ""Amir-Abbas Hoveyda""}",0.5845603942871094
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Prime Minister of Iran April 1977""}",0.24595355987548828
+13,extract_document_content,"{""document_path"": ""https://history.state.gov/historicaldocuments/frus1977-80v27/persons"", ""query"": ""Prime Minister of Iran April 1977""}",25.460322380065918

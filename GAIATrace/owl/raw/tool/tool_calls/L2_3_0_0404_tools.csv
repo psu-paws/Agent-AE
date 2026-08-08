@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Unlambda programming language""}",0.6355810165405273
+12,execute_code,"{""code"": ""import subprocess, sys, json, textwrap, os, sys, importlib, pkgutil, math""}",0.0008268356323242188
+17,search_wiki,"{""entity"": ""Unlambda""}",0.5498247146606445

@@ -1,0 +1,16 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""distance from Los Angeles to Cincinnati via I-40""}",0.3988609313964844
+2,search_google,"{""num_result_pages"": 1, ""query"": ""distance from Cincinnati to Augusta via I-90""}",0.3452167510986328
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Los Angeles to Cincinnati distance via I-40""}",0.35505032539367676
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati to Augusta distance via I-90""}",0.3132290840148926
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Los Angeles to Cincinnati driving distance""}",0.35207676887512207
+5,extract_document_content,"{""document_path"": ""https://www.distance.to/Cincinnati/Los-Angeles"", ""query"": ""Los Angeles to Cincinnati driving distance via I-40""}",11.505908489227295
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati to Augusta driving distance""}",0.3025360107421875
+7,extract_document_content,"{""document_path"": ""https://www.travelmath.com/distance/from/Augusta,+GA/to/Cincinnati,+OH"", ""query"": ""Cincinnati to Augusta driving distance via I-90""}",99.14100503921509
+13,search_wiki,"{""entity"": ""Recycling in the United States""}",0.7758586406707764
+14,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""recycling rate for 12-ounce water bottles""}",4.868607044219971
+17,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""deposit refund per bottle""}",11.383361339569092
+18,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""deposit""}",13.71251130104065
+19,execute_code,"{""code"": ""bottles=135\\ndeposit=0.05\\nrate=0.06\\nmoney=bottles*deposit*rate\\nmoney""}",0.0006148815155029297
+23,search_wiki,"{""entity"": ""Recycling in the United States""}",0.32111430168151855
+24,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Recycling_in_the_United_States"", ""query"": ""bottle deposit refund value""}",4.782249927520752

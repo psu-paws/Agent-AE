@@ -1,0 +1,6 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Metropolitan Museum of Art accession number 29.100.5""}",0.2748687267303467
+3,extract_document_content,"{""document_path"": ""https://www.metmuseum.org/art/collection/search/436573"", ""query"": ""subject of the portrait with accession number 29.100.5""}",21.40988850593567
+7,search_wiki,"{""entity"": ""Fernando Ni\u00f1o de Guevara""}",0.6266679763793945
+13,search_google,"{""num_result_pages"": 3, ""query"": ""Fernando Ni\u00f1o de Guevara consecrators co-consecrators""}",0.2912724018096924
+14,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Fernando_Ni%C3%B1o_de_Guevara"", ""query"": ""consecrators and co-consecrators of Fernando Ni\u00f1o de Guevara""}",16.321479082107544

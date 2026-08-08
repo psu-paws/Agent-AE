@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Moon""}",1.2827579975128174
+3,search_google,"{""num_result_pages"": 1, ""query"": ""Moon Wikipedia""}",0.3390159606933594
+4,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Moon"", ""query"": ""minimum perigee value of the Moon's distance from Earth""}",43.049232482910156
+22,search_wiki,"{""entity"": ""Eliud Kipchoge""}",0.605888843536377
+23,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Eliud_Kipchoge"", ""query"": ""Eliud Kipchoge marathon pace speed time per kilometer""}",85.12277555465698
+34,execute_code,"{""code"": ""pace_sec_per_km = 2*60 + 52\\nspeed_kmh = 3600/pace_sec_per_km\\ndistance_km = 356400\\nhours = distance_km / speed_kmh\\nhours, speed_kmh""}",0.0010280609130859375
+37,search_wiki,"{""entity"": ""Moon""}",0.41354918479919434
+37,search_wiki,"{""entity"": ""Eliud Kipchoge""}",0.2827119827270508
+37,search_google,"{""num_result_pages"": 1, ""query"": ""Eliud Kipchoge marathon pace""}",0.3120722770690918
+38,extract_document_content,"{""document_path"": ""https://www.ineos159challenge.com/news/history-is-made-as-eliud-kipchoge-becomes-first-human-to-break-the-two-hour-marathon-barrier/"", ""query"": ""Eliud Kipchoge marathon pace""}",8.221482753753662

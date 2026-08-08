@@ -1,0 +1,8 @@
+turn,tool_name,args_json
+0,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""Whistle-Stop song composer Roger Miller Alan A Dale rooster Robin Hood opening sequence""}"
+1,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""\""Hamster Dance\"" Whistle-Stop Roger Miller""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Summarize the article and mention the origin of the hamster dance song, its relation to the Disney song and composer"", ""url"": ""https://www.newsweek.com/tiktok-viral-hamster-dance-song-classic-disney-film-robin-hood-1581574""}"
+3,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""Hamster Dance animated video lyrics""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Summarize the origin of the song used in The Hampsterdance song, its tempo relative to the original, and any lyrics differences"", ""url"": ""https://hamsters.fandom.com/wiki/The_Hampsterdance_song""}"
+5,google_search,"{""hl"": ""en"", ""num"": 10, ""q"": ""Alan-a-Dale rooster Robin Hood Whistle Stop""}"
+6,scrape_and_extract_info,"{""info_to_extract"": ""Provide a summary about Whistle Stop: its use in the Robin Hood film, performer (rooster Alan-a-Dale) and composer"", ""url"": ""https://disney.fandom.com/wiki/Whistle_Stop""}"

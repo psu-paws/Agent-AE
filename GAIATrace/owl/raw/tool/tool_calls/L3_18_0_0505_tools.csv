@@ -1,0 +1,16 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""National Air and Space Museum east of the Potomac River closest metro station""}",0.3991703987121582
+3,extract_document_content,"{""document_path"": ""https://balderson.house.gov/services/visit-washington-d-c.htm"", ""query"": ""National Air and Space Museum east of the Potomac River closest metro station""}",23.09553551673889
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Cleveland Elementary School Washington DC closest metro station""}",0.4990968704223633
+7,extract_document_content,"{""document_path"": ""https://clevelandelementary.org/apps/pages/index.jsp?uREC_ID=591775&type=d"", ""query"": ""closest metro station""}",7.697611093521118
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Fire Station 301 DCA ARFF closest metro station""}",0.3589458465576172
+12,extract_document_content,"{""document_path"": ""https://www.mwaa.com/fire-stations"", ""query"": ""closest metro station to Fire Station 301 DCA ARFF""}",15.150030851364136
+13,search_google,"{""num_result_pages"": 1, ""query"": ""closest metro station to Ronald Reagan Washington National Airport""}",0.5151898860931396
+14,extract_document_content,"{""document_path"": ""https://www.wmata.com/rider-guide/airport-and-rail/index.cfm"", ""query"": ""closest metro station to Ronald Reagan Washington National Airport""}",18.298470973968506
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Yellow line metro stations Washington DC""}",0.5021638870239258
+20,extract_document_content,"{""document_path"": ""https://www.wmata.com/rider-guide/stations/index.cfm?rail=yellow"", ""query"": ""Yellow line metro stations list""}",11.651944875717163
+23,search_google,"{""num_result_pages"": 1, ""query"": ""WMATA Yellow Line metro stations 2022""}",0.4595985412597656
+24,extract_document_content,"{""document_path"": ""https://www.wmata.com/initiatives/plans/Major-Blue-and-Yellow-Line-Construction/index.cfm"", ""query"": ""Yellow Line metro stations 2022""}",16.429850578308105
+25,search_google,"{""num_result_pages"": 1, ""query"": ""WMATA Yellow Line stations list 2022""}",0.3363933563232422
+30,search_wiki,"{""entity"": ""Washington Metro Yellow Line""}",0.8825244903564453
+31,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Yellow_Line_(Washington_Metro)"", ""query"": ""Yellow Line stations 2022""}",14.060385942459106

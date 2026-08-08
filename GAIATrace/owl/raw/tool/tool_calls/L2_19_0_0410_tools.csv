@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Whitney Museum of American Art accession number 2022.128""}",0.2925090789794922
+3,extract_document_content,"{""document_path"": ""https://whitney.org/collection/works/65848"", ""query"": ""book being held by the person in the photograph""}",12.80781102180481
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Whitney Museum of American Art accession number 2022.128""}",0.24405574798583984
+15,extract_document_content,"{""document_path"": ""https://whitney.org/collection/works/65848"", ""query"": ""book being held by the person in the photograph""}",12.415996313095093
+22,search_google,"{""num_result_pages"": 1, ""query"": ""authors who joined military in 1813""}",0.36199522018432617
+23,search_wiki,"{""entity"": ""1813 in literature""}",0.7233471870422363

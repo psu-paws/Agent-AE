@@ -1,0 +1,8 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""DeepFruits fruit detection Connected Papers 2016 bubble size largest bubble feature""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Find and extract any legend or description that explains the bubble size in the graph, and identify what caused the largest bubble to have its size."", ""url"": ""https://www.connectedpapers.com/main/9397e7acd062245d37350f5c05faf56e9cfae0d6/DeepFruits:-A-Fruit-Detection-System-Using-Deep-Neural-Networks/graph""}"
+2,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Connected Papers bubble size meaning""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Find any legend text that explains bubble sizes"", ""url"": ""https://www.connectedpapers.com/main/9397e7acd062245d37350f5c05faf56e9cfae0d6/DeepFruits:-A-Fruit-Detection-System-Using-Deep-Neural-Networks/legend""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Get any text that describes bubble sizes or the legend for the graph"", ""url"": ""https://www.connectedpapers.com/main/9397e7acd062245d37350f5c05faf56e9cfae0d6/DeepFruits:-A-Fruit-Detection-System-Using-Deep-Neural-Networks/graph""}"
+5,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""DeepFruits A Fruit Detection System Using Deep Neural Networks citations 974""}"
+6,scrape_and_extract_info,"{""info_to_extract"": ""Find any mention of citation numbers in the page, especially for the main paper."", ""url"": ""https://www.connectedpapers.com/main/9397e7acd062245d37350f5c05faf56e9cfae0d6/DeepFruits:-A-Fruit-Detection-System-Using-Deep-Neural-Networks/graph""}"

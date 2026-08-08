@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Lego"", ""month"": 12, ""year"": 2022}",0.10863065719604492
+3,search_wiki,"{""entity"": ""Lego""}",0.5618674755096436
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Lego Wikipedia article""}",0.32043004035949707
+5,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Lego"", ""query"": ""2022 Lego article""}",6.305695533752441
+9,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Lego"", ""query"": ""number of images in the article""}",11.333239793777466
+13,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Lego"", ""query"": ""count the number of images in the article""}",5.5819196701049805

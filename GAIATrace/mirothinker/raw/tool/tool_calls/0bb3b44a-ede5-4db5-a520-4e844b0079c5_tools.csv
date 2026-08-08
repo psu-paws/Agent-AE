@@ -1,0 +1,13 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""\ud809\udc1c cuneiform numeric sign value""}"
+1,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""\ud809\udc10 cuneiform numeric sign value""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Extract the mapping of numeric signs to values, especially the signs \ud809\udc1c, \ud809\udc10, \ud809\udc1a, and any information on Gesh2 and U signs."", ""url"": ""https://en.wikipedia.org/wiki/Cuneiform_Numbers_and_Punctuation""}"
+3,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""one Gesh2 cuneiform numeric sign value""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Extract the entire table of cuneiform numeric signs and their values."", ""url"": ""https://en.wikipedia.org/wiki/Cuneiform_Numbers_and_Punctuation""}"
+5,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""\ud809\udc1c numeric value Babylonian""}"
+6,scrape_and_extract_info,"{""info_to_extract"": ""Find the numeric values of the cuneiform numeric signs \ud809\udc1c, \ud809\udc10, and \ud809\udc1a in the Babylonian sexagesimal system."", ""url"": ""https://en.wikipedia.org/wiki/Babylonian_cuneiform_numerals""}"
+7,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""\""CUNEIFORM NUMERIC SIGN EIGHT GE\u01602\""""}"
+8,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""U+1241C numeric value""}"
+9,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""q"": ""\""six GESH2\"" cuneiform numeric""}"
+10,scrape_and_extract_info,"{""info_to_extract"": ""Extract any mention of numeric value for the character CUNEIFORM NUMERIC SIGN FIVE U (U+12410)."", ""url"": ""https://www.fileformat.info/info/unicode/char/12410/index.htm""}"
+11,scrape_and_extract_info,"{""info_to_extract"": ""Extract numeric value information for CUNEIFORM NUMERIC SIGN SIX GESH2 (U+1241A)."", ""url"": ""https://www.fileformat.info/info/unicode/char/1241A/index.htm""}"

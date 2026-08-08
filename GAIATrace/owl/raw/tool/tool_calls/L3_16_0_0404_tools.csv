@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""List of English Wikipedia pages"", ""month"": 6, ""year"": 2023}",0.09326028823852539
+7,search_google,"{""num_result_pages"": 3, ""query"": ""site:en.wikipedia.org Twitter X posts references""}",0.6032233238220215
+8,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/X_(social_network)"", ""query"": ""Twitter X posts references""}",82.90052008628845
+8,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Template:Cite_tweet"", ""query"": ""Twitter X posts references""}",2.3538243770599365
+8,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Template:Tweet"", ""query"": ""Twitter X posts references""}",14.9784574508667
+25,search_wiki_revisions,"{""entity"": ""X (social network)"", ""month"": 6, ""year"": 2023}",0.09153962135314941
+25,search_wiki_revisions,"{""entity"": ""Template:Cite tweet"", ""month"": 6, ""year"": 2023}",0.07999682426452637
+25,search_wiki_revisions,"{""entity"": ""Template:Tweet"", ""month"": 6, ""year"": 2023}",0.07048606872558594

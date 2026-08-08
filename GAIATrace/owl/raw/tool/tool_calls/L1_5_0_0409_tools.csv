@@ -1,0 +1,13 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Pie Menus or Linear Menus, Which Is Better? 2015 authors""}",0.46622204780578613
+3,extract_document_content,"{""document_path"": ""https://www.researchgate.net/publication/283265537_Pie_Menus_or_Linear_Menus_Which_Is_Better"", ""query"": ""authors""}",30.820746660232544
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano publications before 2015""}",0.34739184379577637
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan publications before 2015""}",0.391010046005249
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano academic publications""}",0.37927722930908203
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan academic publications""}",0.42170000076293945
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano academic profile""}",0.3160746097564697
+9,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=RzmqKwcAAAAJ&hl=en"", ""query"": ""Iram N. Khan publications before 2015""}",11.467155694961548
+10,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=L9um4xoAAAAJ&hl=en"", ""query"": ""Pietro Murano publications before 2015""}",17.70772123336792
+17,search_google,"{""num_result_pages"": 1, ""query"": ""Pietro Murano first paper""}",0.32196998596191406
+17,search_google,"{""num_result_pages"": 1, ""query"": ""Iram N. Khan first paper""}",0.410552978515625
+18,extract_document_content,"{""document_path"": ""https://scholar.google.com/citations?user=RzmqKwcAAAAJ&hl=en"", ""query"": ""first paper""}",42.79911422729492

@@ -1,0 +1,2 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,extract_document_content,"{""document_path"": ""data/gaia/2023/validation/a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx"", ""query"": ""Extract the content of the PowerPoint presentation""}",2.5015223026275635

@@ -1,0 +1,5 @@
+turn,tool_name,args_json
+0,google_search,"{""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""q"": ""Carolyn Collins Petersen June 6 2023 Universe Today""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Extract the article content, especially the link to the paper mentioned at the bottom of the article, and any citation details."", ""url"": ""https://www.universetoday.com/articles/there-are-hundreds-of-mysterious-filaments-at-the-center-of-the-milky-way""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Extract the authors list, and the acknowledgments section, especially any mention of R. G. Arendt and NASA award numbers."", ""url"": ""https://iopscience.iop.org/article/10.3847/2041-8213/acd54b""}"
+3,scrape_and_extract_info,"{""info_to_extract"": ""Extract the acknowledgments text and find the NASA award number for R. G. Arendt."", ""url"": ""https://iopscience.iop.org/article/10.3847/2041-8213/acd54b/pdf""}"

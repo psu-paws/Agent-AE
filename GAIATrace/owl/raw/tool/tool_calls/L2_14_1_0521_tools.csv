@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+5,search_google,"{""num_result_pages"": 3, ""query"": ""Uncoupled: OR, How I Lost My Author(s) by David Greetham Textual Cultures: Texts, Contexts, Interpretation vol. 3 no. 1 2008 pages 45-46""}",0.40436244010925293
+6,search_google,"{""num_result_pages"": 3, ""query"": ""Uncoupled: OR, How I Lost My Author(s) David Greetham Textual Cultures Project MUSE""}",0.469921350479126
+7,extract_document_content,"{""document_path"": ""https://muse.jhu.edu/pub/3/article/240795"", ""query"": ""pages 45-46""}",74.07152509689331
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Uncoupled: OR, How I Lost My Author(s) David Greetham Project MUSE""}",0.31955909729003906

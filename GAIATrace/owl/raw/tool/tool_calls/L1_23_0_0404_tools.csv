@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+11,search_google,"{""num_result_pages"": 1, ""query"": ""4+4""}",0.5081171989440918
+11,search_google,"{""num_result_pages"": 1, ""query"": ""complimentary color of red""}",0.413440465927124
+11,search_google,"{""num_result_pages"": 1, ""query"": ""how many hours in a day""}",0.43976902961730957
+12,search_wiki,"{""entity"": ""4+4""}",0.8560440540313721
+12,search_wiki,"{""entity"": ""complimentary color of red""}",0.7247321605682373
+12,search_wiki,"{""entity"": ""hours in a day""}",0.957190990447998

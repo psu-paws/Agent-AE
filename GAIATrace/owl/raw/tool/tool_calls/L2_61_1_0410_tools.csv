@@ -1,0 +1,13 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 8, ""year"": 2023}",0.10832858085632324
+3,search_wiki,"{""entity"": ""Carl Nebel""}",0.6376006603240967
+4,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 7, ""year"": 2023}",0.08360171318054199
+5,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 9, ""year"": 2023}",0.08522605895996094
+9,search_wiki,"{""entity"": ""Carl Nebel""}",0.30902957916259766
+10,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Carl_Nebel"", ""query"": ""first citation reference link""}",14.06164813041687
+21,extract_document_content,"{""document_path"": ""https://de.wikipedia.org/wiki/Thieme-Becker"", ""query"": ""images with year dates""}",12.87688422203064
+22,ask_question_about_image,"{""image_path"": ""https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Das_Deutsche_Buchmuseum_zu_Leipzig_111b.jpg/500px-Das_Deutsche_Buchmuseum_zu_Leipzig_111b.jpg"", ""question"": ""What is the latest chronological year date written in this image?"", ""sys_prompt"": null}",1.8049871921539307
+22,ask_question_about_image,"{""image_path"": ""https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Perwanger%2C_Christoph_%28aus_Ulrich_Thieme%2C_Felix_Becker%2C_Allgemeines_Lexikon_der_Bildenden_K%C3%BCnstler_von_der_Antike_bis_zur_Gegenwart%2C_S._460%29.jpg/500px-Perwanger%2C_Christoph_%28aus_Ulrich_Thieme%2C_Felix_Becker%2C_Allgemeines_Lexikon_der_Bildenden_K%C3%BCnstler_von_der_Antike_bis_zur_Gegenwart%2C_S._460%29.jpg"", ""question"": ""What is the latest chronological year date written in this image?"", ""sys_prompt"": null}",1.650475025177002
+28,search_wiki_revisions,"{""entity"": ""Carl Nebel"", ""month"": 8, ""year"": 2023}",0.10572123527526855
+28,search_archived_webpage,"{""date"": ""20230801"", ""url"": ""https://de.wikipedia.org/wiki/Thieme-Becker""}",8.535805940628052
+29,extract_document_content,"{""document_path"": ""http://web.archive.org/web/20260118145309/https://de.wikipedia.org/wiki/Thieme-Becker"", ""query"": ""latest chronological year date in images""}",20.573311805725098

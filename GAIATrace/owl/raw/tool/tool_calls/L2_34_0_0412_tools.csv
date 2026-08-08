@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""Lego"", ""month"": 12, ""year"": 2022}",0.16258001327514648
+7,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Lego&oldid=1128616160"", ""query"": ""number of images in the article""}",7.623265981674194
+10,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/w/index.php?title=Lego&oldid=1128616160"", ""query"": ""images in the article""}",14.54577374458313

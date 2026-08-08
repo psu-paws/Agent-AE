@@ -1,0 +1,15 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Yola word gimlie Latin root""}",0.31670212745666504
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Spanish word gimlie""}",0.3870890140533447
+3,search_wiki,"{""entity"": ""Yola language""}",0.628669023513794
+4,search_google,"{""num_result_pages"": 1, ""query"": ""Yola word gimlie etymology""}",0.32721543312072754
+5,extract_document_content,"{""document_path"": ""https://en.wiktionary.org/wiki/gimlie"", ""query"": ""Yola word gimlie etymology""}",41.746028900146484
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Spanish word caminata""}",0.46175098419189453
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Collins Spanish-to-English dictionary caminata 1994 example sentence""}",0.38427162170410156
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Yola word gimlie Latin root""}",0.2679307460784912
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Spanish word gimlie""}",0.23366117477416992
+20,search_wiki,"{""entity"": ""Yola language""}",0.30344343185424805
+21,search_google,"{""num_result_pages"": 1, ""query"": ""Yola word gimlie etymology""}",0.3414790630340576
+22,extract_document_content,"{""document_path"": ""https://en.wiktionary.org/wiki/gimlie"", ""query"": ""Yola word gimlie etymology""}",15.332581520080566
+23,search_google,"{""num_result_pages"": 1, ""query"": ""Spanish word caminata""}",0.47051501274108887
+27,search_google,"{""num_result_pages"": 1, ""query"": ""caminata site:collinsdictionary.com""}",0.2491908073425293

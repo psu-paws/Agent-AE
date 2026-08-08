@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+31,ask_question_about_video,"{""question"": ""Locate the scene where the question 'Isn't that hot?' is asked."", ""video_path"": ""https://www.youtube.com/watch?v=1htKBjuUWec""}",4.278911590576172
+34,ask_question_about_video,"{""question"": ""What does Teal'c say in response to the question 'Isn't that hot?' at 0:25 in the video?"", ""video_path"": ""https://www.youtube.com/watch?v=1htKBjuUWec""}",3.62384295463562
+38,ask_question_about_video,"{""question"": ""What does Teal'c say in response to the question 'Isn't that hot?'"", ""video_path"": ""https://www.youtube.com/watch?v=1htKBjuUWec""}",3.1510331630706787

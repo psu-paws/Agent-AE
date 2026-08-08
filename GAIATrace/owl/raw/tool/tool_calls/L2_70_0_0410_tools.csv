@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""American Alligator first found west of Texas site:usgs.gov""}",0.4555628299713135
+3,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=221"", ""query"": ""American Alligator first found west of Texas""}",16.6874680519104
+7,search_google,"{""num_result_pages"": 3, ""query"": ""American Alligator first found west of Texas 1954""}",0.3847165107727051
+7,search_wiki,"{""entity"": ""American Alligator""}",0.7180261611938477
+8,extract_document_content,"{""document_path"": ""https://tpwd.texas.gov/publications/pwdpubs/media/pwd_bk_w7000_0280_08_03.pdf"", ""query"": ""American Alligator first found west of Texas""}",20.309922695159912
+15,extract_document_content,"{""document_path"": ""https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=221"", ""query"": ""American Alligator first found west of Texas""}",10.564188003540039

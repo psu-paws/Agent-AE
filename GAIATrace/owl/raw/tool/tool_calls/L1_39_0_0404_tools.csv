@@ -1,0 +1,37 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""List of Presidents of the United States by place of birth""}",1.076822280883789
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_home_state"", ""query"": ""U.S. cities where U.S. presidents were born""}",2.652012825012207
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Popes Creek, Virginia coordinates""}",0.3687894344329834
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Braintree, Massachusetts coordinates""}",0.3647894859313965
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Shadwell, Virginia coordinates""}",0.36368584632873535
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Port Conway, Virginia coordinates""}",0.3818550109863281
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Monroe Hall, Virginia coordinates""}",0.39931297302246094
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Waxhaws Region, South Carolina coordinates""}",0.4239518642425537
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Kinderhook, New York coordinates""}",0.3055713176727295
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Charles City County, Virginia coordinates""}",0.3410606384277344
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Barboursville, Virginia coordinates""}",0.3273298740386963
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Cove Gap, Pennsylvania coordinates""}",0.34578657150268555
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Pineville, North Carolina coordinates""}",0.30164337158203125
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Summerhill, New York coordinates""}",0.41849780082702637
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Hillsborough, New Hampshire coordinates""}",0.3891618251800537
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Raleigh, North Carolina coordinates""}",0.47322702407836914
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Hodgenville, Kentucky coordinates""}",0.4763603210449219
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Point Pleasant, Ohio coordinates""}",0.415881872177124
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Delaware, Ohio coordinates""}",0.28105759620666504
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Fairfield, Vermont coordinates""}",4.563790798187256
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Moreland Hills, Ohio coordinates""}",0.3143961429595947
+7,search_google,"{""num_result_pages"": 1, ""query"": ""North Bend, Ohio coordinates""}",0.37987565994262695
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Caldwell, New Jersey coordinates""}",0.273895263671875
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Niles, Ohio coordinates""}",0.40696263313293457
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Staunton, Virginia coordinates""}",0.3402059078216553
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Cincinnati, Ohio coordinates""}",0.28054141998291016
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Gramercy Park, New York coordinates""}",0.24744439125061035
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Blooming Grove, Ohio coordinates""}",0.34444355964660645
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Plymouth, Vermont coordinates""}",0.620872974395752
+7,search_google,"{""num_result_pages"": 1, ""query"": ""West Branch, Iowa coordinates""}",0.3373563289642334
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Hyde Park, New York coordinates""}",0.25284504890441895
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Lamar, Missouri coordinates""}",0.3187074661254883
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Denison, Texas coordinates""}",0.5146231651306152
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Stonewall, Texas coordinates""}",0.4897589683532715
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Tampico, Illinois coordinates""}",0.2886533737182617
+7,search_google,"{""num_result_pages"": 1, ""query"": ""Yorba Linda, California coordinates""}",0.5039985179901123

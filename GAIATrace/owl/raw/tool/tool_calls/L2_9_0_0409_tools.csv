@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Book of Esther""}",0.6015846729278564
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Book_of_Esther"", ""query"": ""first place mentioned by name in the Book of Esther (New International Version)""}",25.68294405937195
+7,search_wiki,"{""entity"": ""Susa""}",0.729536771774292
+8,search_google,"{""num_result_pages"": 1, ""query"": ""Prime Minister of Iran April 1977""}",0.4366292953491211
+9,search_google,"{""num_result_pages"": 1, ""query"": ""Iran Prime Minister 1977""}",0.47286081314086914
+10,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Government_of_Amir-Abbas_Hoveyda_(1974%E2%80%931977)"", ""query"": ""Prime Minister of Iran April 1977""}",6.4664928913116455
+13,search_wiki,"{""entity"": ""Amir-Abbas Hoveyda""}",0.5900137424468994

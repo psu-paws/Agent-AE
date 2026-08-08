@@ -1,0 +1,377 @@
+{
+  "docs": [
+    {
+      "type": "function",
+      "function": {
+        "name": "extract_document_content",
+        "description": "Extract the content of a given document (or url) and return the processed text.\nIt may filter out some information, resulting in inaccurate content.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "document_path": {
+              "type": "string",
+              "description": "The path of the document to be processed, either a local path or a URL. It can process image, audio files, zip files and webpages, etc."
+            },
+            "query": {
+              "type": "string",
+              "description": "The query to be used for retrieving the content. If the content is too long, the query will be used to identify which part contains the relevant information (like RAG). The query should be consistent with the current task."
+            }
+          },
+          "required": [
+            "document_path",
+            "query"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "ask_question_about_image",
+        "description": "Answers image questions with optional custom instructions.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "image_path": {
+              "type": "string",
+              "description": "Local path or URL to an image file."
+            },
+            "question": {
+              "type": "string",
+              "description": "Query about the image content."
+            },
+            "sys_prompt": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Custom system prompt for the analysis.\n(default: :obj:`None`)"
+            }
+          },
+          "required": [
+            "image_path",
+            "question",
+            "sys_prompt"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "ask_question_about_audio",
+        "description": "Ask any question about the audio and get the answer using\nmultimodal model.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "audio_path": {
+              "type": "string",
+              "description": "The path to the audio file."
+            },
+            "question": {
+              "type": "string",
+              "description": "The question to ask about the audio."
+            }
+          },
+          "required": [
+            "audio_path",
+            "question"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "ask_question_about_video",
+        "description": "Ask a question about the video.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "video_path": {
+              "type": "string",
+              "description": "The path to the video file."
+            },
+            "question": {
+              "type": "string",
+              "description": "The question to ask about the video."
+            }
+          },
+          "required": [
+            "video_path",
+            "question"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "execute_code",
+        "description": "Execute a given code snippet.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "code": {
+              "type": "string",
+              "description": "The input code to the Code Interpreter tool call."
+            }
+          },
+          "required": [
+            "code"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "return_json_response",
+        "description": "Return response with a specified json format.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "content": {
+              "type": "string",
+              "description": "The result of the task.."
+            },
+            "failed": {
+              "type": "boolean",
+              "description": "Flag indicating whether the task processing failed.."
+            }
+          },
+          "required": [
+            "content",
+            "failed"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "search": [
+    {
+      "type": "function",
+      "function": {
+        "name": "search_google",
+        "description": "Use Google search engine to search information for the given query.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "The query to be searched."
+            },
+            "num_result_pages": {
+              "type": "integer",
+              "description": "The number of result pages to retrieve."
+            }
+          },
+          "required": [
+            "query",
+            "num_result_pages"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_wiki",
+        "description": "Search the entity in WikiPedia and return the summary of the\nrequired page, containing factual information about\n    the given entity.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "entity": {
+              "type": "string",
+              "description": "The entity to be searched."
+            }
+          },
+          "required": [
+            "entity"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_wiki_revisions",
+        "description": "Get the revisions of a Wikipedia entity in a given month, return the revision url.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "entity": {
+              "type": "string",
+              "description": "the name of the Wikipedia entity, e.g. \"Penguin\""
+            },
+            "year": {
+              "type": "integer",
+              "description": "the year, e.g. 2022"
+            },
+            "month": {
+              "type": "integer",
+              "description": "the month, e.g. 12"
+            }
+          },
+          "required": [
+            "entity",
+            "year",
+            "month"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_archived_webpage",
+        "description": "Given a url, search the wayback machine and returns the archived version of the url for a given date.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "url": {
+              "type": "string",
+              "description": "The url to search for."
+            },
+            "date": {
+              "type": "string",
+              "description": "The date to search for. The format should be YYYYMMDD."
+            }
+          },
+          "required": [
+            "url",
+            "date"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "extract_document_content",
+        "description": "Extract the content of a given document (or url) and return the processed text.\nIt may filter out some information, resulting in inaccurate content.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "document_path": {
+              "type": "string",
+              "description": "The path of the document to be processed, either a local path or a URL. It can process image, audio files, zip files and webpages, etc."
+            },
+            "query": {
+              "type": "string",
+              "description": "The query to be used for retrieving the content. If the content is too long, the query will be used to identify which part contains the relevant information (like RAG). The query should be consistent with the current task."
+            }
+          },
+          "required": [
+            "document_path",
+            "query"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "browse_url",
+        "description": "A powerful toolkit which can simulate the browser interaction to solve the task which needs multi-step actions.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "task_prompt": {
+              "type": "string",
+              "description": "The task prompt to solve."
+            },
+            "start_url": {
+              "type": "string",
+              "description": "The start URL to visit."
+            }
+          },
+          "required": [
+            "task_prompt",
+            "start_url"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "ask_question_about_video",
+        "description": "Ask a question about the video.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "video_path": {
+              "type": "string",
+              "description": "The path to the video file."
+            },
+            "question": {
+              "type": "string",
+              "description": "The question to ask about the video."
+            }
+          },
+          "required": [
+            "video_path",
+            "question"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "return_json_response",
+        "description": "Return response with a specified json format.",
+        "strict": true,
+        "parameters": {
+          "properties": {
+            "content": {
+              "type": "string",
+              "description": "The result of the task.."
+            },
+            "failed": {
+              "type": "boolean",
+              "description": "Flag indicating whether the task processing failed.."
+            }
+          },
+          "required": [
+            "content",
+            "failed"
+          ],
+          "type": "object",
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

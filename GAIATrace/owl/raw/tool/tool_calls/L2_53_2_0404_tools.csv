@@ -1,0 +1,8 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""2072 Akaikai Loop Pearl City Hawaii home sale 2022""}",0.34596800804138184
+2,search_google,"{""num_result_pages"": 3, ""query"": ""2017 Komo Mai Drive Pearl City Hawaii home sale 2022""}",0.319521427154541
+3,extract_document_content,"{""document_path"": ""https://www.zillow.com/homedetails/2072-Akaikai-Loop-Pearl-City-HI-96782/702713_zpid/"", ""query"": ""sale price in 2022""}",10.39705514907837
+4,extract_document_content,"{""document_path"": ""https://www.redfin.com/HI/Pearl-City/2017-Komo-Mai-Dr-96782/home/91455567"", ""query"": ""sale price in 2022""}",29.12648344039917
+5,extract_document_content,"{""document_path"": ""https://www.zillow.com/homedetails/2017-Komo-Mai-Dr-Pearl-City-HI-96782/702815_zpid/"", ""query"": ""sale price in 2022""}",13.986320495605469
+10,search_google,"{""num_result_pages"": 1, ""query"": ""2072 Akaikai Loop Pearl City Hawaii 2022 sale price""}",0.432528018951416
+10,search_google,"{""num_result_pages"": 1, ""query"": ""2017 Komo Mai Drive Pearl City Hawaii 2022 sale price""}",0.3125009536743164

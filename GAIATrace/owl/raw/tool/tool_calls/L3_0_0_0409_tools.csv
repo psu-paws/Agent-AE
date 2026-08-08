@@ -1,0 +1,12 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""1959 United States standards for grades of processed fruits, vegetables, and certain other products dehydrated""}",0.4695932865142822
+3,extract_document_content,"{""document_path"": ""https://upload.wikimedia.org/wikipedia/commons/0/06/United_States_standards_for_grades_of_processed_fruits%2C_vegetables%2C_and_certain_other_products_%28as_of_July_2%2C_1959%29_%28IA_unitedstatesstan14unit_4%29.pdf"", ""query"": ""dehydrated section standards""}",0.7677469253540039
+3,extract_document_content,"{""document_path"": ""https://archive.org/details/unitedstatesstan14unit_4"", ""query"": ""dehydrated section standards""}",134.21751594543457
+7,search_google,"{""num_result_pages"": 3, ""query"": ""1959 United States standards for grades of processed fruits, vegetables, and certain other products Frozen Chilled section""}",0.5447027683258057
+8,extract_document_content,"{""document_path"": ""https://upload.wikimedia.org/wikipedia/commons/0/06/United_States_standards_for_grades_of_processed_fruits%2C_vegetables%2C_and_certain_other_products_%28as_of_July_2%2C_1959%29_%28IA_unitedstatesstan14unit_4%29.pdf"", ""query"": ""Frozen/Chilled section standards not marked as Chilled""}",0.6630687713623047
+8,extract_document_content,"{""document_path"": ""https://archive.org/details/unitedstatesstan14unit_4"", ""query"": ""Frozen/Chilled section standards not marked as Chilled""}",9.312122344970703
+11,search_google,"{""num_result_pages"": 3, ""query"": ""USDA standards for grades of processed fruits and vegetables updates dehydrated frozen chilled""}",0.5244796276092529
+12,extract_document_content,"{""document_path"": ""https://www.ams.usda.gov/selling-food/product-specs"", ""query"": ""updates or new versions of standards for dehydrated and frozen/chilled items""}",3.179368257522583
+12,extract_document_content,"{""document_path"": ""https://www.fsis.usda.gov/sites/default/files/import/Labeling-Policy-Book.pdf"", ""query"": ""updates or new versions of standards for dehydrated and frozen/chilled items""}",33.07732582092285
+31,search_google,"{""num_result_pages"": 3, ""query"": ""USDA standards for dehydrated and frozen items updates""}",0.3919334411621094
+32,extract_document_content,"{""document_path"": ""https://www.ams.usda.gov/selling-food/product-specs"", ""query"": ""USDA standards for dehydrated and frozen items updates""}",13.006312608718872

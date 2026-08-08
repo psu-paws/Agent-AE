@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""DOI 10.1353/book.24372""}",0.2288680076599121
+3,extract_document_content,"{""document_path"": ""https://muse.jhu.edu/book/24372"", ""query"": ""chapter 2""}",13.980558156967163
+24,search_google,"{""num_result_pages"": 1, ""query"": ""10.1353/book.24372""}",0.23924636840820312

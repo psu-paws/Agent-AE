@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,search_google,"{""num_result_pages"": 3, ""query"": ""YouTube 360 VR video March 2018 narrated by Gollum voice actor""}",0.2800910472869873
+4,search_google,"{""num_result_pages"": 3, ""query"": ""Andy Serkis YouTube 360 VR video March 2018""}",0.27900147438049316
+5,extract_document_content,"{""document_path"": ""https://www.youtube.com/watch?v=toSH6hxeGEo"", ""query"": ""YouTube 360 VR video March 2018 narrated by Gollum voice actor""}",5.59672999382019
+9,ask_question_about_video,"{""question"": ""Locate the segment where dinosaurs are first shown."", ""video_path"": ""https://www.youtube.com/watch?v=toSH6hxeGEo""}",21.29878282546997
+12,ask_question_about_video,"{""question"": ""What number is mentioned by the narrator immediately after the dinosaurs are shown at 8 minutes and 44 seconds into the video?"", ""video_path"": ""https://www.youtube.com/watch?v=toSH6hxeGEo""}",5.797449827194214
+16,ask_question_about_video,"{""question"": ""What number is mentioned by the narrator directly after dinosaurs are first shown in the video?"", ""video_path"": ""https://www.youtube.com/watch?v=toSH6hxeGEo""}",5.385645866394043

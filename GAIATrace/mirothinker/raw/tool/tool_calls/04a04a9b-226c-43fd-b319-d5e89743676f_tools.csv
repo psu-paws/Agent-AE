@@ -1,0 +1,13 @@
+turn,tool_name,args_json
+0,google_search,"{""autocorrect"": true, ""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""Number of research articles published by Nature in 2020""}"
+1,scrape_and_extract_info,"{""info_to_extract"": ""Count the number of items with article type 'Article' published in 2020 on this page."", ""url"": ""https://www.nature.com/nature/articles?year=2020""}"
+2,scrape_and_extract_info,"{""info_to_extract"": ""Count the number of items with article type Letter published in 2020."", ""url"": ""https://www.nature.com/nature/articles?type=letter&year=2020""}"
+3,google_search,"{""autocorrect"": true, ""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""Nature 2020 research articles count site:nature.com""}"
+4,scrape_and_extract_info,"{""info_to_extract"": ""Extract the number of research articles published by Nature in 2020."", ""url"": ""https://attendance.sindhhealth.gov.pk/free-area/natures-2020-publication-stats-how-many-articles-1764807224""}"
+5,scrape_and_extract_info,"{""info_to_extract"": ""Find how many research articles were published in 2020 in the journal Nature."", ""url"": ""https://en.wikipedia.org/wiki/Nature_(journal)""}"
+6,google_search,"{""autocorrect"": true, ""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""\""1002\"" \""Nature\"" \""2020\"" \""articles\""""}"
+7,scrape_and_extract_info,"{""info_to_extract"": ""How many items are present with article type 'Article' for year 2020."", ""url"": ""https://www.nature.com/nature/articles?type=article&year=2020""}"
+8,google_search,"{""autocorrect"": true, ""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""How many research articles were published in Nature in 2020""}"
+9,scrape_and_extract_info,"{""info_to_extract"": ""Provide the text near the top of the page that includes the total number of items for Article type in 2020."", ""url"": ""https://www.nature.com/nature/articles?type=article&year=2020""}"
+10,google_search,"{""autocorrect"": true, ""gl"": ""us"", ""hl"": ""en"", ""num"": 10, ""page"": 1, ""q"": ""\""Article Type\"" \""Nature\"" 2020 \""1002\""""}"
+11,scrape_and_extract_info,"{""info_to_extract"": ""Find the number next to 'Article (' indicating the count of Article type items for the year 2020."", ""url"": ""https://www.nature.com/nature/articles?year=2020""}"

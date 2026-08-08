@@ -1,0 +1,27 @@
+request_idx,tool_name,args_json,observed_elapsed
+5,search_wiki,"{""entity"": ""ASEAN""}",1.1448254585266113
+6,search_google,"{""num_result_pages"": 1, ""query"": ""geographical distances between ASEAN capital cities""}",0.2702033519744873
+7,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN capital cities distances""}",0.2672915458679199
+8,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN capital cities distance table""}",0.383042573928833
+9,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN countries capital cities distances""}",0.267319917678833
+10,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN capital cities distance matrix""}",0.3767576217651367
+11,extract_document_content,"{""document_path"": ""https://www.cepii.fr/cepii/en/bdd_modele/bdd_modele_item.asp?id=6"", ""query"": ""ASEAN capital cities distance""}",6.907619476318359
+12,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN capital cities distance matrix site:cepii.fr""}",0.23799943923950195
+19,extract_document_content,"{""document_path"": ""tmp/browser/dist_cepii.zip"", ""query"": ""ASEAN capital cities distances""}",0.0021512508392333984
+22,extract_excel_content,"{""document_path"": ""tmp/browser/dist_cepii.zip""}",0.25731348991394043
+23,execute_code,"{""code"": ""import zipfile, os, json, pathlib, sys, pandas as pd\\nzip_path = 'tmp/browser/dist_cepii.zip'\\nif not os.path.exists(zip_path):\\n    print('zip not found')\\nelse:\\n    with zipfile.ZipFile(zip_path, 'r') as zip_ref:\\n        namelist = zip_ref.namelist()\\n        print('Files in zip:', namelist)\\n        # extract to a temp dir\\n        extract_path = 'tmp/extracted_dist_cepii'\\n        os.makedirs(extract_path, exist_ok=True)\\n        zip_ref.extractall(extract_path)\\n        print('Extracted to', extract_path)\\n        # list extracted files\\n        for root, dirs, files in os.walk(extract_path):\\n            for f in files:\\n                print('Extracted file:', os.path.join(root, f))\\n""}",0.0008373260498046875
+24,execute_code,"{""code"": ""import pandas as pd, os, json, math\\nexcel_path = 'tmp/extracted_dist_cepii/dist_cepii.xls'\\n# read excel\\ntry:\\n    df = pd.read_excel(excel_path, header=None)\\n    print('Shape', df.shape)\\n    # Show first few rows\\n    print(df.head())\\nexcept Exception as e:\\n    print('Error', e)""}",0.0008974075317382812
+25,execute_code,"{""code"": ""import pandas as pd, os\\nexcel_path = 'tmp/extracted_dist_cepii/dist_cepii.xls'\\ndf = pd.read_excel(excel_path, header=None)\\n# assign column names based on known dataset? Let's inspect column names row 0 maybe header? Row 0 seems column names.\\ncol_names = df.iloc[0].tolist()\\n# set columns\\ndf.columns = col_names\\n# drop first row\\ndf = df.drop(0).reset_index(drop=True)\\n# ensure numeric columns are float\\nnumeric_cols = ['dist', 'distcap', 'distw', 'distwces']\\nfor c in numeric_cols:\\n    df[c] = pd.to_numeric(df[c], errors='coerce')\\n# ASEAN ISO codes\\nasean_iso = {\\n    'BRN': 'Brunei',\\n    'KHM': 'Cambodia',\\n    'IDN': 'Indonesia',\\n    'LAO': 'Laos',\\n    'MYS': 'Malaysia',\\n    'MMR': 'Myanmar',\\n    'PHL': 'Philippines',\\n    'SGP': 'Singapore',\\n    'THA': 'Thailand',\\n    'VNM': 'Vietnam'\\n}\\n# filter rows where both iso_o and iso_d in ASEAN\\nmask = df['iso_o'].isin(asean_iso.keys()) & df['iso_d'].isin(asean_iso.keys())\\nsub = df[mask]\\n# find max distcap\\nmax_row = sub.loc[sub['distcap'].idxmax()]\\norigin_iso = max_row['iso_o']\\ndest_iso = max_row['iso_d']\\norigin = asean_iso[origin_iso]\\ndest = asean_iso[dest_iso]\\nmax_dist = max_row['distcap']\\nprint('Max pair:', origin, dest, 'distcap', max_dist)\\n# alphabetical order\\ncountries = sorted([origin, dest])\\nprint('Result:', ', '.join(countries))""}",0.001056671142578125
+30,search_wiki,"{""entity"": ""ASEAN""}",0.4827446937561035
+30,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN countries furthest capitals distance""}",0.3245062828063965
+31,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN countries furthest capitals distance site:wikipedia.org""}",0.32206273078918457
+32,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude"", ""query"": ""ASEAN countries furthest capitals distance""}",18.08894968032837
+33,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN countries furthest capitals distance""}",0.38167500495910645
+34,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN countries furthest capitals distance""}",0.2942624092102051
+40,search_wiki,"{""entity"": ""ASEAN""}",0.4953958988189697
+41,search_google,"{""num_result_pages"": 1, ""query"": ""ASEAN member countries""}",0.36903929710388184
+42,extract_document_content,"{""document_path"": ""https://asean.org/member-states/"", ""query"": ""ASEAN member countries""}",27.826192378997803
+45,search_wiki,"{""entity"": ""ASEAN""}",0.5193095207214355
+46,search_google,"{""num_result_pages"": 3, ""query"": ""geographical distances between ASEAN capital cities""}",0.25730013847351074
+47,search_google,"{""num_result_pages"": 3, ""query"": ""ASEAN capital cities distances""}",0.2744626998901367
+54,extract_document_content,"{""document_path"": ""tmp/browser/dist_cepii.zip"", ""query"": ""ASEAN capital cities distances""}",0.0018758773803710938

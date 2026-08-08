@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"", ""question"": ""Identify the bass clef notes and their corresponding letters."", ""sys_prompt"": null}",2.1957039833068848
+10,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"", ""question"": ""How many lines and notes are present in the image?"", ""sys_prompt"": null}",0.9992563724517822
+14,ask_question_about_image,"{""image_path"": ""data/gaia/2023/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"", ""question"": ""How many notes are on the lines in the image?"", ""sys_prompt"": null}",0.7612042427062988
+21,search_google,"{""num_result_pages"": 1, ""query"": ""ABCDE word age 6 years""}",0.43561339378356934
+22,search_wiki,"{""entity"": ""ABCDE""}",1.1782832145690918
+23,search_google,"{""num_result_pages"": 1, ""query"": ""ABCDE word meaning""}",0.4138476848602295
+24,search_google,"{""num_result_pages"": 1, ""query"": ""ABCDE word significance""}",0.37058186531066895
+25,search_google,"{""num_result_pages"": 1, ""query"": ""ABCDE word age significance""}",0.4362754821777344

@@ -1,0 +1,4 @@
+request_idx,tool_name,args_json,observed_elapsed
+3,extract_document_content,"{""document_path"": ""data/gaia/2023/validation/e9a2c537-8232-4c3f-85b0-b52de6bcba99.pdf"", ""query"": ""list of books in the Scribe County Public Library collection""}",0.4773287773132324
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Rick Riordan books list""}",0.4132039546966553
+16,extract_document_content,"{""document_path"": ""https://righterofwords.com/2023/10/07/how-to-read-rick-riordans-books/"", ""query"": ""Rick Riordan books list""}",12.321389436721802

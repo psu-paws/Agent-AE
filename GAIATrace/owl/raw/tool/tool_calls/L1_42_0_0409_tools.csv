@@ -1,0 +1,6 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""1977 New York Yankees season""}",0.6872742176055908
+3,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/1977_New_York_Yankees_season"", ""query"": ""Yankee player with the most walks in the 1977 regular season""}",9.985115051269531
+4,search_google,"{""num_result_pages"": 1, ""query"": ""1977 New York Yankees player with most walks""}",0.39727234840393066
+19,search_wiki,"{""entity"": ""Roy White 1977 season""}",1.8599982261657715
+20,search_google,"{""num_result_pages"": 1, ""query"": ""Roy White 1977 season at bats""}",0.3463325500488281

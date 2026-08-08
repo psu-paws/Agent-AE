@@ -1,0 +1,10 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""High Energy Physics - Lattice articles January 2020 site:arxiv.org""}",0.3325650691986084
+3,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01"", ""query"": ""list of High Energy Physics - Lattice articles""}",6.738914489746094
+4,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01?skip=50&show=50"", ""query"": ""list of High Energy Physics - Lattice articles""}",11.313570499420166
+8,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01?skip=0&show=50"", ""query"": ""ps version availability""}",18.462470769882202
+8,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01?skip=50&show=50"", ""query"": ""ps version availability""}",15.182969331741333
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Arxiv PS version availability""}",0.3431525230407715
+35,search_google,"{""num_result_pages"": 1, ""query"": ""High Energy Physics - Lattice articles January 2020 site:arxiv.org""}",0.34393906593322754
+36,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01"", ""query"": ""list of High Energy Physics - Lattice articles""}",9.497758388519287
+37,extract_document_content,"{""document_path"": ""https://arxiv.org/list/hep-lat/2020-01?skip=50&show=50"", ""query"": ""list of High Energy Physics - Lattice articles""}",9.574988842010498

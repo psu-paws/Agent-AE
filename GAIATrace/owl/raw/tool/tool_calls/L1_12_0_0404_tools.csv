@@ -1,0 +1,6 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki,"{""entity"": ""Hreidmar""}",0.5814177989959717
+6,search_google,"{""num_result_pages"": 1, ""query"": ""Emily Midkiff June 2014 article Fafnir journal""}",0.328554630279541
+7,extract_document_content,"{""document_path"": ""http://journal.finfar.org/journal/archive/fafnir-22014/"", ""query"": ""Emily Midkiff June 2014 article""}",21.40070390701294
+10,extract_document_content,"{""document_path"": ""http://journal.finfar.org/articles/dragons-are-tricksy-the-uncanny-dragons-of-childrens-literature/"", ""query"": ""word quoted from two different authors in distaste for the nature of dragon depictions""}",15.787636995315552
+14,extract_document_content,"{""document_path"": ""https://journal.finfar.org/articles/dragons-are-tricksy-the-uncanny-dragons-of-childrens-literature/"", ""query"": ""Ruth Stein Margaret Blount fluffy""}",3.608410596847534

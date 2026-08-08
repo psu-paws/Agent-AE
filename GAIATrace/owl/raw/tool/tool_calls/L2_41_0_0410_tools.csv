@@ -1,0 +1,9 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,extract_document_content,"{""document_path"": ""data/gaia/2023/validation/366e2f2b-8632-4ef2-81eb-bc3877489217.pdf"", ""query"": ""accommodations in Seahorse Island""}",0.5009739398956299
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Shelley's Place Seahorse Island reviews""}",0.4530184268951416
+10,search_google,"{""num_result_pages"": 1, ""query"": ""Shelley's Place Seahorse Island accommodation details""}",0.3741483688354492
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Shelley's Place Seahorse Island rental house reviews""}",0.40825963020324707
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Shelley's Place Seahorse Island rental house""}",0.41836023330688477
+13,search_google,"{""num_result_pages"": 1, ""query"": ""Shelley's Place Seahorse Island rental house reviews""}",0.25710487365722656
+14,search_google,"{""num_result_pages"": 1, ""query"": ""Shelley's Place Seahorse Island rental house details""}",0.3458890914916992
+15,search_google,"{""num_result_pages"": 1, ""query"": ""Shelley's Place Seahorse Island accommodation reviews""}",0.32692694664001465

@@ -1,0 +1,11 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""NASA Astronomy Picture of the Day August 2015""}",0.437880277633667
+3,extract_document_content,"{""document_path"": ""https://apod.nasa.gov/apod/archivepix.html"", ""query"": ""August 2015""}",81.1449327468872
+14,extract_document_content,"{""document_path"": ""https://apod.nasa.gov/apod/ap150803.html"", ""query"": ""lights of a city on the horizon""}",12.43783688545227
+21,search_wiki,"{""entity"": ""Marquette, Michigan""}",0.7750058174133301
+21,search_google,"{""num_result_pages"": 1, ""query"": ""landmark building in Chicago named after Marquette""}",0.3595418930053711
+22,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Marquette_Building_(Chicago)"", ""query"": ""landmark building in Chicago named after Marquette""}",4.53571629524231
+25,search_google,"{""num_result_pages"": 1, ""query"": ""Holabird & Roche architectural firm first name as of June 2023""}",0.29784369468688965
+26,search_wiki,"{""entity"": ""Holabird & Roche""}",0.5558054447174072
+33,search_wiki,"{""entity"": ""Holabird & Root""}",0.5301947593688965
+33,search_google,"{""num_result_pages"": 1, ""query"": ""Holabird & Root architectural firm history""}",0.2400376796722412

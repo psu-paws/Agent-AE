@@ -1,0 +1,6 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""2015 Metropolitan Museum of Art exhibition Chinese zodiac""}",0.4455540180206299
+3,extract_document_content,"{""document_path"": ""https://laviepartagee.com/2015/08/28/metropolitan-museum-of-art-china-through-the-looking-glass/"", ""query"": ""2015 Metropolitan Museum of Art exhibition Chinese zodiac theme artworks installations""}",7.838105916976929
+7,search_wiki,"{""entity"": ""Chinese zodiac""}",0.5829689502716064
+7,search_google,"{""num_result_pages"": 3, ""query"": ""2015 Metropolitan Museum of Art exhibition Chinese zodiac representation""}",0.42385339736938477
+8,extract_document_content,"{""document_path"": ""https://briandanacamp.wordpress.com/2015/07/26/china-through-the-looking-glass-at-the-metropolitan-museum-of-art/"", ""query"": ""Chinese zodiac representation""}",8.344946146011353

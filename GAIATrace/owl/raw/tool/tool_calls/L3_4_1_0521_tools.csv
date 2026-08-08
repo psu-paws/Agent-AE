@@ -1,0 +1,6 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 3, ""query"": ""Omar Valencfia-Mendez 2017 paper harlequin shrimp total length""}",0.40171051025390625
+3,extract_document_content,"{""document_path"": ""https://threatenedtaxa.org/index.php/JoTT/article/view/3238"", ""query"": ""total length of the harlequin shrimp""}",10.817265033721924
+3,extract_document_content,"{""document_path"": ""https://www.vliz.be/imisdocs/publications/306090.pdf"", ""query"": ""total length of the harlequin shrimp""}",6.001740455627441
+8,search_google,"{""num_result_pages"": 3, ""query"": ""G. Curt Fiedler 2002 paper harlequin shrimp sea star length""}",0.3061211109161377
+9,extract_document_content,"{""document_path"": ""https://academic.oup.com/jcb/article/22/4/750/2679743"", ""query"": ""length of the sea star fed to the harlequin shrimp""}",25.156247854232788

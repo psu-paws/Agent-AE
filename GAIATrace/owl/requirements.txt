@@ -1,0 +1,5 @@
+# Trace generation and analysis (not the agent itself — see agent/requirements.txt)
+tiktoken>=0.7.0      # o200k_harmony tokenizer, tracegen
+jinja2>=3.0          # chat templates, tracegen
+matplotlib>=3.5      # figures, analysis
+transformers>=4.40  # Qwen3 tokenizer, mirothinker/tracegen/parser.py

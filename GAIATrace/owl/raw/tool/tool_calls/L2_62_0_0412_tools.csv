@@ -1,0 +1,10 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""Game Grumps Sonic the Hedgehog 2006 first episode YouTube""}",0.30058765411376953
+7,ask_question_about_video,"{""question"": ""What is the phrase shown on the screen in white letters on a red background within the first 30 seconds of the video?"", ""video_path"": ""https://www.youtube.com/watch?v=t7AtQHXCW5s""}",56.47895884513855
+13,ask_question_about_video,"{""question"": ""What is the phrase shown on the screen in white letters on a red background within the first 30 seconds of the video, and how many times does the letter 'E' appear in this phrase?"", ""video_path"": ""https://www.youtube.com/watch?v=t7AtQHXCW5s""}",6.590789556503296
+18,execute_code,"{""code"": ""import sys, subprocess, json, os, textwrap, math, random, datetime, itertools, collections, re, string, typing\\nprint('test')""}",0.0006253719329833984
+19,execute_code,"{""code"": ""import subprocess, json, sys, os, textwrap, shlex, pathlib, re, math""}",0.0008985996246337891
+20,execute_code,"{""code"": ""import subprocess, json, os, sys, textwrap, shlex, pathlib, re, math""}",0.0008788108825683594
+21,execute_code,"{""code"": ""import subprocess, json, os, sys, textwrap, shlex, pathlib, re, math, itertools, collections, datetime, random""}",0.0009396076202392578
+22,execute_code,"{""code"": ""import subprocess, json, os, sys, textwrap, shlex, pathlib, re, math, itertools, collections, datetime, random, sys, json\\nprint('checking yt-dlp')""}",0.0009882450103759766
+23,execute_code,"{""code"": ""import subprocess, json, os, sys, textwrap, shlex, pathlib, re, math, itertools, collections, datetime, random, sys, json\\nurl='https://www.youtube.com/watch?v=t7AtQHXCW5s'\\n# download first 30 seconds using yt-dlp\\nsubprocess.run(['yt-dlp','-f','best','-o','video.mp4','--download-sections','*00:00-00:30',url], check=False)""}",0.0011546611785888672

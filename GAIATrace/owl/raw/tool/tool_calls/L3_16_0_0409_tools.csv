@@ -1,0 +1,14 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_wiki_revisions,"{""entity"": ""List of English Wikipedia pages"", ""month"": 6, ""year"": 2023}",0.10828566551208496
+7,search_wiki,"{""entity"": ""Twitter""}",0.6080667972564697
+8,search_google,"{""num_result_pages"": 3, ""query"": ""Wikipedia pages updated June 2023 Twitter X references""}",0.5265774726867676
+9,search_wiki_revisions,"{""entity"": ""X (social network)"", ""month"": 6, ""year"": 2023}",0.07093095779418945
+9,search_wiki_revisions,"{""entity"": ""Acquisition of Twitter by Elon Musk"", ""month"": 6, ""year"": 2023}",0.06935358047485352
+13,search_wiki_revisions,"{""entity"": ""X (social network)"", ""month"": 6, ""year"": 2023}",0.08548331260681152
+13,search_wiki_revisions,"{""entity"": ""Acquisition of Twitter by Elon Musk"", ""month"": 6, ""year"": 2023}",0.0802464485168457
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Wikipedia citation tracking tools""}",0.4602499008178711
+19,search_google,"{""num_result_pages"": 1, ""query"": ""Wikipedia API citation data""}",0.5356512069702148
+19,search_google,"{""num_result_pages"": 1, ""query"": ""WikiCite project""}",0.31133437156677246
+20,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Help:Citation_tools"", ""query"": ""citation tracking tools""}",16.684365034103394
+20,extract_document_content,"{""document_path"": ""https://www.mediawiki.org/wiki/API:REST_API/Reference"", ""query"": ""citation data""}",14.987194061279297
+20,extract_document_content,"{""document_path"": ""https://meta.wikimedia.org/wiki/WikiCite"", ""query"": ""citation tracking""}",15.487131357192993

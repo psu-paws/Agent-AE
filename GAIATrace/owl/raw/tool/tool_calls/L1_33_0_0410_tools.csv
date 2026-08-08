@@ -1,0 +1,7 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""BBC Earth YouTube Top 5 Silliest Animal Moments""}",0.47161126136779785
+7,ask_question_about_video,"{""question"": ""What species of bird is featured in this video?"", ""video_path"": ""https://www.youtube.com/watch?v=2Njmx-UuU3M""}",15.369913578033447
+11,search_google,"{""num_result_pages"": 1, ""query"": ""Rockhopper Penguin description""}",0.4099445343017578
+11,search_wiki,"{""entity"": ""Rockhopper Penguin""}",0.46356844902038574
+12,search_google,"{""num_result_pages"": 1, ""query"": ""Rockhopper Penguin Wikipedia""}",0.3673882484436035
+13,extract_document_content,"{""document_path"": ""https://en.wikipedia.org/wiki/Rockhopper_penguin"", ""query"": ""Rockhopper Penguin description""}",3.8505492210388184

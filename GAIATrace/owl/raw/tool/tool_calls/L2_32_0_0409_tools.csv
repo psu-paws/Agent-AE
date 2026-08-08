@@ -1,0 +1,5 @@
+request_idx,tool_name,args_json,observed_elapsed
+2,search_google,"{""num_result_pages"": 1, ""query"": ""2020 Worldwide Box Office list site:boxofficemojo.com""}",0.3236660957336426
+3,extract_document_content,"{""document_path"": ""https://www.boxofficemojo.com/year/world/2020/"", ""query"": ""top 10 highest-grossing worldwide movies""}",14.556126832962036
+8,search_google,"{""num_result_pages"": 1, ""query"": ""2020 Domestic Box Office list site:boxofficemojo.com""}",0.4577653408050537
+9,extract_document_content,"{""document_path"": ""https://www.boxofficemojo.com/year/2020/"", ""query"": ""top 10 highest-grossing domestic movies""}",8.975366115570068

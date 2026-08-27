@@ -97,7 +97,7 @@ def type0_legend(ax, cfg):
     ]
     ax.get_figure().legend(
         *zip(*entries), ncol=2, fontsize=C.FS - 4, loc="center",
-        bbox_to_anchor=(0.52 if cfg.target.startswith("Owl") else 0.57, 0.5),
+        bbox_to_anchor=(0.49 if cfg.target.startswith("Owl") else 0.48, 0.5),
         framealpha=1.0, handlelength=1.0, handletextpad=0.25, columnspacing=0.6,
         labelspacing=0.3, borderpad=0.15)
 
@@ -170,6 +170,9 @@ def main():
                "TPOT (s/token)", show_ylabel=False, extend_left=True)
 
     if args.run_type == 0:
+        # Widen the TPOT panel leftward so the curves clear the legend.
+        lo, hi = axes[1].get_xlim()
+        axes[1].set_xlim(lo - 0.45 * (hi - lo), hi)
         type0_legend(axes[0], cfg)
         annotate_type0(axes, entries, cfg)
     else:

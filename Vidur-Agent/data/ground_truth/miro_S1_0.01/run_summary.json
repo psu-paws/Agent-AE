@@ -1,0 +1,30 @@
+{
+ "label": "miro_case2_qps001",
+ "run_dir": "data/ground_truth/miro_S1_0.01",
+ "requests_total": 2082,
+ "requests_ok": 2082,
+ "requests_failed": 0,
+ "sessions": 103,
+ "makespan_s": 9547.074875831604,
+ "throughput_req_per_s": 0.21807726733877178,
+ "prefill_tokens_total": 27525527,
+ "decode_tokens_total": 630617,
+ "request_e2e_s": {
+  "mean": 7.078321632115917,
+  "p50": 4.381023287773132,
+  "p90": 13.224118781089784,
+  "p99": 47.589182407856065,
+  "max": 162.23716831207275
+ },
+ "session_e2e_s": {
+  "n": 103,
+  "mean": 177.8019905825243,
+  "geomean": 125.37829188535105,
+  "p50": 156.813493,
+  "p90": 322.56110019999994,
+  "p99": 473.2996325600003,
+  "max": 1211.63593
+ },
+ "pd_rows": 2082,
+ "chunked_prefill_rows": 0
+}

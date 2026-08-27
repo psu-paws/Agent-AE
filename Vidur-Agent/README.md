@@ -119,7 +119,7 @@ python -m vidur.main \
   --vllm_v1_scheduler_config_batch_size_cap 256 \
   --cache_config_enable_prefix_caching \
   --metrics_config_no_timestamp \
-  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
   --metrics_config_output_dir simulator_output/example
 ```
 

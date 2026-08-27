@@ -102,7 +102,7 @@ def model_col_legend(ax, **kwargs):
         ax.legend(*zip(*entries), ncol=max(len(columns), 1), **kwargs)
 
 
-def annotate_type3(axes):
+def annotate_type3(axes, sess_entries=None):
     """Long-tail callouts for the policy comparison at QPS0.5."""
     ax_req, ax_sess = axes
     ax_req.add_patch(Ellipse((450, 0.95), width=500, height=0.2,
@@ -116,10 +116,18 @@ def annotate_type3(axes):
     ax_req.text(30, 0.85, "faster on average", color="purple", fontsize=C.FS - 8,
                 ha="left", va="top", zorder=10, rotation=70)
 
-    ax_sess.add_patch(Ellipse((850, 0.95), width=250, height=0.2,
+    # Track the data rather than fixed coordinates, so the callout stays on the
+    # convergence point when the numbers change.
+    if sess_entries:
+        import numpy as np
+        p95 = [np.percentile(arr, 95) for arr, *_ in sess_entries]
+        x_tail, w_tail = float(np.mean(p95)), max(260.0, float(np.ptp(p95)) * 2.6)
+    else:
+        x_tail, w_tail = 850.0, 250.0
+    ax_sess.add_patch(Ellipse((x_tail, 0.95), width=w_tail, height=0.2,
                               fill=False, edgecolor="red", linewidth=3, zorder=10))
-    ax_sess.text(700, 0.82, "per-task tail similar", color="red", fontsize=C.FS - 8,
-                 ha="left", va="top", zorder=10, rotation=65)
+    ax_sess.text(x_tail - 0.75 * w_tail, 0.82, "per-task tail similar", color="red",
+                 fontsize=C.FS - 8, ha="left", va="top", zorder=10, rotation=65)
     ax_sess.add_patch(Ellipse((0.3, 0.45), width=0.52, height=0.65, angle=-40,
                               transform=ax_sess.transAxes,
                               fill=False, edgecolor="purple", linewidth=3, zorder=10))
@@ -152,7 +160,7 @@ def main():
     model_col_legend(axes[0], fontsize=C.FS - 6, loc="lower right", labelspacing=0.2)
 
     if args.run_type == 3:
-        annotate_type3(axes)
+        annotate_type3(axes, sess_entries)
 
     out_path = os.path.join(
         args.outdir, f"ttft_{args.target}_type{args.run_type}_req_vs_session.pdf")

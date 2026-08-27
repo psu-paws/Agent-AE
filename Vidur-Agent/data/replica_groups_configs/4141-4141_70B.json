@@ -4,11 +4,11 @@
       "role": "prefill",
       "num_replicas": 2,
       "replica_config": {
-        "model_name": "meta-llama/Meta-Llama-3-70B",
+        "model_name": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
         "tensor_parallel_size": 4,
         "num_pipeline_stages": 1,
         "device": "a100",
-        "network_device": "a100_dgx",
+        "network_device": "a100_nvlink_pcie",
         "pd_disaggregation": 1
       },
       "replica_scheduler_config": {
@@ -20,11 +20,11 @@
       "role": "decode",
       "num_replicas": 2,
       "replica_config": {
-        "model_name": "meta-llama/Meta-Llama-3-70B",
+        "model_name": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
         "tensor_parallel_size": 4,
         "num_pipeline_stages": 1,
         "device": "a100",
-        "network_device": "a100_dgx",
+        "network_device": "a100_nvlink_pcie",
         "pd_disaggregation": 1
       },
       "replica_scheduler_config": {

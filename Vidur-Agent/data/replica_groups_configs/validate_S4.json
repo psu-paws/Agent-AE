@@ -1,0 +1,56 @@
+{
+  "replica_groups": [
+    {
+      "role": "prefill",
+      "num_replicas": 2,
+      "replica_config": {
+        "model_name": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "tensor_parallel_size": 1,
+        "num_pipeline_stages": 1,
+        "device": "a100",
+        "network_device": "a100_pcie",
+        "pd_disaggregation": 1
+      },
+      "replica_scheduler_config": {
+        "type": "vllm_v1",
+        "batch_size_cap": 128
+      }
+    },
+    {
+      "role": "decode",
+      "num_replicas": 2,
+      "replica_config": {
+        "model_name": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "tensor_parallel_size": 1,
+        "num_pipeline_stages": 1,
+        "device": "a100",
+        "network_device": "a100_pcie",
+        "pd_disaggregation": 1
+      },
+      "replica_scheduler_config": {
+        "type": "vllm_v1",
+        "batch_size_cap": 128
+      }
+    }
+  ],
+  "replica_groups_pools": [
+    {
+      "prefill": [
+        0
+      ],
+      "decode": [
+        2
+      ],
+      "cross_node": false
+    },
+    {
+      "prefill": [
+        1
+      ],
+      "decode": [
+        3
+      ],
+      "cross_node": false
+    }
+  ]
+}

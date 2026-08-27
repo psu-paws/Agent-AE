@@ -110,6 +110,23 @@ class Llama3_8BModelConfig(Llama2ModelConfig):
 
 
 @dataclass
+class DeepSeekR1DistillLlama8BModelConfig(Llama2ModelConfig):
+    # Architecturally a Llama-3.1-8B distill; 131072 context. 
+    num_layers: int = 32
+    num_q_heads: int = 32
+    num_kv_heads: int = 8
+    embedding_dim: int = 4096
+    mlp_hidden_dim: int = 14336
+    max_model_len: int = 131072
+    rope_theta: Optional[float] = 500000
+    vocab_size: int = 128256
+
+    @staticmethod
+    def get_name():
+        return "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+
+
+@dataclass
 class Llama3_70BModelConfig(Llama2ModelConfig):
     num_layers: int = 80
     num_q_heads: int = 64
@@ -123,6 +140,23 @@ class Llama3_70BModelConfig(Llama2ModelConfig):
     @staticmethod
     def get_name():
         return "meta-llama/Meta-Llama-3-70B"
+
+
+@dataclass
+class DeepSeekR1DistillLlama70BModelConfig(Llama2ModelConfig):
+    # Architecturally identical to Meta-Llama-3-70B, but natively 131072-context
+    num_layers: int = 80
+    num_q_heads: int = 64
+    num_kv_heads: int = 8
+    embedding_dim: int = 8192
+    mlp_hidden_dim: int = 28672
+    max_model_len: int = 131072
+    rope_theta: Optional[float] = 500000
+    vocab_size: int = 128256
+
+    @staticmethod
+    def get_name():
+        return "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
 
 
 @dataclass
@@ -212,3 +246,21 @@ class Qwen72BModelConfig(QwenModelConfig):
     @staticmethod
     def get_name():
         return "Qwen/Qwen-72B"
+
+
+@dataclass
+class Qwen2_5_32BInstructModelConfig(QwenModelConfig):
+    # max_model_len is 131072 rather than the native 32768 because it is served
+    # with static YaRN (factor 4.0)
+    num_layers: int = 64
+    num_q_heads: int = 40
+    num_kv_heads: int = 8
+    embedding_dim: int = 5120
+    mlp_hidden_dim: int = 27648
+    max_model_len: int = 131072
+    rope_theta: Optional[float] = 1000000
+    vocab_size: int = 152064
+
+    @staticmethod
+    def get_name():
+        return "Qwen/Qwen2.5-32B-Instruct"

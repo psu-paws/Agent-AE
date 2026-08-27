@@ -1,0 +1,56 @@
+{
+  "replica_groups": [
+    {
+      "role": "prefill",
+      "num_replicas": 1,
+      "replica_config": {
+        "model_name": "Qwen/Qwen2.5-32B-Instruct",
+        "tensor_parallel_size": 2,
+        "num_pipeline_stages": 1,
+        "device": "a100",
+        "network_device": "a100_pcie",
+        "pd_disaggregation": 1
+      },
+      "replica_scheduler_config": {
+        "type": "vllm_v1",
+        "batch_size_cap": 128
+      }
+    },
+    {
+      "role": "decode",
+      "num_replicas": 1,
+      "replica_config": {
+        "model_name": "Qwen/Qwen2.5-32B-Instruct",
+        "tensor_parallel_size": 2,
+        "num_pipeline_stages": 1,
+        "device": "a100",
+        "network_device": "a100_pcie",
+        "pd_disaggregation": 1
+      },
+      "replica_scheduler_config": {
+        "type": "vllm_v1",
+        "batch_size_cap": 128
+      }
+    }
+  ],
+  "replica_groups_pools": [
+    {
+      "prefill": [
+        0
+      ],
+      "decode": [
+        1
+      ],
+      "cross_node": false
+    },
+    {
+      "prefill": [
+        0
+      ],
+      "decode": [
+        1
+      ],
+      "cross_node": false
+    }
+  ]
+}

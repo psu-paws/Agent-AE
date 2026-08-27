@@ -16,7 +16,7 @@ mkdir -p "$OUT"
 # A predictor is keyed on (model, parallelism, device), so these two configs cover
 # every combination the run scripts use: CodeLlama-34B at TP2/TP4/TP8, and
 # Llama-3-70B at TP4.
-CONFIGS=(8121-2141.json 4141-4141_70B.json)
+CONFIGS=(4141-4141_qwen32b.json 8121-4121_qwen32b.json 8121-2141_qwen32b.json 4141-4141_70B.json)
 TRACE="data/processed_traces/warmup_trace.csv"
 
 FAILED=()

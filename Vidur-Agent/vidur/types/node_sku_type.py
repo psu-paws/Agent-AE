@@ -7,3 +7,5 @@ class NodeSKUType(BaseIntEnum):
     H100_PAIRWISE_NVLINK = 3
     A100_DGX = 4
     H100_DGX = 5
+    A100_PCIE = 6
+    A100_NVLINK_PCIE = 7

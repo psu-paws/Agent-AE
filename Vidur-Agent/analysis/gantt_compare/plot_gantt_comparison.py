@@ -108,10 +108,14 @@ RUNS_BY_TYPE = {
     9: at_qps(IMBALANCE_RUNS, "QPS05"),
     10: [("TPS0.05", "{target}/4141-4141-QPS005"),
          ("TPS0.5",  "{target}/4141-4141-QPS05")],
-    11: [("MainLLM(P4D4)-SubLLM(P4D4),QPS0.05",         "{target}/4141-4141-QPS005"),
-         ("MainLLM(P4D2)-SubLLM(P2$\\bf{D8}$),QPS0.05", "{target}/2181-4121-QPS005"),
-         ("MainLLM(P4D4)-SubLLM(P4D4),QPS0.5",          "{target}/4141-4141-QPS05"),
-         ("MainLLM($\\bf{P6}$D2)-SubLLM(P4D4),QPS0.5",  "{target}/4141-2321-QPS05")],
+    # Validation setups, all six simulated replays behind the fidelity table.
+    # Target is "validate". S1-S4 at 0.1 sessions/s plus S1 at 0.04 and 0.01.
+    11: [("S1 8B TP-2",     "{target}/S1-QPS01"),
+         ("S2 8B TP-1",     "{target}/S2-QPS01"),
+         ("S3 32B TP-2",    "{target}/S3-QPS01"),
+         ("S4 8B 2x(TP-1)", "{target}/S4-QPS01"),
+         ("S1 @0.04",       "{target}/S1-QPS004"),
+         ("S1 @0.01",       "{target}/S1-QPS001")],
 }
 
 M0 = "MainLLM"
@@ -120,7 +124,7 @@ FS = 30
 STAT_COLORS = {"p50": "#ff6600", "p90": "#ff0000"}
 
 YLIM_OVERRIDES: dict[tuple[str, int], float] = {}
-LEGEND_Y = {("Miro", 10): 0.89}
+LEGEND_Y = {("Miro", 10): 0.94}
 
 
 def build_segments(target):
@@ -169,10 +173,7 @@ def draw_stat_lines(ax, latencies, n_bars, ylim, cfg, idx=0):
         va = "bottom"
         if cfg.run_type == 9 and idx == 2 and name == "p90":
             off = 0.13 * ylim  # pull the p90 label well down (fraction of axis)
-        elif name == "p90" and (
-            (cfg.target == "Owl_70B" and idx == 1)
-            or (cfg.target == "Miro_70B" and idx in (1, 2))
-        ):
+        elif name == "p90" and cfg.target == "Miro_70B" and idx in (1, 2):
             off = 0.02 * ylim  # small gap; text hangs below the line
             va = "top"
         ax.text(x, val - off, f"{name}={val:.0f}s",
@@ -286,12 +287,29 @@ def main():
     n = len(datasets)
     nrows, ncols, fig_w = resolve_layout(n, args.ncols)
     three_up = n == 3 and not args.ncols
-    fig, axes = plt.subplots(nrows, ncols, figsize=(fig_w, 5 * nrows), sharey=True)
+
+    # The validation panels span an order of magnitude: S4 runs a 32B model and
+    # dwarfs the 8B setups, so one shared axis flattens the other five into the
+    # baseline. Give S4 its own scale and share the rest.
+    per_panel_ylim = None
+    if args.run_type == 11:
+        outlier = [i for i, (lab, _) in enumerate(datasets) if lab.startswith("S4")]
+        rest = [max(total(data[r], cfg.segments) for r in common)
+                for i, (_, data) in enumerate(datasets) if i not in outlier]
+        shared = max(rest) * 1.05
+        per_panel_ylim = [
+            (max(total(data[r], cfg.segments) for r in common) * 1.05
+             if i in outlier else shared)
+            for i, (_, data) in enumerate(datasets)]
+
+    fig, axes = plt.subplots(nrows, ncols, figsize=(fig_w, 5 * nrows),
+                             sharey=per_panel_ylim is None)
     axes_flat = np.atleast_1d(axes).flatten()
 
     for idx, (label, data) in enumerate(datasets):
-        draw_gantt(axes_flat[idx], data, orders[label], label, cfg, ylim,
-                   show_ylabel=(idx % ncols == 0),
+        draw_gantt(axes_flat[idx], data, orders[label], label, cfg,
+                   ylim if per_panel_ylim is None else per_panel_ylim[idx],
+                   show_ylabel=(idx % ncols == 0) or per_panel_ylim is not None,
                    show_xlabel=(idx == 1) if three_up else True,
                    idx=idx)
 

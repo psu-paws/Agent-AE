@@ -46,92 +46,35 @@ launch() {
     echo "[run.sh] Started $label (pid $pid)"
 }
 
-
 # # Prefix Cache
-launch 4141-4141-NoPC  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+launch 4141-4141-NoPC  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
     --no-cache_config_enable_prefix_caching
-launch 4141-4141-NoPC-SFCFS  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+launch 4141-4141-NoPC-SFCFS  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
     --no-cache_config_enable_prefix_caching  --vllm_v1_scheduler_config_session_priority
 
 # # Arrival Rate
-launch 4141-4141-QPS005 --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+launch 4141-4141-QPS005 --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
     --poisson_request_interval_generator_config_qps 0.05
-launch 4141-4141-QPS01  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+launch 4141-4141-QPS01  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
     --poisson_request_interval_generator_config_qps 0.1
-# launch 4141-4141-QPS03  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --poisson_request_interval_generator_config_qps 0.3
-launch 4141-4141-QPS05   --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+launch 4141-4141-QPS05   --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
     --poisson_request_interval_generator_config_qps 0.5
-
-# # Scheduling (QPS 0.05)
-# launch 4141-4141-SFCFS-QPS005    --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_session_priority  --poisson_request_interval_generator_config_qps 0.05
-# launch 4141-4141-SJF-QPS005    --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --poisson_request_interval_generator_config_qps 0.05
-# launch 4141-4141-SJF60-QPS005   --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 60.0 \
-#     --poisson_request_interval_generator_config_qps 0.05
-# launch 4141-4141-SJF60-SFCFS-QPS005   --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 60.0 \
-#     --poisson_request_interval_generator_config_qps 0.05 --vllm_v1_scheduler_config_sjf_starvation_session_fcfs
-# launch 4141-4141-SJF180-QPS005  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 180.0 \
-#     --poisson_request_interval_generator_config_qps 0.05
-# launch 4141-4141-SJF180-SFCFS-QPS005  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 180.0 \
-#     --poisson_request_interval_generator_config_qps 0.05 --vllm_v1_scheduler_config_sjf_starvation_session_fcfs
-
-# # Scheduling (QPS 0.1)
-# launch 4141-4141-SFCFS-QPS01    --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_session_priority  
-# launch 4141-4141-SJF-QPS01    --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority
-# launch 4141-4141-SJF60-QPS01   --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 60.0 \
-#     --poisson_request_interval_generator_config_qps 0.1
-# launch 4141-4141-SJF60-SFCFS-QPS01   --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 60.0 \
-#     --poisson_request_interval_generator_config_qps 0.1 --vllm_v1_scheduler_config_sjf_starvation_session_fcfs
-# launch 4141-4141-SJF180-QPS01  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 180.0 \
-#     --poisson_request_interval_generator_config_qps 0.1
-# launch 4141-4141-SJF180-SFCFS-QPS01  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 180.0 \
-#     --poisson_request_interval_generator_config_qps 0.1 --vllm_v1_scheduler_config_sjf_starvation_session_fcfs
 
 # # Scheduling (QPS 0.5)
-launch 4141-4141-SFCFS-QPS05    --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+launch 4141-4141-SFCFS-QPS05    --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
     --vllm_v1_scheduler_config_session_priority  --poisson_request_interval_generator_config_qps 0.5
-launch 4141-4141-SJF-QPS05     --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+launch 4141-4141-SJF-QPS05     --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
     --vllm_v1_scheduler_config_sjf_active_priority --poisson_request_interval_generator_config_qps 0.5
-# launch 4141-4141-SJF60-QPS05   --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 60.0 \
-#     --poisson_request_interval_generator_config_qps 0.5
-# launch 4141-4141-SJF60-SFCFS-QPS05   --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 60.0 \
-#     --poisson_request_interval_generator_config_qps 0.5 --vllm_v1_scheduler_config_sjf_starvation_session_fcfs
-launch 4141-4141-SJF180-QPS05  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
+launch 4141-4141-SJF180-QPS05  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141_qwen32b.json \
     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 180.0 \
     --poisson_request_interval_generator_config_qps 0.5
-# launch 4141-4141-SJF180-SFCFS-QPS05  --cluster_config_replica_groups_config data/replica_groups_configs/4141-4141.json \
-#     --vllm_v1_scheduler_config_sjf_active_priority --vllm_v1_scheduler_config_sjf_starvation_timeout 180.0 \
-#     --poisson_request_interval_generator_config_qps 0.5 --vllm_v1_scheduler_config_sjf_starvation_session_fcfs
 
 # # # Model Config
-# launch 2321-4141-QPS01 --cluster_config_replica_groups_config data/replica_groups_configs/2321-4141.json
-launch 8121-4121-QPS01 --cluster_config_replica_groups_config data/replica_groups_configs/8121-4121.json
-launch 8121-2141-QPS01 --cluster_config_replica_groups_config data/replica_groups_configs/8121-2141.json
-# launch 4121-2181-QPS01 --cluster_config_replica_groups_config data/replica_groups_configs/4121-2181.json
+launch 8121-4121-QPS01 --cluster_config_replica_groups_config data/replica_groups_configs/8121-4121_qwen32b.json
+launch 8121-2141-QPS01 --cluster_config_replica_groups_config data/replica_groups_configs/8121-2141_qwen32b.json
 
-# launch 2321-4141-QPS005 --cluster_config_replica_groups_config data/replica_groups_configs/2321-4141.json  --poisson_request_interval_generator_config_qps 0.05
-# launch 8121-4121-QPS005 --cluster_config_replica_groups_config data/replica_groups_configs/8121-4121.json  --poisson_request_interval_generator_config_qps 0.05
-# launch 8121-2141-QPS005 --cluster_config_replica_groups_config data/replica_groups_configs/8121-2141.json  --poisson_request_interval_generator_config_qps 0.05
-# launch 4121-2181-QPS005 --cluster_config_replica_groups_config data/replica_groups_configs/4121-2181.json  --poisson_request_interval_generator_config_qps 0.05
-
-# launch 2321-4141-QPS05 --cluster_config_replica_groups_config data/replica_groups_configs/2321-4141.json  --poisson_request_interval_generator_config_qps 0.5
-launch 8121-4121-QPS05 --cluster_config_replica_groups_config data/replica_groups_configs/8121-4121.json  --poisson_request_interval_generator_config_qps 0.5
-launch 8121-2141-QPS05 --cluster_config_replica_groups_config data/replica_groups_configs/8121-2141.json  --poisson_request_interval_generator_config_qps 0.5
-# launch 4121-2181-QPS05 --cluster_config_replica_groups_config data/replica_groups_configs/4121-2181.json  --poisson_request_interval_generator_config_qps 0.5
+launch 8121-4121-QPS05 --cluster_config_replica_groups_config data/replica_groups_configs/8121-4121_qwen32b.json  --poisson_request_interval_generator_config_qps 0.5
+launch 8121-2141-QPS05 --cluster_config_replica_groups_config data/replica_groups_configs/8121-2141_qwen32b.json  --poisson_request_interval_generator_config_qps 0.5
 
 echo "[run.sh] All launched. To kill everything: kill \$(cat $PIDFILE)"
 echo "[run.sh] Waiting for all runs to finish..."
@@ -159,6 +102,3 @@ for run_dir in $BASE/*/; do
     python3 analysis/build_request_group_latency.py "$run_dir"
 done
 echo "[run.sh] Done."
-
-# echo "[run.sh] Plotting timeline..."
-# (cd "$BASE" && python3 ../../analysis/plot_timeline.py)

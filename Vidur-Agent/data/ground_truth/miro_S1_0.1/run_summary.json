@@ -1,0 +1,30 @@
+{
+ "label": "case2_thr_inf",
+ "run_dir": "data/ground_truth/miro_S1_0.1",
+ "requests_total": 2082,
+ "requests_ok": 2082,
+ "requests_failed": 0,
+ "sessions": 103,
+ "makespan_s": 2034.6268281936646,
+ "throughput_req_per_s": 1.0232834695531825,
+ "prefill_tokens_total": 27525527,
+ "decode_tokens_total": 630617,
+ "request_e2e_s": {
+  "mean": 18.852180006982728,
+  "p50": 16.177372813224792,
+  "p90": 33.20505175590515,
+  "p99": 73.0626691389084,
+  "max": 231.63264846801758
+ },
+ "session_e2e_s": {
+  "n": 103,
+  "mean": 415.79120016504856,
+  "geomean": 305.7735851303661,
+  "p50": 380.90983,
+  "p90": 743.6270969999999,
+  "p99": 1224.495052880001,
+  "max": 1581.381556
+ },
+ "pd_rows": 2082,
+ "chunked_prefill_rows": 0
+}
